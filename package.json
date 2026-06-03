@@ -12,7 +12,7 @@
     "data:fetch": "node scripts/fetch-bible-data.mjs",
     "data:split": "node scripts/split-bible-data.mjs",
     "data:registry": "node scripts/generate-bible-registry.mjs",
-    "check": "node --check scripts/fetch-bible-data.mjs && node --check scripts/split-bible-data.mjs && node --check scripts/generate-bible-registry.mjs"
+    "check": "node --check scripts/fetch-bible-data.mjs && node --check scripts/split-bible-data.mjs && node --check scripts/generate-bible-registry.mjs && node --check scripts/check-sacred-names.mjs && node scripts/check-sacred-names.mjs"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",

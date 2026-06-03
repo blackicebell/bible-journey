@@ -304,11 +304,11 @@ function Search({ context }) {
 
   return (
     <View>
-      <SectionHeading kicker="Universal Search" title="Find scripture without choosing a search type." />
+      <SectionHeading kicker="Search" title="Search scripture, names, and themes." />
       <TextInput
         value={context.search}
         onChangeText={context.setSearch}
-        placeholder="John 3:16, faith, Genesis, Abraham..."
+        placeholder="John 3:16, faith, Abraham..."
         placeholderTextColor={colors.muted}
         style={styles.searchInput}
       />
@@ -496,7 +496,9 @@ function getVerseText(ref, translation, sacredStyle) {
 
 function applySacredNames(text, sacredStyle) {
   const map = sacredStyles[sacredStyle].map;
-  return text
+  const normalizedText = map.LORD === "LORD" ? text : text.replace(/\b[Tt]he LORD\b/g, map.LORD);
+
+  return normalizedText
     .replace(/\bLORD\b/g, map.LORD)
     .replace(/\bGod\b/g, map.God)
     .replace(/\bLord\b/g, map.Lord)
