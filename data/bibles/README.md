@@ -11,3 +11,9 @@ Pulled versions:
 - WEB: World English Bible
 
 The source project declares these English versions as public-domain texts and ships per-version metadata with provenance and license details.
+
+App format:
+
+- manifest.json: lightweight startup index
+- books/<translation>/<book>.json: individual book files for lazy loading
+- <translation>.metadata.json: source and license metadata

@@ -55,3 +55,4 @@ The source project declares these English versions as public-domain texts and sh
 );
 
 console.log("Bible data downloaded to data/bibles");
+await import("./split-bible-data.mjs");

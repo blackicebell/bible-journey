@@ -1,14 +1,5 @@
-const translationFiles = {
-  KJV: "data/bibles/kjv.json",
-  ASV: "data/bibles/asv.json",
-  WEB: "data/bibles/web.json"
-};
-
-const translationLabels = {
-  KJV: "King James Version",
-  ASV: "American Standard Version",
-  WEB: "World English Bible"
-};
+const translationKeys = ["KJV", "ASV", "WEB"];
+const manifestUrl = "data/bibles/manifest.json";
 
 const sacredStyles = {
   traditional: {
@@ -33,12 +24,12 @@ const journey = [
 ];
 
 const discoveries = [
-  { name: "Moses", meta: "Exodus • Numbers • Deuteronomy", book: "Exod", chapter: 3 },
+  { name: "Moses", meta: "Exodus - Numbers - Deuteronomy", book: "Exod", chapter: 3 },
   { name: "Abraham", meta: "Genesis 12-25", book: "Gen", chapter: 12 },
-  { name: "David", meta: "1 Samuel • 2 Samuel • Psalms", book: "1Sam", chapter: 16 },
-  { name: "Jerusalem", meta: "2 Samuel • Psalms • Matthew", book: "Ps", chapter: 122 },
-  { name: "Kingdom", meta: "Genesis • Samuel • Matthew", book: "Matt", chapter: 5 },
-  { name: "Faith", meta: "Habakkuk • Matthew • Romans", book: "Rom", chapter: 4 }
+  { name: "David", meta: "1 Samuel - 2 Samuel - Psalms", book: "1Sam", chapter: 16 },
+  { name: "Jerusalem", meta: "2 Samuel - Psalms - Matthew", book: "Ps", chapter: 122 },
+  { name: "Kingdom", meta: "Genesis - Samuel - Matthew", book: "Matt", chapter: 5 },
+  { name: "Faith", meta: "Habakkuk - Matthew - Romans", book: "Rom", chapter: 4 }
 ];
 
 const state = {
@@ -51,30 +42,49 @@ const state = {
   saved: new Set(["John 3:16", "Psalm 23:1"]),
   selectedVerse: "John 3:16",
   loading: true,
+  contentLoading: false,
+  searchLoading: false,
   error: ""
 };
 
 const app = document.querySelector("#app");
-const bibles = {};
+const bookCache = {};
+let manifest = null;
 
-async function loadBibles() {
+function slugOf(translation = state.translation) {
+  return translation.toLowerCase();
+}
+
+function versionMeta(translation = state.translation) {
+  return manifest?.versions[slugOf(translation)];
+}
+
+function translationLabel(translation = state.translation) {
+  return versionMeta(translation)?.name || translation;
+}
+
+function books(translation = state.translation) {
+  return versionMeta(translation)?.books || [];
+}
+
+function bookMeta(bookCode = state.book, translation = state.translation) {
+  return books(translation).find((book) => book.book === bookCode);
+}
+
+function cachedBook(bookCode = state.book, translation = state.translation) {
+  return bookCache[translation]?.[bookCode];
+}
+
+async function loadManifest() {
   try {
-    const entries = await Promise.all(
-      Object.entries(translationFiles).map(async ([key, url]) => {
-        const response = await fetch(url);
+    const response = await fetch(manifestUrl);
 
-        if (!response.ok) {
-          throw new Error(`${key} failed to load`);
-        }
-
-        return [key, await response.json()];
-      })
-    );
-
-    for (const [key, data] of entries) {
-      bibles[key] = data;
+    if (!response.ok) {
+      throw new Error(`Manifest failed to load: ${response.status}`);
     }
 
+    manifest = await response.json();
+    await preloadOpeningBooks();
     state.loading = false;
   } catch (error) {
     state.loading = false;
@@ -85,24 +95,102 @@ async function loadBibles() {
   render();
 }
 
-function activeBible(translation = state.translation) {
-  return bibles[translation];
+async function loadBook(translation = state.translation, bookCode = state.book) {
+  if (!bookCache[translation]) {
+    bookCache[translation] = {};
+  }
+
+  if (bookCache[translation][bookCode]) {
+    return bookCache[translation][bookCode];
+  }
+
+  const meta = bookMeta(bookCode, translation);
+  if (!meta) {
+    throw new Error(`${translation} ${bookCode} is missing from the manifest`);
+  }
+
+  const response = await fetch(meta.path);
+  if (!response.ok) {
+    throw new Error(`${translation} ${bookCode} failed to load`);
+  }
+
+  const book = await response.json();
+  bookCache[translation][bookCode] = book;
+  return book;
 }
 
-function books(translation = state.translation) {
-  return activeBible(translation)?.books || [];
+async function preloadOpeningBooks() {
+  await Promise.all([
+    loadBook("KJV", "Gen"),
+    loadBook("KJV", "John"),
+    loadBook("KJV", "Ps"),
+    loadBook("WEB", "Gen")
+  ]);
 }
 
-function findBook(bookCode = state.book, translation = state.translation) {
-  return books(translation).find((book) => book.book === bookCode);
+async function prepareForView(view = state.view) {
+  if (!manifest) return;
+
+  state.contentLoading = true;
+  render();
+
+  try {
+    if (view === "parallel") {
+      await Promise.all([loadBook("KJV", state.book), loadBook("WEB", state.book)]);
+    } else if (view === "reader") {
+      await loadBook(state.translation, state.book);
+    } else if (view === "home") {
+      await Promise.all([
+        loadBook(state.translation, state.book),
+        loadReferenceBook("John 3:16")
+      ]);
+    } else if (view === "saved" || view === "share") {
+      await Promise.all([...state.saved, state.selectedVerse].map((ref) => loadReferenceBook(ref)));
+    } else if (view === "search") {
+      await preloadFeaturedSearchBooks();
+      if (state.search.trim()) {
+        await loadSearchBooks();
+      }
+    }
+  } catch (error) {
+    state.error = "A scripture file could not load. Refresh the app and try again.";
+    console.error(error);
+  }
+
+  state.contentLoading = false;
+  render();
+}
+
+async function preloadFeaturedSearchBooks() {
+  await Promise.all(["John 3:16", "Psalm 23:1", "Matthew 5:9", "Romans 8:28"].map((ref) => loadReferenceBook(ref)));
+}
+
+async function loadReferenceBook(ref, translation = state.translation) {
+  const parsed = parseReference(ref);
+  if (!parsed) return;
+
+  const book = findBookByName(parsed.bookName, translation);
+  if (book) {
+    await loadBook(translation, book.book);
+  }
+}
+
+async function loadSearchBooks() {
+  state.searchLoading = true;
+  render();
+
+  const translation = state.translation;
+  await Promise.all(books(translation).map((book) => loadBook(translation, book.book)));
+
+  state.searchLoading = false;
 }
 
 function currentBookName() {
-  return findBook()?.englishName || "Genesis";
+  return bookMeta()?.englishName || "Genesis";
 }
 
 function currentChapter(translation = state.translation) {
-  return findBook(state.book, translation)?.chapters.find((chapter) => chapter.chapter === Number(state.chapter));
+  return cachedBook(state.book, translation)?.chapters.find((chapter) => chapter.chapter === Number(state.chapter));
 }
 
 function chapterTitle() {
@@ -127,7 +215,8 @@ function verseFromReference(ref, translation = state.translation) {
   if (!parsed) return "";
 
   const book = findBookByName(parsed.bookName, translation);
-  const chapter = book?.chapters.find((item) => item.chapter === parsed.chapter);
+  const loadedBook = book ? cachedBook(book.book, translation) : null;
+  const chapter = loadedBook?.chapters.find((item) => item.chapter === parsed.chapter);
   const verse = chapter?.verses.find((item) => item.number === parsed.verse);
 
   return applySacredNames(verse?.text || "");
@@ -217,7 +306,7 @@ function renderHome() {
         <p class="kicker">Continue Reading</p>
         <h1>${chapterTitle()}</h1>
         <p class="subtitle">Abraham's Call</p>
-        <p class="quiet">4 min read • ${state.translation} • ${sacredStyles[state.sacredStyle].label}</p>
+        <p class="quiet">4 min read - ${state.translation} - ${sacredStyles[state.sacredStyle].label}</p>
         <button class="primary" data-view="reader">Resume Reading</button>
       </article>
 
@@ -245,7 +334,11 @@ function renderHome() {
 
 function renderReader() {
   const chapter = currentChapter();
-  const book = findBook();
+  const book = cachedBook() || bookMeta();
+
+  if (!chapter || state.contentLoading) {
+    return renderInlineLoading("Opening scripture.");
+  }
 
   return `
     <section class="reader-page">
@@ -253,7 +346,7 @@ function renderReader() {
         <label>
           Translation
           <select data-control="translation">
-            ${Object.keys(translationFiles).map((key) => `<option value="${key}" ${state.translation === key ? "selected" : ""}>${key}</option>`).join("")}
+            ${translationKeys.map((key) => `<option value="${key}" ${state.translation === key ? "selected" : ""}>${key}</option>`).join("")}
           </select>
         </label>
         <label>
@@ -265,13 +358,13 @@ function renderReader() {
         <label>
           Chapter
           <select data-control="chapter">
-            ${book.chapters.map((item) => `<option value="${item.chapter}" ${Number(state.chapter) === item.chapter ? "selected" : ""}>${item.chapter}</option>`).join("")}
+            ${bookMeta().chapters.map((item) => `<option value="${item.chapter}" ${Number(state.chapter) === item.chapter ? "selected" : ""}>${item.chapter}</option>`).join("")}
           </select>
         </label>
         <button class="text-button" data-view="names">Sacred Names</button>
       </div>
       <article class="scripture">
-        <p class="chapter-label">${translationLabels[state.translation]} • ${chapterTitle()}</p>
+        <p class="chapter-label">${translationLabel()} - ${chapterTitle()}</p>
         <h1>${chapterTitle()}</h1>
         ${chapter.verses.map((verse, index) => {
           const ref = verseReference(book, chapter, verse);
@@ -300,7 +393,7 @@ function renderJourney() {
           <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div>
-              <p class="kicker">${item.range} • ${item.time}</p>
+              <p class="kicker">${item.range} - ${item.time}</p>
               <h2>${item.era}</h2>
               <p>${item.description}</p>
               <div class="progress" aria-label="${item.progress}% complete"><span style="width:${item.progress}%"></span></div>
@@ -314,8 +407,14 @@ function renderJourney() {
 }
 
 function renderParallel() {
-  const book = findBook();
-  const refs = currentChapter()?.verses || [];
+  const baseChapter = currentChapter("KJV");
+  const webChapter = currentChapter("WEB");
+  const baseBook = cachedBook(state.book, "KJV");
+  const webBook = cachedBook(state.book, "WEB");
+
+  if (!baseChapter || !webChapter || state.contentLoading) {
+    return renderInlineLoading("Opening the parallel reader.");
+  }
 
   return `
     <section class="parallel-page">
@@ -329,26 +428,24 @@ function renderParallel() {
         <label>
           Chapter
           <select data-control="chapter">
-            ${book.chapters.map((item) => `<option value="${item.chapter}" ${Number(state.chapter) === item.chapter ? "selected" : ""}>${item.chapter}</option>`).join("")}
+            ${bookMeta().chapters.map((item) => `<option value="${item.chapter}" ${Number(state.chapter) === item.chapter ? "selected" : ""}>${item.chapter}</option>`).join("")}
           </select>
         </label>
       </div>
       <div class="page-spread">
-        ${["KJV", "WEB"].map((translation) => {
-          const parallelBook = findBook(state.book, translation);
-          const parallelChapter = currentChapter(translation);
-
-          return `
-            <article class="parallel-column">
-              <p class="chapter-label">${translationLabels[translation]}</p>
-              <h1>${parallelBook.englishName} ${parallelChapter.chapter}</h1>
-              ${refs.map((verse) => {
-                const parallelVerse = parallelChapter.verses.find((item) => item.number === verse.number);
-                return `<p><span class="verse-number">${verse.number}</span>${applySacredNames(parallelVerse?.text || "")}</p>`;
-              }).join("")}
-            </article>
-          `;
-        }).join("")}
+        ${[
+          { translation: "KJV", book: baseBook, chapter: baseChapter },
+          { translation: "WEB", book: webBook, chapter: webChapter }
+        ].map(({ translation, book, chapter }) => `
+          <article class="parallel-column">
+            <p class="chapter-label">${translationLabel(translation)}</p>
+            <h1>${book.englishName} ${chapter.chapter}</h1>
+            ${baseChapter.verses.map((verse) => {
+              const parallelVerse = chapter.verses.find((item) => item.number === verse.number);
+              return `<p><span class="verse-number">${verse.number}</span>${applySacredNames(parallelVerse?.text || "")}</p>`;
+            }).join("")}
+          </article>
+        `).join("")}
       </div>
     </section>
   `;
@@ -364,6 +461,7 @@ function renderSearch() {
         <h1>Find scripture by reference, word, person, place, or event.</h1>
       </header>
       <input class="search-input" data-control="search" value="${state.search}" placeholder="John 3:16, faith, Genesis, Abraham..." autofocus />
+      ${state.searchLoading ? `<p class="quiet">Searching the ${state.translation} text...</p>` : ""}
       <div class="results">
         ${results.map((result) => result.type === "verse" ? `
           <button class="result-row" data-open-book="${result.book}" data-open-chapter="${result.chapter}">
@@ -383,6 +481,10 @@ function renderSearch() {
 
 function renderSaved() {
   const savedRefs = [...state.saved];
+
+  if (state.contentLoading) {
+    return renderInlineLoading("Opening saved scripture.");
+  }
 
   return `
     <section class="saved-page">
@@ -412,6 +514,10 @@ function renderSaved() {
 }
 
 function renderShare() {
+  if (state.contentLoading) {
+    return renderInlineLoading("Preparing the share card.");
+  }
+
   return `
     <section class="share-page">
       <header class="section-heading">
@@ -452,11 +558,20 @@ function renderNames() {
           ${Object.entries(sacredStyles).map(([key, style]) => `
             <button class="${state.sacredStyle === key ? "selected" : ""}" data-style="${key}">
               <strong>${style.label}</strong>
-              <span>LORD -> ${style.map.LORD} • God -> ${style.map.God} • Jesus -> ${style.map.Jesus}</span>
+              <span>LORD -> ${style.map.LORD} - God -> ${style.map.God} - Jesus -> ${style.map.Jesus}</span>
             </button>
           `).join("")}
         </div>
       </div>
+    </section>
+  `;
+}
+
+function renderInlineLoading(message) {
+  return `
+    <section class="loading-state">
+      <p class="kicker">Bible Journey</p>
+      <h1>${message}</h1>
     </section>
   `;
 }
@@ -467,19 +582,8 @@ function searchResults() {
 
   const reference = parseReference(state.search.trim());
   if (reference) {
-    const book = findBookByName(reference.bookName);
-    const chapter = book?.chapters.find((item) => item.chapter === reference.chapter);
-    const verse = chapter?.verses.find((item) => item.number === reference.verse);
-
-    if (book && chapter && verse) {
-      results.push({
-        type: "verse",
-        book: book.book,
-        chapter: chapter.chapter,
-        ref: verseReference(book, chapter, verse),
-        text: applySacredNames(verse.text)
-      });
-    }
+    const exact = referenceResult(state.search.trim());
+    if (exact) results.push(exact);
   }
 
   const discoveryResults = discoveries
@@ -495,28 +599,30 @@ function searchResults() {
     return results;
   }
 
-  for (const book of books()) {
-    if (book.englishName.toLowerCase().includes(query)) {
-      const chapter = book.chapters[0];
-      const verse = chapter.verses[0];
+  for (const meta of books()) {
+    const loadedBook = cachedBook(meta.book);
+
+    if (meta.englishName.toLowerCase().includes(query)) {
       results.push({
         type: "verse",
-        book: book.book,
-        chapter: chapter.chapter,
-        ref: verseReference(book, chapter, verse),
-        text: applySacredNames(verse.text)
+        book: meta.book,
+        chapter: 1,
+        ref: `${meta.englishName} 1:1`,
+        text: loadedBook ? applySacredNames(loadedBook.chapters[0].verses[0].text) : "Open this book"
       });
     }
 
-    for (const chapter of book.chapters) {
+    if (!loadedBook) continue;
+
+    for (const chapter of loadedBook.chapters) {
       for (const verse of chapter.verses) {
         if (results.length >= 10) return results;
         if (verse.text.toLowerCase().includes(query)) {
           results.push({
             type: "verse",
-            book: book.book,
+            book: loadedBook.book,
             chapter: chapter.chapter,
-            ref: verseReference(book, chapter, verse),
+            ref: verseReference(loadedBook, chapter, verse),
             text: applySacredNames(verse.text)
           });
         }
@@ -529,8 +635,11 @@ function searchResults() {
 
 function referenceResult(ref) {
   const parsed = parseReference(ref);
+  if (!parsed) return null;
+
   const book = findBookByName(parsed.bookName);
-  const chapter = book?.chapters.find((item) => item.chapter === parsed.chapter);
+  const loadedBook = book ? cachedBook(book.book) : null;
+  const chapter = loadedBook?.chapters.find((item) => item.chapter === parsed.chapter);
   const verse = chapter?.verses.find((item) => item.number === parsed.verse);
 
   if (!book || !chapter || !verse) return null;
@@ -539,21 +648,21 @@ function referenceResult(ref) {
     type: "verse",
     book: book.book,
     chapter: chapter.chapter,
-    ref,
+    ref: verseReference(loadedBook, chapter, verse),
     text: applySacredNames(verse.text)
   };
 }
 
 function bindEvents() {
   document.querySelectorAll("[data-view]").forEach((button) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       state.view = button.dataset.view;
-      render();
+      await prepareForView();
     });
   });
 
   document.querySelectorAll("[data-control]").forEach((control) => {
-    control.addEventListener("input", () => {
+    control.addEventListener("input", async () => {
       if (control.dataset.control === "book") {
         state.book = control.value;
         state.chapter = 1;
@@ -563,7 +672,7 @@ function bindEvents() {
         state[control.dataset.control] = control.value;
       }
 
-      render();
+      await prepareForView();
     });
   });
 
@@ -576,10 +685,10 @@ function bindEvents() {
   });
 
   document.querySelectorAll("[data-share]").forEach((button) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       state.selectedVerse = button.dataset.share;
       state.view = "share";
-      render();
+      await prepareForView();
     });
   });
 
@@ -591,14 +700,14 @@ function bindEvents() {
   });
 
   document.querySelectorAll("[data-open-book]").forEach((button) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       state.book = button.dataset.openBook;
       state.chapter = Number(button.dataset.openChapter);
       state.view = "reader";
-      render();
+      await prepareForView();
     });
   });
 }
 
 render();
-loadBibles();
+loadManifest();
