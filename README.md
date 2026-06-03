@@ -2,7 +2,7 @@
 
 Bible Journey is a premium Bible reading experience focused on calm typography, generous whitespace, and simple scripture-first flows.
 
-This first version is a dependency-free web app prototype. It uses full local KJV, ASV, and WEB Bible data split into per-book JSON assets so the reading experience can be shaped without relying on an external Bible API.
+This first version is an Expo mobile app foundation for iOS, Android, phone, and tablet. It uses full local KJV, ASV, and WEB Bible data split into per-book JSON assets so the reading experience can be shaped without relying on an external Bible API.
 
 ## Run locally
 
@@ -10,13 +10,12 @@ This first version is a dependency-free web app prototype. It uses full local KJ
 npm run dev
 ```
 
-Then open:
+Then scan the Expo QR code with Expo Go, or run:
 
-```text
-http://localhost:4173
+```bash
+npm run ios
+npm run android
 ```
-
-Use the local server instead of opening `index.html` directly. The app loads local JSON Bible files, and browsers usually block those file reads when opened from the filesystem.
 
 ## Current screens
 
@@ -29,6 +28,7 @@ Use the local server instead of opening `index.html` directly. The app loads loc
 - Share Card preview
 - Full local KJV, ASV, and WEB Bible data
 - Per-book lazy loading for a mobile-friendly data foundation
+- Premium phone and tablet layout direction
 
 ## Bible data
 
@@ -51,6 +51,14 @@ npm run data:split
 ```
 
 Source: https://github.com/midvash/bible-data
+
+## Verification
+
+```bash
+npm run check
+npx expo install --check
+npx expo export --platform android --output-dir .expo-export-test
+```
 
 ## Product guardrails
 

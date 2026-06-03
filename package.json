@@ -3,10 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "main": "expo/AppEntry.js",
   "scripts": {
-    "dev": "node scripts/server.mjs",
+    "dev": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
     "data:fetch": "node scripts/fetch-bible-data.mjs",
     "data:split": "node scripts/split-bible-data.mjs",
-    "check": "node --check src/app.js"
-  }
+    "data:registry": "node scripts/generate-bible-registry.mjs",
+    "check": "node --check scripts/fetch-bible-data.mjs && node --check scripts/split-bible-data.mjs && node --check scripts/generate-bible-registry.mjs"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "expo": "^54.0.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0"
+  },
+  "devDependencies": {}
 }

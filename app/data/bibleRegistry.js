@@ -1,0 +1,16290 @@
+export const bibleManifest = {
+  "source": "https://github.com/midvash/bible-data",
+  "generatedAt": "2026-06-03T04:55:20.238Z",
+  "versions": {
+    "kjv": {
+      "slug": "kjv",
+      "name": "King James Version",
+      "language": "en",
+      "license": "public-domain",
+      "year": 1769,
+      "books": [
+        {
+          "book": "Gen",
+          "bookId": 1,
+          "englishName": "Genesis",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 26
+            },
+            {
+              "chapter": 5,
+              "verseCount": 32
+            },
+            {
+              "chapter": 6,
+              "verseCount": 22
+            },
+            {
+              "chapter": 7,
+              "verseCount": 24
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 29
+            },
+            {
+              "chapter": 10,
+              "verseCount": 32
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 20
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 24
+            },
+            {
+              "chapter": 15,
+              "verseCount": 21
+            },
+            {
+              "chapter": 16,
+              "verseCount": 16
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 33
+            },
+            {
+              "chapter": 19,
+              "verseCount": 38
+            },
+            {
+              "chapter": 20,
+              "verseCount": 18
+            },
+            {
+              "chapter": 21,
+              "verseCount": 34
+            },
+            {
+              "chapter": 22,
+              "verseCount": 24
+            },
+            {
+              "chapter": 23,
+              "verseCount": 20
+            },
+            {
+              "chapter": 24,
+              "verseCount": 67
+            },
+            {
+              "chapter": 25,
+              "verseCount": 34
+            },
+            {
+              "chapter": 26,
+              "verseCount": 35
+            },
+            {
+              "chapter": 27,
+              "verseCount": 46
+            },
+            {
+              "chapter": 28,
+              "verseCount": 22
+            },
+            {
+              "chapter": 29,
+              "verseCount": 35
+            },
+            {
+              "chapter": 30,
+              "verseCount": 43
+            },
+            {
+              "chapter": 31,
+              "verseCount": 55
+            },
+            {
+              "chapter": 32,
+              "verseCount": 32
+            },
+            {
+              "chapter": 33,
+              "verseCount": 20
+            },
+            {
+              "chapter": 34,
+              "verseCount": 31
+            },
+            {
+              "chapter": 35,
+              "verseCount": 29
+            },
+            {
+              "chapter": 36,
+              "verseCount": 43
+            },
+            {
+              "chapter": 37,
+              "verseCount": 36
+            },
+            {
+              "chapter": 38,
+              "verseCount": 30
+            },
+            {
+              "chapter": 39,
+              "verseCount": 23
+            },
+            {
+              "chapter": 40,
+              "verseCount": 23
+            },
+            {
+              "chapter": 41,
+              "verseCount": 57
+            },
+            {
+              "chapter": 42,
+              "verseCount": 38
+            },
+            {
+              "chapter": 43,
+              "verseCount": 34
+            },
+            {
+              "chapter": 44,
+              "verseCount": 34
+            },
+            {
+              "chapter": 45,
+              "verseCount": 28
+            },
+            {
+              "chapter": 46,
+              "verseCount": 34
+            },
+            {
+              "chapter": 47,
+              "verseCount": 31
+            },
+            {
+              "chapter": 48,
+              "verseCount": 22
+            },
+            {
+              "chapter": 49,
+              "verseCount": 33
+            },
+            {
+              "chapter": 50,
+              "verseCount": 26
+            }
+          ],
+          "path": "data/bibles/books/kjv/Gen.json"
+        },
+        {
+          "book": "Exod",
+          "bookId": 2,
+          "englishName": "Exodus",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 23
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 32
+            },
+            {
+              "chapter": 9,
+              "verseCount": 35
+            },
+            {
+              "chapter": 10,
+              "verseCount": 29
+            },
+            {
+              "chapter": 11,
+              "verseCount": 10
+            },
+            {
+              "chapter": 12,
+              "verseCount": 51
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 27
+            },
+            {
+              "chapter": 16,
+              "verseCount": 36
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 27
+            },
+            {
+              "chapter": 19,
+              "verseCount": 25
+            },
+            {
+              "chapter": 20,
+              "verseCount": 26
+            },
+            {
+              "chapter": 21,
+              "verseCount": 36
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 33
+            },
+            {
+              "chapter": 24,
+              "verseCount": 18
+            },
+            {
+              "chapter": 25,
+              "verseCount": 40
+            },
+            {
+              "chapter": 26,
+              "verseCount": 37
+            },
+            {
+              "chapter": 27,
+              "verseCount": 21
+            },
+            {
+              "chapter": 28,
+              "verseCount": 43
+            },
+            {
+              "chapter": 29,
+              "verseCount": 46
+            },
+            {
+              "chapter": 30,
+              "verseCount": 38
+            },
+            {
+              "chapter": 31,
+              "verseCount": 18
+            },
+            {
+              "chapter": 32,
+              "verseCount": 35
+            },
+            {
+              "chapter": 33,
+              "verseCount": 23
+            },
+            {
+              "chapter": 34,
+              "verseCount": 35
+            },
+            {
+              "chapter": 35,
+              "verseCount": 35
+            },
+            {
+              "chapter": 36,
+              "verseCount": 38
+            },
+            {
+              "chapter": 37,
+              "verseCount": 29
+            },
+            {
+              "chapter": 38,
+              "verseCount": 31
+            },
+            {
+              "chapter": 39,
+              "verseCount": 43
+            },
+            {
+              "chapter": 40,
+              "verseCount": 38
+            }
+          ],
+          "path": "data/bibles/books/kjv/Exod.json"
+        },
+        {
+          "book": "Lev",
+          "bookId": 3,
+          "englishName": "Leviticus",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 35
+            },
+            {
+              "chapter": 5,
+              "verseCount": 19
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 38
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 24
+            },
+            {
+              "chapter": 10,
+              "verseCount": 20
+            },
+            {
+              "chapter": 11,
+              "verseCount": 47
+            },
+            {
+              "chapter": 12,
+              "verseCount": 8
+            },
+            {
+              "chapter": 13,
+              "verseCount": 59
+            },
+            {
+              "chapter": 14,
+              "verseCount": 57
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 34
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 30
+            },
+            {
+              "chapter": 19,
+              "verseCount": 37
+            },
+            {
+              "chapter": 20,
+              "verseCount": 27
+            },
+            {
+              "chapter": 21,
+              "verseCount": 24
+            },
+            {
+              "chapter": 22,
+              "verseCount": 33
+            },
+            {
+              "chapter": 23,
+              "verseCount": 44
+            },
+            {
+              "chapter": 24,
+              "verseCount": 23
+            },
+            {
+              "chapter": 25,
+              "verseCount": 55
+            },
+            {
+              "chapter": 26,
+              "verseCount": 46
+            },
+            {
+              "chapter": 27,
+              "verseCount": 34
+            }
+          ],
+          "path": "data/bibles/books/kjv/Lev.json"
+        },
+        {
+          "book": "Num",
+          "bookId": 4,
+          "englishName": "Numbers",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 54
+            },
+            {
+              "chapter": 2,
+              "verseCount": 34
+            },
+            {
+              "chapter": 3,
+              "verseCount": 51
+            },
+            {
+              "chapter": 4,
+              "verseCount": 49
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 27
+            },
+            {
+              "chapter": 7,
+              "verseCount": 89
+            },
+            {
+              "chapter": 8,
+              "verseCount": 26
+            },
+            {
+              "chapter": 9,
+              "verseCount": 23
+            },
+            {
+              "chapter": 10,
+              "verseCount": 36
+            },
+            {
+              "chapter": 11,
+              "verseCount": 35
+            },
+            {
+              "chapter": 12,
+              "verseCount": 16
+            },
+            {
+              "chapter": 13,
+              "verseCount": 33
+            },
+            {
+              "chapter": 14,
+              "verseCount": 45
+            },
+            {
+              "chapter": 15,
+              "verseCount": 41
+            },
+            {
+              "chapter": 16,
+              "verseCount": 50
+            },
+            {
+              "chapter": 17,
+              "verseCount": 13
+            },
+            {
+              "chapter": 18,
+              "verseCount": 32
+            },
+            {
+              "chapter": 19,
+              "verseCount": 22
+            },
+            {
+              "chapter": 20,
+              "verseCount": 29
+            },
+            {
+              "chapter": 21,
+              "verseCount": 35
+            },
+            {
+              "chapter": 22,
+              "verseCount": 41
+            },
+            {
+              "chapter": 23,
+              "verseCount": 30
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            },
+            {
+              "chapter": 25,
+              "verseCount": 18
+            },
+            {
+              "chapter": 26,
+              "verseCount": 65
+            },
+            {
+              "chapter": 27,
+              "verseCount": 23
+            },
+            {
+              "chapter": 28,
+              "verseCount": 31
+            },
+            {
+              "chapter": 29,
+              "verseCount": 40
+            },
+            {
+              "chapter": 30,
+              "verseCount": 16
+            },
+            {
+              "chapter": 31,
+              "verseCount": 54
+            },
+            {
+              "chapter": 32,
+              "verseCount": 42
+            },
+            {
+              "chapter": 33,
+              "verseCount": 56
+            },
+            {
+              "chapter": 34,
+              "verseCount": 29
+            },
+            {
+              "chapter": 35,
+              "verseCount": 34
+            },
+            {
+              "chapter": 36,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/kjv/Num.json"
+        },
+        {
+          "book": "Deut",
+          "bookId": 5,
+          "englishName": "Deuteronomy",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 46
+            },
+            {
+              "chapter": 2,
+              "verseCount": 37
+            },
+            {
+              "chapter": 3,
+              "verseCount": 29
+            },
+            {
+              "chapter": 4,
+              "verseCount": 49
+            },
+            {
+              "chapter": 5,
+              "verseCount": 33
+            },
+            {
+              "chapter": 6,
+              "verseCount": 25
+            },
+            {
+              "chapter": 7,
+              "verseCount": 26
+            },
+            {
+              "chapter": 8,
+              "verseCount": 20
+            },
+            {
+              "chapter": 9,
+              "verseCount": 29
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 32
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 29
+            },
+            {
+              "chapter": 15,
+              "verseCount": 23
+            },
+            {
+              "chapter": 16,
+              "verseCount": 22
+            },
+            {
+              "chapter": 17,
+              "verseCount": 20
+            },
+            {
+              "chapter": 18,
+              "verseCount": 22
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 20
+            },
+            {
+              "chapter": 21,
+              "verseCount": 23
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 25
+            },
+            {
+              "chapter": 24,
+              "verseCount": 22
+            },
+            {
+              "chapter": 25,
+              "verseCount": 19
+            },
+            {
+              "chapter": 26,
+              "verseCount": 19
+            },
+            {
+              "chapter": 27,
+              "verseCount": 26
+            },
+            {
+              "chapter": 28,
+              "verseCount": 68
+            },
+            {
+              "chapter": 29,
+              "verseCount": 29
+            },
+            {
+              "chapter": 30,
+              "verseCount": 20
+            },
+            {
+              "chapter": 31,
+              "verseCount": 30
+            },
+            {
+              "chapter": 32,
+              "verseCount": 52
+            },
+            {
+              "chapter": 33,
+              "verseCount": 29
+            },
+            {
+              "chapter": 34,
+              "verseCount": 12
+            }
+          ],
+          "path": "data/bibles/books/kjv/Deut.json"
+        },
+        {
+          "book": "Josh",
+          "bookId": 6,
+          "englishName": "Joshua",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 24
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 27
+            },
+            {
+              "chapter": 7,
+              "verseCount": 26
+            },
+            {
+              "chapter": 8,
+              "verseCount": 35
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 43
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 24
+            },
+            {
+              "chapter": 13,
+              "verseCount": 33
+            },
+            {
+              "chapter": 14,
+              "verseCount": 15
+            },
+            {
+              "chapter": 15,
+              "verseCount": 63
+            },
+            {
+              "chapter": 16,
+              "verseCount": 10
+            },
+            {
+              "chapter": 17,
+              "verseCount": 18
+            },
+            {
+              "chapter": 18,
+              "verseCount": 28
+            },
+            {
+              "chapter": 19,
+              "verseCount": 51
+            },
+            {
+              "chapter": 20,
+              "verseCount": 9
+            },
+            {
+              "chapter": 21,
+              "verseCount": 45
+            },
+            {
+              "chapter": 22,
+              "verseCount": 34
+            },
+            {
+              "chapter": 23,
+              "verseCount": 16
+            },
+            {
+              "chapter": 24,
+              "verseCount": 33
+            }
+          ],
+          "path": "data/bibles/books/kjv/Josh.json"
+        },
+        {
+          "book": "Judg",
+          "bookId": 7,
+          "englishName": "Judges",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 36
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 31
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 40
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 35
+            },
+            {
+              "chapter": 9,
+              "verseCount": 57
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 40
+            },
+            {
+              "chapter": 12,
+              "verseCount": 15
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 20
+            },
+            {
+              "chapter": 15,
+              "verseCount": 20
+            },
+            {
+              "chapter": 16,
+              "verseCount": 31
+            },
+            {
+              "chapter": 17,
+              "verseCount": 13
+            },
+            {
+              "chapter": 18,
+              "verseCount": 31
+            },
+            {
+              "chapter": 19,
+              "verseCount": 30
+            },
+            {
+              "chapter": 20,
+              "verseCount": 48
+            },
+            {
+              "chapter": 21,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/kjv/Judg.json"
+        },
+        {
+          "book": "Ruth",
+          "bookId": 8,
+          "englishName": "Ruth",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/kjv/Ruth.json"
+        },
+        {
+          "book": "1Sam",
+          "bookId": 9,
+          "englishName": "1 Samuel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 28
+            },
+            {
+              "chapter": 2,
+              "verseCount": 36
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 12
+            },
+            {
+              "chapter": 6,
+              "verseCount": 21
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 27
+            },
+            {
+              "chapter": 11,
+              "verseCount": 15
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 23
+            },
+            {
+              "chapter": 14,
+              "verseCount": 52
+            },
+            {
+              "chapter": 15,
+              "verseCount": 35
+            },
+            {
+              "chapter": 16,
+              "verseCount": 23
+            },
+            {
+              "chapter": 17,
+              "verseCount": 58
+            },
+            {
+              "chapter": 18,
+              "verseCount": 30
+            },
+            {
+              "chapter": 19,
+              "verseCount": 24
+            },
+            {
+              "chapter": 20,
+              "verseCount": 42
+            },
+            {
+              "chapter": 21,
+              "verseCount": 15
+            },
+            {
+              "chapter": 22,
+              "verseCount": 23
+            },
+            {
+              "chapter": 23,
+              "verseCount": 29
+            },
+            {
+              "chapter": 24,
+              "verseCount": 22
+            },
+            {
+              "chapter": 25,
+              "verseCount": 44
+            },
+            {
+              "chapter": 26,
+              "verseCount": 25
+            },
+            {
+              "chapter": 27,
+              "verseCount": 12
+            },
+            {
+              "chapter": 28,
+              "verseCount": 25
+            },
+            {
+              "chapter": 29,
+              "verseCount": 11
+            },
+            {
+              "chapter": 30,
+              "verseCount": 31
+            },
+            {
+              "chapter": 31,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Sam.json"
+        },
+        {
+          "book": "2Sam",
+          "bookId": 10,
+          "englishName": "2 Samuel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 27
+            },
+            {
+              "chapter": 2,
+              "verseCount": 32
+            },
+            {
+              "chapter": 3,
+              "verseCount": 39
+            },
+            {
+              "chapter": 4,
+              "verseCount": 12
+            },
+            {
+              "chapter": 5,
+              "verseCount": 25
+            },
+            {
+              "chapter": 6,
+              "verseCount": 23
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 13
+            },
+            {
+              "chapter": 10,
+              "verseCount": 19
+            },
+            {
+              "chapter": 11,
+              "verseCount": 27
+            },
+            {
+              "chapter": 12,
+              "verseCount": 31
+            },
+            {
+              "chapter": 13,
+              "verseCount": 39
+            },
+            {
+              "chapter": 14,
+              "verseCount": 33
+            },
+            {
+              "chapter": 15,
+              "verseCount": 37
+            },
+            {
+              "chapter": 16,
+              "verseCount": 23
+            },
+            {
+              "chapter": 17,
+              "verseCount": 29
+            },
+            {
+              "chapter": 18,
+              "verseCount": 33
+            },
+            {
+              "chapter": 19,
+              "verseCount": 43
+            },
+            {
+              "chapter": 20,
+              "verseCount": 26
+            },
+            {
+              "chapter": 21,
+              "verseCount": 22
+            },
+            {
+              "chapter": 22,
+              "verseCount": 51
+            },
+            {
+              "chapter": 23,
+              "verseCount": 39
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Sam.json"
+        },
+        {
+          "book": "1Kgs",
+          "bookId": 11,
+          "englishName": "1 Kings",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 53
+            },
+            {
+              "chapter": 2,
+              "verseCount": 46
+            },
+            {
+              "chapter": 3,
+              "verseCount": 28
+            },
+            {
+              "chapter": 4,
+              "verseCount": 34
+            },
+            {
+              "chapter": 5,
+              "verseCount": 18
+            },
+            {
+              "chapter": 6,
+              "verseCount": 38
+            },
+            {
+              "chapter": 7,
+              "verseCount": 51
+            },
+            {
+              "chapter": 8,
+              "verseCount": 66
+            },
+            {
+              "chapter": 9,
+              "verseCount": 28
+            },
+            {
+              "chapter": 10,
+              "verseCount": 29
+            },
+            {
+              "chapter": 11,
+              "verseCount": 43
+            },
+            {
+              "chapter": 12,
+              "verseCount": 33
+            },
+            {
+              "chapter": 13,
+              "verseCount": 34
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 34
+            },
+            {
+              "chapter": 16,
+              "verseCount": 34
+            },
+            {
+              "chapter": 17,
+              "verseCount": 24
+            },
+            {
+              "chapter": 18,
+              "verseCount": 46
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 43
+            },
+            {
+              "chapter": 21,
+              "verseCount": 29
+            },
+            {
+              "chapter": 22,
+              "verseCount": 53
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Kgs.json"
+        },
+        {
+          "book": "2Kgs",
+          "bookId": 12,
+          "englishName": "2 Kings",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 27
+            },
+            {
+              "chapter": 4,
+              "verseCount": 44
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 33
+            },
+            {
+              "chapter": 7,
+              "verseCount": 20
+            },
+            {
+              "chapter": 8,
+              "verseCount": 29
+            },
+            {
+              "chapter": 9,
+              "verseCount": 37
+            },
+            {
+              "chapter": 10,
+              "verseCount": 36
+            },
+            {
+              "chapter": 11,
+              "verseCount": 21
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 29
+            },
+            {
+              "chapter": 15,
+              "verseCount": 38
+            },
+            {
+              "chapter": 16,
+              "verseCount": 20
+            },
+            {
+              "chapter": 17,
+              "verseCount": 41
+            },
+            {
+              "chapter": 18,
+              "verseCount": 37
+            },
+            {
+              "chapter": 19,
+              "verseCount": 37
+            },
+            {
+              "chapter": 20,
+              "verseCount": 21
+            },
+            {
+              "chapter": 21,
+              "verseCount": 26
+            },
+            {
+              "chapter": 22,
+              "verseCount": 20
+            },
+            {
+              "chapter": 23,
+              "verseCount": 37
+            },
+            {
+              "chapter": 24,
+              "verseCount": 20
+            },
+            {
+              "chapter": 25,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Kgs.json"
+        },
+        {
+          "book": "1Chr",
+          "bookId": 13,
+          "englishName": "1 Chronicles",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 54
+            },
+            {
+              "chapter": 2,
+              "verseCount": 55
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 43
+            },
+            {
+              "chapter": 5,
+              "verseCount": 26
+            },
+            {
+              "chapter": 6,
+              "verseCount": 81
+            },
+            {
+              "chapter": 7,
+              "verseCount": 40
+            },
+            {
+              "chapter": 8,
+              "verseCount": 40
+            },
+            {
+              "chapter": 9,
+              "verseCount": 44
+            },
+            {
+              "chapter": 10,
+              "verseCount": 14
+            },
+            {
+              "chapter": 11,
+              "verseCount": 47
+            },
+            {
+              "chapter": 12,
+              "verseCount": 40
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            },
+            {
+              "chapter": 14,
+              "verseCount": 17
+            },
+            {
+              "chapter": 15,
+              "verseCount": 29
+            },
+            {
+              "chapter": 16,
+              "verseCount": 43
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 17
+            },
+            {
+              "chapter": 19,
+              "verseCount": 19
+            },
+            {
+              "chapter": 20,
+              "verseCount": 8
+            },
+            {
+              "chapter": 21,
+              "verseCount": 30
+            },
+            {
+              "chapter": 22,
+              "verseCount": 19
+            },
+            {
+              "chapter": 23,
+              "verseCount": 32
+            },
+            {
+              "chapter": 24,
+              "verseCount": 31
+            },
+            {
+              "chapter": 25,
+              "verseCount": 31
+            },
+            {
+              "chapter": 26,
+              "verseCount": 32
+            },
+            {
+              "chapter": 27,
+              "verseCount": 34
+            },
+            {
+              "chapter": 28,
+              "verseCount": 21
+            },
+            {
+              "chapter": 29,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Chr.json"
+        },
+        {
+          "book": "2Chr",
+          "bookId": 14,
+          "englishName": "2 Chronicles",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 18
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 42
+            },
+            {
+              "chapter": 7,
+              "verseCount": 22
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 31
+            },
+            {
+              "chapter": 10,
+              "verseCount": 19
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 16
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 15
+            },
+            {
+              "chapter": 15,
+              "verseCount": 19
+            },
+            {
+              "chapter": 16,
+              "verseCount": 14
+            },
+            {
+              "chapter": 17,
+              "verseCount": 19
+            },
+            {
+              "chapter": 18,
+              "verseCount": 34
+            },
+            {
+              "chapter": 19,
+              "verseCount": 11
+            },
+            {
+              "chapter": 20,
+              "verseCount": 37
+            },
+            {
+              "chapter": 21,
+              "verseCount": 20
+            },
+            {
+              "chapter": 22,
+              "verseCount": 12
+            },
+            {
+              "chapter": 23,
+              "verseCount": 21
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 28
+            },
+            {
+              "chapter": 26,
+              "verseCount": 23
+            },
+            {
+              "chapter": 27,
+              "verseCount": 9
+            },
+            {
+              "chapter": 28,
+              "verseCount": 27
+            },
+            {
+              "chapter": 29,
+              "verseCount": 36
+            },
+            {
+              "chapter": 30,
+              "verseCount": 27
+            },
+            {
+              "chapter": 31,
+              "verseCount": 21
+            },
+            {
+              "chapter": 32,
+              "verseCount": 33
+            },
+            {
+              "chapter": 33,
+              "verseCount": 25
+            },
+            {
+              "chapter": 34,
+              "verseCount": 33
+            },
+            {
+              "chapter": 35,
+              "verseCount": 27
+            },
+            {
+              "chapter": 36,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Chr.json"
+        },
+        {
+          "book": "Ezra",
+          "bookId": 15,
+          "englishName": "Ezra",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 70
+            },
+            {
+              "chapter": 3,
+              "verseCount": 13
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 17
+            },
+            {
+              "chapter": 6,
+              "verseCount": 22
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            },
+            {
+              "chapter": 10,
+              "verseCount": 44
+            }
+          ],
+          "path": "data/bibles/books/kjv/Ezra.json"
+        },
+        {
+          "book": "Neh",
+          "bookId": 16,
+          "englishName": "Nehemiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 32
+            },
+            {
+              "chapter": 4,
+              "verseCount": 23
+            },
+            {
+              "chapter": 5,
+              "verseCount": 19
+            },
+            {
+              "chapter": 6,
+              "verseCount": 19
+            },
+            {
+              "chapter": 7,
+              "verseCount": 73
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 38
+            },
+            {
+              "chapter": 10,
+              "verseCount": 39
+            },
+            {
+              "chapter": 11,
+              "verseCount": 36
+            },
+            {
+              "chapter": 12,
+              "verseCount": 47
+            },
+            {
+              "chapter": 13,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/kjv/Neh.json"
+        },
+        {
+          "book": "Esth",
+          "bookId": 17,
+          "englishName": "Esther",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 10
+            },
+            {
+              "chapter": 8,
+              "verseCount": 17
+            },
+            {
+              "chapter": 9,
+              "verseCount": 32
+            },
+            {
+              "chapter": 10,
+              "verseCount": 3
+            }
+          ],
+          "path": "data/bibles/books/kjv/Esth.json"
+        },
+        {
+          "book": "Job",
+          "bookId": 18,
+          "englishName": "Job",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 21
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 35
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 20
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 28
+            },
+            {
+              "chapter": 14,
+              "verseCount": 22
+            },
+            {
+              "chapter": 15,
+              "verseCount": 35
+            },
+            {
+              "chapter": 16,
+              "verseCount": 22
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 21
+            },
+            {
+              "chapter": 19,
+              "verseCount": 29
+            },
+            {
+              "chapter": 20,
+              "verseCount": 29
+            },
+            {
+              "chapter": 21,
+              "verseCount": 34
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 17
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            },
+            {
+              "chapter": 25,
+              "verseCount": 6
+            },
+            {
+              "chapter": 26,
+              "verseCount": 14
+            },
+            {
+              "chapter": 27,
+              "verseCount": 23
+            },
+            {
+              "chapter": 28,
+              "verseCount": 28
+            },
+            {
+              "chapter": 29,
+              "verseCount": 25
+            },
+            {
+              "chapter": 30,
+              "verseCount": 31
+            },
+            {
+              "chapter": 31,
+              "verseCount": 40
+            },
+            {
+              "chapter": 32,
+              "verseCount": 22
+            },
+            {
+              "chapter": 33,
+              "verseCount": 33
+            },
+            {
+              "chapter": 34,
+              "verseCount": 37
+            },
+            {
+              "chapter": 35,
+              "verseCount": 16
+            },
+            {
+              "chapter": 36,
+              "verseCount": 33
+            },
+            {
+              "chapter": 37,
+              "verseCount": 24
+            },
+            {
+              "chapter": 38,
+              "verseCount": 41
+            },
+            {
+              "chapter": 39,
+              "verseCount": 30
+            },
+            {
+              "chapter": 40,
+              "verseCount": 24
+            },
+            {
+              "chapter": 41,
+              "verseCount": 34
+            },
+            {
+              "chapter": 42,
+              "verseCount": 17
+            }
+          ],
+          "path": "data/bibles/books/kjv/Job.json"
+        },
+        {
+          "book": "Ps",
+          "bookId": 19,
+          "englishName": "Psalms",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 6
+            },
+            {
+              "chapter": 2,
+              "verseCount": 12
+            },
+            {
+              "chapter": 3,
+              "verseCount": 8
+            },
+            {
+              "chapter": 4,
+              "verseCount": 8
+            },
+            {
+              "chapter": 5,
+              "verseCount": 12
+            },
+            {
+              "chapter": 6,
+              "verseCount": 10
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 9
+            },
+            {
+              "chapter": 9,
+              "verseCount": 20
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 7
+            },
+            {
+              "chapter": 12,
+              "verseCount": 8
+            },
+            {
+              "chapter": 13,
+              "verseCount": 6
+            },
+            {
+              "chapter": 14,
+              "verseCount": 7
+            },
+            {
+              "chapter": 15,
+              "verseCount": 5
+            },
+            {
+              "chapter": 16,
+              "verseCount": 11
+            },
+            {
+              "chapter": 17,
+              "verseCount": 15
+            },
+            {
+              "chapter": 18,
+              "verseCount": 50
+            },
+            {
+              "chapter": 19,
+              "verseCount": 14
+            },
+            {
+              "chapter": 20,
+              "verseCount": 9
+            },
+            {
+              "chapter": 21,
+              "verseCount": 13
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 6
+            },
+            {
+              "chapter": 24,
+              "verseCount": 10
+            },
+            {
+              "chapter": 25,
+              "verseCount": 22
+            },
+            {
+              "chapter": 26,
+              "verseCount": 12
+            },
+            {
+              "chapter": 27,
+              "verseCount": 14
+            },
+            {
+              "chapter": 28,
+              "verseCount": 9
+            },
+            {
+              "chapter": 29,
+              "verseCount": 11
+            },
+            {
+              "chapter": 30,
+              "verseCount": 12
+            },
+            {
+              "chapter": 31,
+              "verseCount": 24
+            },
+            {
+              "chapter": 32,
+              "verseCount": 11
+            },
+            {
+              "chapter": 33,
+              "verseCount": 22
+            },
+            {
+              "chapter": 34,
+              "verseCount": 22
+            },
+            {
+              "chapter": 35,
+              "verseCount": 28
+            },
+            {
+              "chapter": 36,
+              "verseCount": 12
+            },
+            {
+              "chapter": 37,
+              "verseCount": 40
+            },
+            {
+              "chapter": 38,
+              "verseCount": 22
+            },
+            {
+              "chapter": 39,
+              "verseCount": 13
+            },
+            {
+              "chapter": 40,
+              "verseCount": 17
+            },
+            {
+              "chapter": 41,
+              "verseCount": 13
+            },
+            {
+              "chapter": 42,
+              "verseCount": 11
+            },
+            {
+              "chapter": 43,
+              "verseCount": 5
+            },
+            {
+              "chapter": 44,
+              "verseCount": 26
+            },
+            {
+              "chapter": 45,
+              "verseCount": 17
+            },
+            {
+              "chapter": 46,
+              "verseCount": 11
+            },
+            {
+              "chapter": 47,
+              "verseCount": 9
+            },
+            {
+              "chapter": 48,
+              "verseCount": 14
+            },
+            {
+              "chapter": 49,
+              "verseCount": 20
+            },
+            {
+              "chapter": 50,
+              "verseCount": 23
+            },
+            {
+              "chapter": 51,
+              "verseCount": 19
+            },
+            {
+              "chapter": 52,
+              "verseCount": 9
+            },
+            {
+              "chapter": 53,
+              "verseCount": 6
+            },
+            {
+              "chapter": 54,
+              "verseCount": 7
+            },
+            {
+              "chapter": 55,
+              "verseCount": 23
+            },
+            {
+              "chapter": 56,
+              "verseCount": 13
+            },
+            {
+              "chapter": 57,
+              "verseCount": 11
+            },
+            {
+              "chapter": 58,
+              "verseCount": 11
+            },
+            {
+              "chapter": 59,
+              "verseCount": 17
+            },
+            {
+              "chapter": 60,
+              "verseCount": 12
+            },
+            {
+              "chapter": 61,
+              "verseCount": 8
+            },
+            {
+              "chapter": 62,
+              "verseCount": 12
+            },
+            {
+              "chapter": 63,
+              "verseCount": 11
+            },
+            {
+              "chapter": 64,
+              "verseCount": 10
+            },
+            {
+              "chapter": 65,
+              "verseCount": 13
+            },
+            {
+              "chapter": 66,
+              "verseCount": 20
+            },
+            {
+              "chapter": 67,
+              "verseCount": 7
+            },
+            {
+              "chapter": 68,
+              "verseCount": 35
+            },
+            {
+              "chapter": 69,
+              "verseCount": 36
+            },
+            {
+              "chapter": 70,
+              "verseCount": 5
+            },
+            {
+              "chapter": 71,
+              "verseCount": 24
+            },
+            {
+              "chapter": 72,
+              "verseCount": 20
+            },
+            {
+              "chapter": 73,
+              "verseCount": 28
+            },
+            {
+              "chapter": 74,
+              "verseCount": 23
+            },
+            {
+              "chapter": 75,
+              "verseCount": 10
+            },
+            {
+              "chapter": 76,
+              "verseCount": 12
+            },
+            {
+              "chapter": 77,
+              "verseCount": 20
+            },
+            {
+              "chapter": 78,
+              "verseCount": 72
+            },
+            {
+              "chapter": 79,
+              "verseCount": 13
+            },
+            {
+              "chapter": 80,
+              "verseCount": 19
+            },
+            {
+              "chapter": 81,
+              "verseCount": 16
+            },
+            {
+              "chapter": 82,
+              "verseCount": 8
+            },
+            {
+              "chapter": 83,
+              "verseCount": 18
+            },
+            {
+              "chapter": 84,
+              "verseCount": 12
+            },
+            {
+              "chapter": 85,
+              "verseCount": 13
+            },
+            {
+              "chapter": 86,
+              "verseCount": 17
+            },
+            {
+              "chapter": 87,
+              "verseCount": 7
+            },
+            {
+              "chapter": 88,
+              "verseCount": 18
+            },
+            {
+              "chapter": 89,
+              "verseCount": 52
+            },
+            {
+              "chapter": 90,
+              "verseCount": 17
+            },
+            {
+              "chapter": 91,
+              "verseCount": 16
+            },
+            {
+              "chapter": 92,
+              "verseCount": 15
+            },
+            {
+              "chapter": 93,
+              "verseCount": 5
+            },
+            {
+              "chapter": 94,
+              "verseCount": 23
+            },
+            {
+              "chapter": 95,
+              "verseCount": 11
+            },
+            {
+              "chapter": 96,
+              "verseCount": 13
+            },
+            {
+              "chapter": 97,
+              "verseCount": 12
+            },
+            {
+              "chapter": 98,
+              "verseCount": 9
+            },
+            {
+              "chapter": 99,
+              "verseCount": 9
+            },
+            {
+              "chapter": 100,
+              "verseCount": 5
+            },
+            {
+              "chapter": 101,
+              "verseCount": 8
+            },
+            {
+              "chapter": 102,
+              "verseCount": 28
+            },
+            {
+              "chapter": 103,
+              "verseCount": 22
+            },
+            {
+              "chapter": 104,
+              "verseCount": 35
+            },
+            {
+              "chapter": 105,
+              "verseCount": 45
+            },
+            {
+              "chapter": 106,
+              "verseCount": 48
+            },
+            {
+              "chapter": 107,
+              "verseCount": 43
+            },
+            {
+              "chapter": 108,
+              "verseCount": 13
+            },
+            {
+              "chapter": 109,
+              "verseCount": 31
+            },
+            {
+              "chapter": 110,
+              "verseCount": 7
+            },
+            {
+              "chapter": 111,
+              "verseCount": 10
+            },
+            {
+              "chapter": 112,
+              "verseCount": 10
+            },
+            {
+              "chapter": 113,
+              "verseCount": 9
+            },
+            {
+              "chapter": 114,
+              "verseCount": 8
+            },
+            {
+              "chapter": 115,
+              "verseCount": 18
+            },
+            {
+              "chapter": 116,
+              "verseCount": 19
+            },
+            {
+              "chapter": 117,
+              "verseCount": 2
+            },
+            {
+              "chapter": 118,
+              "verseCount": 29
+            },
+            {
+              "chapter": 119,
+              "verseCount": 176
+            },
+            {
+              "chapter": 120,
+              "verseCount": 7
+            },
+            {
+              "chapter": 121,
+              "verseCount": 8
+            },
+            {
+              "chapter": 122,
+              "verseCount": 9
+            },
+            {
+              "chapter": 123,
+              "verseCount": 4
+            },
+            {
+              "chapter": 124,
+              "verseCount": 8
+            },
+            {
+              "chapter": 125,
+              "verseCount": 5
+            },
+            {
+              "chapter": 126,
+              "verseCount": 6
+            },
+            {
+              "chapter": 127,
+              "verseCount": 5
+            },
+            {
+              "chapter": 128,
+              "verseCount": 6
+            },
+            {
+              "chapter": 129,
+              "verseCount": 8
+            },
+            {
+              "chapter": 130,
+              "verseCount": 8
+            },
+            {
+              "chapter": 131,
+              "verseCount": 3
+            },
+            {
+              "chapter": 132,
+              "verseCount": 18
+            },
+            {
+              "chapter": 133,
+              "verseCount": 3
+            },
+            {
+              "chapter": 134,
+              "verseCount": 3
+            },
+            {
+              "chapter": 135,
+              "verseCount": 21
+            },
+            {
+              "chapter": 136,
+              "verseCount": 26
+            },
+            {
+              "chapter": 137,
+              "verseCount": 9
+            },
+            {
+              "chapter": 138,
+              "verseCount": 8
+            },
+            {
+              "chapter": 139,
+              "verseCount": 24
+            },
+            {
+              "chapter": 140,
+              "verseCount": 13
+            },
+            {
+              "chapter": 141,
+              "verseCount": 10
+            },
+            {
+              "chapter": 142,
+              "verseCount": 7
+            },
+            {
+              "chapter": 143,
+              "verseCount": 12
+            },
+            {
+              "chapter": 144,
+              "verseCount": 15
+            },
+            {
+              "chapter": 145,
+              "verseCount": 21
+            },
+            {
+              "chapter": 146,
+              "verseCount": 10
+            },
+            {
+              "chapter": 147,
+              "verseCount": 20
+            },
+            {
+              "chapter": 148,
+              "verseCount": 14
+            },
+            {
+              "chapter": 149,
+              "verseCount": 9
+            },
+            {
+              "chapter": 150,
+              "verseCount": 6
+            }
+          ],
+          "path": "data/bibles/books/kjv/Ps.json"
+        },
+        {
+          "book": "Prov",
+          "bookId": 20,
+          "englishName": "Proverbs",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 33
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 35
+            },
+            {
+              "chapter": 4,
+              "verseCount": 27
+            },
+            {
+              "chapter": 5,
+              "verseCount": 23
+            },
+            {
+              "chapter": 6,
+              "verseCount": 35
+            },
+            {
+              "chapter": 7,
+              "verseCount": 27
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 18
+            },
+            {
+              "chapter": 10,
+              "verseCount": 32
+            },
+            {
+              "chapter": 11,
+              "verseCount": 31
+            },
+            {
+              "chapter": 12,
+              "verseCount": 28
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 35
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 33
+            },
+            {
+              "chapter": 17,
+              "verseCount": 28
+            },
+            {
+              "chapter": 18,
+              "verseCount": 24
+            },
+            {
+              "chapter": 19,
+              "verseCount": 29
+            },
+            {
+              "chapter": 20,
+              "verseCount": 30
+            },
+            {
+              "chapter": 21,
+              "verseCount": 31
+            },
+            {
+              "chapter": 22,
+              "verseCount": 29
+            },
+            {
+              "chapter": 23,
+              "verseCount": 35
+            },
+            {
+              "chapter": 24,
+              "verseCount": 34
+            },
+            {
+              "chapter": 25,
+              "verseCount": 28
+            },
+            {
+              "chapter": 26,
+              "verseCount": 28
+            },
+            {
+              "chapter": 27,
+              "verseCount": 27
+            },
+            {
+              "chapter": 28,
+              "verseCount": 28
+            },
+            {
+              "chapter": 29,
+              "verseCount": 27
+            },
+            {
+              "chapter": 30,
+              "verseCount": 33
+            },
+            {
+              "chapter": 31,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/kjv/Prov.json"
+        },
+        {
+          "book": "Eccl",
+          "bookId": 21,
+          "englishName": "Ecclesiastes",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 20
+            },
+            {
+              "chapter": 6,
+              "verseCount": 12
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 17
+            },
+            {
+              "chapter": 9,
+              "verseCount": 18
+            },
+            {
+              "chapter": 10,
+              "verseCount": 20
+            },
+            {
+              "chapter": 11,
+              "verseCount": 10
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/kjv/Eccl.json"
+        },
+        {
+          "book": "Song",
+          "bookId": 22,
+          "englishName": "Song of Solomon",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 11
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 16
+            },
+            {
+              "chapter": 6,
+              "verseCount": 13
+            },
+            {
+              "chapter": 7,
+              "verseCount": 13
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/kjv/Song.json"
+        },
+        {
+          "book": "Isa",
+          "bookId": 23,
+          "englishName": "Isaiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 6
+            },
+            {
+              "chapter": 5,
+              "verseCount": 30
+            },
+            {
+              "chapter": 6,
+              "verseCount": 13
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 21
+            },
+            {
+              "chapter": 10,
+              "verseCount": 34
+            },
+            {
+              "chapter": 11,
+              "verseCount": 16
+            },
+            {
+              "chapter": 12,
+              "verseCount": 6
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 32
+            },
+            {
+              "chapter": 15,
+              "verseCount": 9
+            },
+            {
+              "chapter": 16,
+              "verseCount": 14
+            },
+            {
+              "chapter": 17,
+              "verseCount": 14
+            },
+            {
+              "chapter": 18,
+              "verseCount": 7
+            },
+            {
+              "chapter": 19,
+              "verseCount": 25
+            },
+            {
+              "chapter": 20,
+              "verseCount": 6
+            },
+            {
+              "chapter": 21,
+              "verseCount": 17
+            },
+            {
+              "chapter": 22,
+              "verseCount": 25
+            },
+            {
+              "chapter": 23,
+              "verseCount": 18
+            },
+            {
+              "chapter": 24,
+              "verseCount": 23
+            },
+            {
+              "chapter": 25,
+              "verseCount": 12
+            },
+            {
+              "chapter": 26,
+              "verseCount": 21
+            },
+            {
+              "chapter": 27,
+              "verseCount": 13
+            },
+            {
+              "chapter": 28,
+              "verseCount": 29
+            },
+            {
+              "chapter": 29,
+              "verseCount": 24
+            },
+            {
+              "chapter": 30,
+              "verseCount": 33
+            },
+            {
+              "chapter": 31,
+              "verseCount": 9
+            },
+            {
+              "chapter": 32,
+              "verseCount": 20
+            },
+            {
+              "chapter": 33,
+              "verseCount": 24
+            },
+            {
+              "chapter": 34,
+              "verseCount": 17
+            },
+            {
+              "chapter": 35,
+              "verseCount": 10
+            },
+            {
+              "chapter": 36,
+              "verseCount": 22
+            },
+            {
+              "chapter": 37,
+              "verseCount": 38
+            },
+            {
+              "chapter": 38,
+              "verseCount": 22
+            },
+            {
+              "chapter": 39,
+              "verseCount": 8
+            },
+            {
+              "chapter": 40,
+              "verseCount": 31
+            },
+            {
+              "chapter": 41,
+              "verseCount": 29
+            },
+            {
+              "chapter": 42,
+              "verseCount": 25
+            },
+            {
+              "chapter": 43,
+              "verseCount": 28
+            },
+            {
+              "chapter": 44,
+              "verseCount": 28
+            },
+            {
+              "chapter": 45,
+              "verseCount": 25
+            },
+            {
+              "chapter": 46,
+              "verseCount": 13
+            },
+            {
+              "chapter": 47,
+              "verseCount": 15
+            },
+            {
+              "chapter": 48,
+              "verseCount": 22
+            },
+            {
+              "chapter": 49,
+              "verseCount": 26
+            },
+            {
+              "chapter": 50,
+              "verseCount": 11
+            },
+            {
+              "chapter": 51,
+              "verseCount": 23
+            },
+            {
+              "chapter": 52,
+              "verseCount": 15
+            },
+            {
+              "chapter": 53,
+              "verseCount": 12
+            },
+            {
+              "chapter": 54,
+              "verseCount": 17
+            },
+            {
+              "chapter": 55,
+              "verseCount": 13
+            },
+            {
+              "chapter": 56,
+              "verseCount": 12
+            },
+            {
+              "chapter": 57,
+              "verseCount": 21
+            },
+            {
+              "chapter": 58,
+              "verseCount": 14
+            },
+            {
+              "chapter": 59,
+              "verseCount": 21
+            },
+            {
+              "chapter": 60,
+              "verseCount": 22
+            },
+            {
+              "chapter": 61,
+              "verseCount": 11
+            },
+            {
+              "chapter": 62,
+              "verseCount": 12
+            },
+            {
+              "chapter": 63,
+              "verseCount": 19
+            },
+            {
+              "chapter": 64,
+              "verseCount": 12
+            },
+            {
+              "chapter": 65,
+              "verseCount": 25
+            },
+            {
+              "chapter": 66,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/kjv/Isa.json"
+        },
+        {
+          "book": "Jer",
+          "bookId": 24,
+          "englishName": "Jeremiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 19
+            },
+            {
+              "chapter": 2,
+              "verseCount": 37
+            },
+            {
+              "chapter": 3,
+              "verseCount": 25
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 34
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 26
+            },
+            {
+              "chapter": 10,
+              "verseCount": 25
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 17
+            },
+            {
+              "chapter": 13,
+              "verseCount": 27
+            },
+            {
+              "chapter": 14,
+              "verseCount": 22
+            },
+            {
+              "chapter": 15,
+              "verseCount": 21
+            },
+            {
+              "chapter": 16,
+              "verseCount": 21
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 23
+            },
+            {
+              "chapter": 19,
+              "verseCount": 15
+            },
+            {
+              "chapter": 20,
+              "verseCount": 18
+            },
+            {
+              "chapter": 21,
+              "verseCount": 14
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 40
+            },
+            {
+              "chapter": 24,
+              "verseCount": 10
+            },
+            {
+              "chapter": 25,
+              "verseCount": 38
+            },
+            {
+              "chapter": 26,
+              "verseCount": 24
+            },
+            {
+              "chapter": 27,
+              "verseCount": 22
+            },
+            {
+              "chapter": 28,
+              "verseCount": 17
+            },
+            {
+              "chapter": 29,
+              "verseCount": 32
+            },
+            {
+              "chapter": 30,
+              "verseCount": 24
+            },
+            {
+              "chapter": 31,
+              "verseCount": 40
+            },
+            {
+              "chapter": 32,
+              "verseCount": 44
+            },
+            {
+              "chapter": 33,
+              "verseCount": 26
+            },
+            {
+              "chapter": 34,
+              "verseCount": 22
+            },
+            {
+              "chapter": 35,
+              "verseCount": 19
+            },
+            {
+              "chapter": 36,
+              "verseCount": 32
+            },
+            {
+              "chapter": 37,
+              "verseCount": 21
+            },
+            {
+              "chapter": 38,
+              "verseCount": 28
+            },
+            {
+              "chapter": 39,
+              "verseCount": 18
+            },
+            {
+              "chapter": 40,
+              "verseCount": 16
+            },
+            {
+              "chapter": 41,
+              "verseCount": 18
+            },
+            {
+              "chapter": 42,
+              "verseCount": 22
+            },
+            {
+              "chapter": 43,
+              "verseCount": 13
+            },
+            {
+              "chapter": 44,
+              "verseCount": 30
+            },
+            {
+              "chapter": 45,
+              "verseCount": 5
+            },
+            {
+              "chapter": 46,
+              "verseCount": 28
+            },
+            {
+              "chapter": 47,
+              "verseCount": 7
+            },
+            {
+              "chapter": 48,
+              "verseCount": 47
+            },
+            {
+              "chapter": 49,
+              "verseCount": 39
+            },
+            {
+              "chapter": 50,
+              "verseCount": 46
+            },
+            {
+              "chapter": 51,
+              "verseCount": 64
+            },
+            {
+              "chapter": 52,
+              "verseCount": 34
+            }
+          ],
+          "path": "data/bibles/books/kjv/Jer.json"
+        },
+        {
+          "book": "Lam",
+          "bookId": 25,
+          "englishName": "Lamentations",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 66
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/kjv/Lam.json"
+        },
+        {
+          "book": "Ezek",
+          "bookId": 26,
+          "englishName": "Ezekiel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 28
+            },
+            {
+              "chapter": 2,
+              "verseCount": 10
+            },
+            {
+              "chapter": 3,
+              "verseCount": 27
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 17
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 27
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 11
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 25
+            },
+            {
+              "chapter": 12,
+              "verseCount": 28
+            },
+            {
+              "chapter": 13,
+              "verseCount": 23
+            },
+            {
+              "chapter": 14,
+              "verseCount": 23
+            },
+            {
+              "chapter": 15,
+              "verseCount": 8
+            },
+            {
+              "chapter": 16,
+              "verseCount": 63
+            },
+            {
+              "chapter": 17,
+              "verseCount": 24
+            },
+            {
+              "chapter": 18,
+              "verseCount": 32
+            },
+            {
+              "chapter": 19,
+              "verseCount": 14
+            },
+            {
+              "chapter": 20,
+              "verseCount": 49
+            },
+            {
+              "chapter": 21,
+              "verseCount": 32
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 49
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 17
+            },
+            {
+              "chapter": 26,
+              "verseCount": 21
+            },
+            {
+              "chapter": 27,
+              "verseCount": 36
+            },
+            {
+              "chapter": 28,
+              "verseCount": 26
+            },
+            {
+              "chapter": 29,
+              "verseCount": 21
+            },
+            {
+              "chapter": 30,
+              "verseCount": 26
+            },
+            {
+              "chapter": 31,
+              "verseCount": 18
+            },
+            {
+              "chapter": 32,
+              "verseCount": 32
+            },
+            {
+              "chapter": 33,
+              "verseCount": 33
+            },
+            {
+              "chapter": 34,
+              "verseCount": 31
+            },
+            {
+              "chapter": 35,
+              "verseCount": 15
+            },
+            {
+              "chapter": 36,
+              "verseCount": 38
+            },
+            {
+              "chapter": 37,
+              "verseCount": 28
+            },
+            {
+              "chapter": 38,
+              "verseCount": 23
+            },
+            {
+              "chapter": 39,
+              "verseCount": 29
+            },
+            {
+              "chapter": 40,
+              "verseCount": 49
+            },
+            {
+              "chapter": 41,
+              "verseCount": 26
+            },
+            {
+              "chapter": 42,
+              "verseCount": 20
+            },
+            {
+              "chapter": 43,
+              "verseCount": 27
+            },
+            {
+              "chapter": 44,
+              "verseCount": 31
+            },
+            {
+              "chapter": 45,
+              "verseCount": 25
+            },
+            {
+              "chapter": 46,
+              "verseCount": 24
+            },
+            {
+              "chapter": 47,
+              "verseCount": 23
+            },
+            {
+              "chapter": 48,
+              "verseCount": 35
+            }
+          ],
+          "path": "data/bibles/books/kjv/Ezek.json"
+        },
+        {
+          "book": "Dan",
+          "bookId": 27,
+          "englishName": "Daniel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 49
+            },
+            {
+              "chapter": 3,
+              "verseCount": 30
+            },
+            {
+              "chapter": 4,
+              "verseCount": 37
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 28
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 27
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 21
+            },
+            {
+              "chapter": 11,
+              "verseCount": 45
+            },
+            {
+              "chapter": 12,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/kjv/Dan.json"
+        },
+        {
+          "book": "Hos",
+          "bookId": 28,
+          "englishName": "Hosea",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 5
+            },
+            {
+              "chapter": 4,
+              "verseCount": 19
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 11
+            },
+            {
+              "chapter": 7,
+              "verseCount": 16
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            },
+            {
+              "chapter": 9,
+              "verseCount": 17
+            },
+            {
+              "chapter": 10,
+              "verseCount": 15
+            },
+            {
+              "chapter": 11,
+              "verseCount": 12
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            },
+            {
+              "chapter": 13,
+              "verseCount": 16
+            },
+            {
+              "chapter": 14,
+              "verseCount": 9
+            }
+          ],
+          "path": "data/bibles/books/kjv/Hos.json"
+        },
+        {
+          "book": "Joel",
+          "bookId": 29,
+          "englishName": "Joel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 32
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/kjv/Joel.json"
+        },
+        {
+          "book": "Amos",
+          "bookId": 30,
+          "englishName": "Amos",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            },
+            {
+              "chapter": 4,
+              "verseCount": 13
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            }
+          ],
+          "path": "data/bibles/books/kjv/Amos.json"
+        },
+        {
+          "book": "Obad",
+          "bookId": 31,
+          "englishName": "Obadiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/kjv/Obad.json"
+        },
+        {
+          "book": "Jonah",
+          "bookId": 32,
+          "englishName": "Jonah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 10
+            },
+            {
+              "chapter": 3,
+              "verseCount": 10
+            },
+            {
+              "chapter": 4,
+              "verseCount": 11
+            }
+          ],
+          "path": "data/bibles/books/kjv/Jonah.json"
+        },
+        {
+          "book": "Mic",
+          "bookId": 33,
+          "englishName": "Micah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 16
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 12
+            },
+            {
+              "chapter": 4,
+              "verseCount": 13
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 16
+            },
+            {
+              "chapter": 7,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/kjv/Mic.json"
+        },
+        {
+          "book": "Nah",
+          "bookId": 34,
+          "englishName": "Nahum",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            }
+          ],
+          "path": "data/bibles/books/kjv/Nah.json"
+        },
+        {
+          "book": "Hab",
+          "bookId": 35,
+          "englishName": "Habakkuk",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            }
+          ],
+          "path": "data/bibles/books/kjv/Hab.json"
+        },
+        {
+          "book": "Zeph",
+          "bookId": 36,
+          "englishName": "Zephaniah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/kjv/Zeph.json"
+        },
+        {
+          "book": "Hag",
+          "bookId": 37,
+          "englishName": "Haggai",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/kjv/Hag.json"
+        },
+        {
+          "book": "Zech",
+          "bookId": 38,
+          "englishName": "Zechariah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 10
+            },
+            {
+              "chapter": 4,
+              "verseCount": 14
+            },
+            {
+              "chapter": 5,
+              "verseCount": 11
+            },
+            {
+              "chapter": 6,
+              "verseCount": 15
+            },
+            {
+              "chapter": 7,
+              "verseCount": 14
+            },
+            {
+              "chapter": 8,
+              "verseCount": 23
+            },
+            {
+              "chapter": 9,
+              "verseCount": 17
+            },
+            {
+              "chapter": 10,
+              "verseCount": 12
+            },
+            {
+              "chapter": 11,
+              "verseCount": 17
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            },
+            {
+              "chapter": 13,
+              "verseCount": 9
+            },
+            {
+              "chapter": 14,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/kjv/Zech.json"
+        },
+        {
+          "book": "Mal",
+          "bookId": 39,
+          "englishName": "Malachi",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 6
+            }
+          ],
+          "path": "data/bibles/books/kjv/Mal.json"
+        },
+        {
+          "book": "Matt",
+          "bookId": 40,
+          "englishName": "Matthew",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 25
+            },
+            {
+              "chapter": 5,
+              "verseCount": 48
+            },
+            {
+              "chapter": 6,
+              "verseCount": 34
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 34
+            },
+            {
+              "chapter": 9,
+              "verseCount": 38
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 30
+            },
+            {
+              "chapter": 12,
+              "verseCount": 50
+            },
+            {
+              "chapter": 13,
+              "verseCount": 58
+            },
+            {
+              "chapter": 14,
+              "verseCount": 36
+            },
+            {
+              "chapter": 15,
+              "verseCount": 39
+            },
+            {
+              "chapter": 16,
+              "verseCount": 28
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 35
+            },
+            {
+              "chapter": 19,
+              "verseCount": 30
+            },
+            {
+              "chapter": 20,
+              "verseCount": 34
+            },
+            {
+              "chapter": 21,
+              "verseCount": 46
+            },
+            {
+              "chapter": 22,
+              "verseCount": 46
+            },
+            {
+              "chapter": 23,
+              "verseCount": 39
+            },
+            {
+              "chapter": 24,
+              "verseCount": 51
+            },
+            {
+              "chapter": 25,
+              "verseCount": 46
+            },
+            {
+              "chapter": 26,
+              "verseCount": 75
+            },
+            {
+              "chapter": 27,
+              "verseCount": 66
+            },
+            {
+              "chapter": 28,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/kjv/Matt.json"
+        },
+        {
+          "book": "Mark",
+          "bookId": 41,
+          "englishName": "Mark",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 45
+            },
+            {
+              "chapter": 2,
+              "verseCount": 28
+            },
+            {
+              "chapter": 3,
+              "verseCount": 35
+            },
+            {
+              "chapter": 4,
+              "verseCount": 41
+            },
+            {
+              "chapter": 5,
+              "verseCount": 43
+            },
+            {
+              "chapter": 6,
+              "verseCount": 56
+            },
+            {
+              "chapter": 7,
+              "verseCount": 37
+            },
+            {
+              "chapter": 8,
+              "verseCount": 38
+            },
+            {
+              "chapter": 9,
+              "verseCount": 50
+            },
+            {
+              "chapter": 10,
+              "verseCount": 52
+            },
+            {
+              "chapter": 11,
+              "verseCount": 33
+            },
+            {
+              "chapter": 12,
+              "verseCount": 44
+            },
+            {
+              "chapter": 13,
+              "verseCount": 37
+            },
+            {
+              "chapter": 14,
+              "verseCount": 72
+            },
+            {
+              "chapter": 15,
+              "verseCount": 47
+            },
+            {
+              "chapter": 16,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/kjv/Mark.json"
+        },
+        {
+          "book": "Luke",
+          "bookId": 42,
+          "englishName": "Luke",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 80
+            },
+            {
+              "chapter": 2,
+              "verseCount": 52
+            },
+            {
+              "chapter": 3,
+              "verseCount": 38
+            },
+            {
+              "chapter": 4,
+              "verseCount": 44
+            },
+            {
+              "chapter": 5,
+              "verseCount": 39
+            },
+            {
+              "chapter": 6,
+              "verseCount": 49
+            },
+            {
+              "chapter": 7,
+              "verseCount": 50
+            },
+            {
+              "chapter": 8,
+              "verseCount": 56
+            },
+            {
+              "chapter": 9,
+              "verseCount": 62
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 54
+            },
+            {
+              "chapter": 12,
+              "verseCount": 59
+            },
+            {
+              "chapter": 13,
+              "verseCount": 35
+            },
+            {
+              "chapter": 14,
+              "verseCount": 35
+            },
+            {
+              "chapter": 15,
+              "verseCount": 32
+            },
+            {
+              "chapter": 16,
+              "verseCount": 31
+            },
+            {
+              "chapter": 17,
+              "verseCount": 37
+            },
+            {
+              "chapter": 18,
+              "verseCount": 43
+            },
+            {
+              "chapter": 19,
+              "verseCount": 48
+            },
+            {
+              "chapter": 20,
+              "verseCount": 47
+            },
+            {
+              "chapter": 21,
+              "verseCount": 38
+            },
+            {
+              "chapter": 22,
+              "verseCount": 71
+            },
+            {
+              "chapter": 23,
+              "verseCount": 56
+            },
+            {
+              "chapter": 24,
+              "verseCount": 53
+            }
+          ],
+          "path": "data/bibles/books/kjv/Luke.json"
+        },
+        {
+          "book": "John",
+          "bookId": 43,
+          "englishName": "John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 51
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 36
+            },
+            {
+              "chapter": 4,
+              "verseCount": 54
+            },
+            {
+              "chapter": 5,
+              "verseCount": 47
+            },
+            {
+              "chapter": 6,
+              "verseCount": 71
+            },
+            {
+              "chapter": 7,
+              "verseCount": 53
+            },
+            {
+              "chapter": 8,
+              "verseCount": 59
+            },
+            {
+              "chapter": 9,
+              "verseCount": 41
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 57
+            },
+            {
+              "chapter": 12,
+              "verseCount": 50
+            },
+            {
+              "chapter": 13,
+              "verseCount": 38
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 27
+            },
+            {
+              "chapter": 16,
+              "verseCount": 33
+            },
+            {
+              "chapter": 17,
+              "verseCount": 26
+            },
+            {
+              "chapter": 18,
+              "verseCount": 40
+            },
+            {
+              "chapter": 19,
+              "verseCount": 42
+            },
+            {
+              "chapter": 20,
+              "verseCount": 31
+            },
+            {
+              "chapter": 21,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/kjv/John.json"
+        },
+        {
+          "book": "Acts",
+          "bookId": 44,
+          "englishName": "Acts",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 26
+            },
+            {
+              "chapter": 2,
+              "verseCount": 47
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 37
+            },
+            {
+              "chapter": 5,
+              "verseCount": 42
+            },
+            {
+              "chapter": 6,
+              "verseCount": 15
+            },
+            {
+              "chapter": 7,
+              "verseCount": 60
+            },
+            {
+              "chapter": 8,
+              "verseCount": 40
+            },
+            {
+              "chapter": 9,
+              "verseCount": 43
+            },
+            {
+              "chapter": 10,
+              "verseCount": 48
+            },
+            {
+              "chapter": 11,
+              "verseCount": 30
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 52
+            },
+            {
+              "chapter": 14,
+              "verseCount": 28
+            },
+            {
+              "chapter": 15,
+              "verseCount": 41
+            },
+            {
+              "chapter": 16,
+              "verseCount": 40
+            },
+            {
+              "chapter": 17,
+              "verseCount": 34
+            },
+            {
+              "chapter": 18,
+              "verseCount": 28
+            },
+            {
+              "chapter": 19,
+              "verseCount": 41
+            },
+            {
+              "chapter": 20,
+              "verseCount": 38
+            },
+            {
+              "chapter": 21,
+              "verseCount": 40
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 35
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 27
+            },
+            {
+              "chapter": 26,
+              "verseCount": 32
+            },
+            {
+              "chapter": 27,
+              "verseCount": 44
+            },
+            {
+              "chapter": 28,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/kjv/Acts.json"
+        },
+        {
+          "book": "Rom",
+          "bookId": 45,
+          "englishName": "Romans",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 32
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 31
+            },
+            {
+              "chapter": 4,
+              "verseCount": 25
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            },
+            {
+              "chapter": 6,
+              "verseCount": 23
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 39
+            },
+            {
+              "chapter": 9,
+              "verseCount": 33
+            },
+            {
+              "chapter": 10,
+              "verseCount": 21
+            },
+            {
+              "chapter": 11,
+              "verseCount": 36
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            },
+            {
+              "chapter": 14,
+              "verseCount": 23
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 27
+            }
+          ],
+          "path": "data/bibles/books/kjv/Rom.json"
+        },
+        {
+          "book": "1Cor",
+          "bookId": 46,
+          "englishName": "1 Corinthians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 23
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 13
+            },
+            {
+              "chapter": 6,
+              "verseCount": 20
+            },
+            {
+              "chapter": 7,
+              "verseCount": 40
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 33
+            },
+            {
+              "chapter": 11,
+              "verseCount": 34
+            },
+            {
+              "chapter": 12,
+              "verseCount": 31
+            },
+            {
+              "chapter": 13,
+              "verseCount": 13
+            },
+            {
+              "chapter": 14,
+              "verseCount": 40
+            },
+            {
+              "chapter": 15,
+              "verseCount": 58
+            },
+            {
+              "chapter": 16,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Cor.json"
+        },
+        {
+          "book": "2Cor",
+          "bookId": 47,
+          "englishName": "2 Corinthians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 24
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            },
+            {
+              "chapter": 6,
+              "verseCount": 18
+            },
+            {
+              "chapter": 7,
+              "verseCount": 16
+            },
+            {
+              "chapter": 8,
+              "verseCount": 24
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 33
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Cor.json"
+        },
+        {
+          "book": "Gal",
+          "bookId": 48,
+          "englishName": "Galatians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 24
+            },
+            {
+              "chapter": 2,
+              "verseCount": 21
+            },
+            {
+              "chapter": 3,
+              "verseCount": 29
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 26
+            },
+            {
+              "chapter": 6,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/kjv/Gal.json"
+        },
+        {
+          "book": "Eph",
+          "bookId": 49,
+          "englishName": "Ephesians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 23
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 32
+            },
+            {
+              "chapter": 5,
+              "verseCount": 33
+            },
+            {
+              "chapter": 6,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/kjv/Eph.json"
+        },
+        {
+          "book": "Phil",
+          "bookId": 50,
+          "englishName": "Philippians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 30
+            },
+            {
+              "chapter": 2,
+              "verseCount": 30
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/kjv/Phil.json"
+        },
+        {
+          "book": "Col",
+          "bookId": 51,
+          "englishName": "Colossians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 29
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 25
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/kjv/Col.json"
+        },
+        {
+          "book": "1Thess",
+          "bookId": 52,
+          "englishName": "1 Thessalonians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 10
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 13
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            },
+            {
+              "chapter": 5,
+              "verseCount": 28
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Thess.json"
+        },
+        {
+          "book": "2Thess",
+          "bookId": 53,
+          "englishName": "2 Thessalonians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 12
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Thess.json"
+        },
+        {
+          "book": "1Tim",
+          "bookId": 54,
+          "englishName": "1 Timothy",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 16
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 25
+            },
+            {
+              "chapter": 6,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Tim.json"
+        },
+        {
+          "book": "2Tim",
+          "bookId": 55,
+          "englishName": "2 Timothy",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Tim.json"
+        },
+        {
+          "book": "Titus",
+          "bookId": 56,
+          "englishName": "Titus",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 16
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            }
+          ],
+          "path": "data/bibles/books/kjv/Titus.json"
+        },
+        {
+          "book": "Phlm",
+          "bookId": 57,
+          "englishName": "Philemon",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/kjv/Phlm.json"
+        },
+        {
+          "book": "Heb",
+          "bookId": 58,
+          "englishName": "Hebrews",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            },
+            {
+              "chapter": 2,
+              "verseCount": 18
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 20
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 28
+            },
+            {
+              "chapter": 10,
+              "verseCount": 39
+            },
+            {
+              "chapter": 11,
+              "verseCount": 40
+            },
+            {
+              "chapter": 12,
+              "verseCount": 29
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/kjv/Heb.json"
+        },
+        {
+          "book": "Jas",
+          "bookId": 59,
+          "englishName": "James",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 27
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/kjv/Jas.json"
+        },
+        {
+          "book": "1Pet",
+          "bookId": 60,
+          "englishName": "1 Peter",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 19
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/kjv/1Pet.json"
+        },
+        {
+          "book": "2Pet",
+          "bookId": 61,
+          "englishName": "2 Peter",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/kjv/2Pet.json"
+        },
+        {
+          "book": "1John",
+          "bookId": 62,
+          "englishName": "1 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 10
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/kjv/1John.json"
+        },
+        {
+          "book": "2John",
+          "bookId": 63,
+          "englishName": "2 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/kjv/2John.json"
+        },
+        {
+          "book": "3John",
+          "bookId": 64,
+          "englishName": "3 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/kjv/3John.json"
+        },
+        {
+          "book": "Jude",
+          "bookId": 65,
+          "englishName": "Jude",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/kjv/Jude.json"
+        },
+        {
+          "book": "Rev",
+          "bookId": 66,
+          "englishName": "Revelation",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 11
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 17
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 21
+            },
+            {
+              "chapter": 10,
+              "verseCount": 11
+            },
+            {
+              "chapter": 11,
+              "verseCount": 19
+            },
+            {
+              "chapter": 12,
+              "verseCount": 17
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 20
+            },
+            {
+              "chapter": 15,
+              "verseCount": 8
+            },
+            {
+              "chapter": 16,
+              "verseCount": 21
+            },
+            {
+              "chapter": 17,
+              "verseCount": 18
+            },
+            {
+              "chapter": 18,
+              "verseCount": 24
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 15
+            },
+            {
+              "chapter": 21,
+              "verseCount": 27
+            },
+            {
+              "chapter": 22,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/kjv/Rev.json"
+        }
+      ]
+    },
+    "asv": {
+      "slug": "asv",
+      "name": "American Standard Version",
+      "language": "en",
+      "license": "public-domain",
+      "year": 1901,
+      "books": [
+        {
+          "book": "Gen",
+          "bookId": 1,
+          "englishName": "Genesis",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 26
+            },
+            {
+              "chapter": 5,
+              "verseCount": 32
+            },
+            {
+              "chapter": 6,
+              "verseCount": 22
+            },
+            {
+              "chapter": 7,
+              "verseCount": 24
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 29
+            },
+            {
+              "chapter": 10,
+              "verseCount": 32
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 20
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 24
+            },
+            {
+              "chapter": 15,
+              "verseCount": 21
+            },
+            {
+              "chapter": 16,
+              "verseCount": 16
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 33
+            },
+            {
+              "chapter": 19,
+              "verseCount": 38
+            },
+            {
+              "chapter": 20,
+              "verseCount": 18
+            },
+            {
+              "chapter": 21,
+              "verseCount": 34
+            },
+            {
+              "chapter": 22,
+              "verseCount": 24
+            },
+            {
+              "chapter": 23,
+              "verseCount": 20
+            },
+            {
+              "chapter": 24,
+              "verseCount": 67
+            },
+            {
+              "chapter": 25,
+              "verseCount": 34
+            },
+            {
+              "chapter": 26,
+              "verseCount": 35
+            },
+            {
+              "chapter": 27,
+              "verseCount": 46
+            },
+            {
+              "chapter": 28,
+              "verseCount": 22
+            },
+            {
+              "chapter": 29,
+              "verseCount": 35
+            },
+            {
+              "chapter": 30,
+              "verseCount": 43
+            },
+            {
+              "chapter": 31,
+              "verseCount": 55
+            },
+            {
+              "chapter": 32,
+              "verseCount": 32
+            },
+            {
+              "chapter": 33,
+              "verseCount": 20
+            },
+            {
+              "chapter": 34,
+              "verseCount": 31
+            },
+            {
+              "chapter": 35,
+              "verseCount": 29
+            },
+            {
+              "chapter": 36,
+              "verseCount": 43
+            },
+            {
+              "chapter": 37,
+              "verseCount": 36
+            },
+            {
+              "chapter": 38,
+              "verseCount": 30
+            },
+            {
+              "chapter": 39,
+              "verseCount": 23
+            },
+            {
+              "chapter": 40,
+              "verseCount": 23
+            },
+            {
+              "chapter": 41,
+              "verseCount": 57
+            },
+            {
+              "chapter": 42,
+              "verseCount": 38
+            },
+            {
+              "chapter": 43,
+              "verseCount": 34
+            },
+            {
+              "chapter": 44,
+              "verseCount": 34
+            },
+            {
+              "chapter": 45,
+              "verseCount": 28
+            },
+            {
+              "chapter": 46,
+              "verseCount": 34
+            },
+            {
+              "chapter": 47,
+              "verseCount": 31
+            },
+            {
+              "chapter": 48,
+              "verseCount": 22
+            },
+            {
+              "chapter": 49,
+              "verseCount": 33
+            },
+            {
+              "chapter": 50,
+              "verseCount": 26
+            }
+          ],
+          "path": "data/bibles/books/asv/Gen.json"
+        },
+        {
+          "book": "Exod",
+          "bookId": 2,
+          "englishName": "Exodus",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 23
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 32
+            },
+            {
+              "chapter": 9,
+              "verseCount": 35
+            },
+            {
+              "chapter": 10,
+              "verseCount": 29
+            },
+            {
+              "chapter": 11,
+              "verseCount": 10
+            },
+            {
+              "chapter": 12,
+              "verseCount": 51
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 27
+            },
+            {
+              "chapter": 16,
+              "verseCount": 36
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 27
+            },
+            {
+              "chapter": 19,
+              "verseCount": 25
+            },
+            {
+              "chapter": 20,
+              "verseCount": 26
+            },
+            {
+              "chapter": 21,
+              "verseCount": 36
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 33
+            },
+            {
+              "chapter": 24,
+              "verseCount": 18
+            },
+            {
+              "chapter": 25,
+              "verseCount": 40
+            },
+            {
+              "chapter": 26,
+              "verseCount": 37
+            },
+            {
+              "chapter": 27,
+              "verseCount": 21
+            },
+            {
+              "chapter": 28,
+              "verseCount": 43
+            },
+            {
+              "chapter": 29,
+              "verseCount": 46
+            },
+            {
+              "chapter": 30,
+              "verseCount": 38
+            },
+            {
+              "chapter": 31,
+              "verseCount": 18
+            },
+            {
+              "chapter": 32,
+              "verseCount": 35
+            },
+            {
+              "chapter": 33,
+              "verseCount": 23
+            },
+            {
+              "chapter": 34,
+              "verseCount": 35
+            },
+            {
+              "chapter": 35,
+              "verseCount": 35
+            },
+            {
+              "chapter": 36,
+              "verseCount": 38
+            },
+            {
+              "chapter": 37,
+              "verseCount": 29
+            },
+            {
+              "chapter": 38,
+              "verseCount": 31
+            },
+            {
+              "chapter": 39,
+              "verseCount": 43
+            },
+            {
+              "chapter": 40,
+              "verseCount": 38
+            }
+          ],
+          "path": "data/bibles/books/asv/Exod.json"
+        },
+        {
+          "book": "Lev",
+          "bookId": 3,
+          "englishName": "Leviticus",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 35
+            },
+            {
+              "chapter": 5,
+              "verseCount": 19
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 38
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 24
+            },
+            {
+              "chapter": 10,
+              "verseCount": 20
+            },
+            {
+              "chapter": 11,
+              "verseCount": 47
+            },
+            {
+              "chapter": 12,
+              "verseCount": 8
+            },
+            {
+              "chapter": 13,
+              "verseCount": 59
+            },
+            {
+              "chapter": 14,
+              "verseCount": 57
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 34
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 30
+            },
+            {
+              "chapter": 19,
+              "verseCount": 37
+            },
+            {
+              "chapter": 20,
+              "verseCount": 27
+            },
+            {
+              "chapter": 21,
+              "verseCount": 24
+            },
+            {
+              "chapter": 22,
+              "verseCount": 33
+            },
+            {
+              "chapter": 23,
+              "verseCount": 44
+            },
+            {
+              "chapter": 24,
+              "verseCount": 23
+            },
+            {
+              "chapter": 25,
+              "verseCount": 55
+            },
+            {
+              "chapter": 26,
+              "verseCount": 46
+            },
+            {
+              "chapter": 27,
+              "verseCount": 34
+            }
+          ],
+          "path": "data/bibles/books/asv/Lev.json"
+        },
+        {
+          "book": "Num",
+          "bookId": 4,
+          "englishName": "Numbers",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 54
+            },
+            {
+              "chapter": 2,
+              "verseCount": 34
+            },
+            {
+              "chapter": 3,
+              "verseCount": 51
+            },
+            {
+              "chapter": 4,
+              "verseCount": 49
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 27
+            },
+            {
+              "chapter": 7,
+              "verseCount": 89
+            },
+            {
+              "chapter": 8,
+              "verseCount": 26
+            },
+            {
+              "chapter": 9,
+              "verseCount": 23
+            },
+            {
+              "chapter": 10,
+              "verseCount": 36
+            },
+            {
+              "chapter": 11,
+              "verseCount": 35
+            },
+            {
+              "chapter": 12,
+              "verseCount": 16
+            },
+            {
+              "chapter": 13,
+              "verseCount": 33
+            },
+            {
+              "chapter": 14,
+              "verseCount": 45
+            },
+            {
+              "chapter": 15,
+              "verseCount": 41
+            },
+            {
+              "chapter": 16,
+              "verseCount": 50
+            },
+            {
+              "chapter": 17,
+              "verseCount": 13
+            },
+            {
+              "chapter": 18,
+              "verseCount": 32
+            },
+            {
+              "chapter": 19,
+              "verseCount": 22
+            },
+            {
+              "chapter": 20,
+              "verseCount": 29
+            },
+            {
+              "chapter": 21,
+              "verseCount": 35
+            },
+            {
+              "chapter": 22,
+              "verseCount": 41
+            },
+            {
+              "chapter": 23,
+              "verseCount": 30
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            },
+            {
+              "chapter": 25,
+              "verseCount": 18
+            },
+            {
+              "chapter": 26,
+              "verseCount": 65
+            },
+            {
+              "chapter": 27,
+              "verseCount": 23
+            },
+            {
+              "chapter": 28,
+              "verseCount": 31
+            },
+            {
+              "chapter": 29,
+              "verseCount": 40
+            },
+            {
+              "chapter": 30,
+              "verseCount": 16
+            },
+            {
+              "chapter": 31,
+              "verseCount": 54
+            },
+            {
+              "chapter": 32,
+              "verseCount": 42
+            },
+            {
+              "chapter": 33,
+              "verseCount": 56
+            },
+            {
+              "chapter": 34,
+              "verseCount": 29
+            },
+            {
+              "chapter": 35,
+              "verseCount": 34
+            },
+            {
+              "chapter": 36,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/asv/Num.json"
+        },
+        {
+          "book": "Deut",
+          "bookId": 5,
+          "englishName": "Deuteronomy",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 46
+            },
+            {
+              "chapter": 2,
+              "verseCount": 37
+            },
+            {
+              "chapter": 3,
+              "verseCount": 29
+            },
+            {
+              "chapter": 4,
+              "verseCount": 49
+            },
+            {
+              "chapter": 5,
+              "verseCount": 33
+            },
+            {
+              "chapter": 6,
+              "verseCount": 25
+            },
+            {
+              "chapter": 7,
+              "verseCount": 26
+            },
+            {
+              "chapter": 8,
+              "verseCount": 20
+            },
+            {
+              "chapter": 9,
+              "verseCount": 29
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 32
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 29
+            },
+            {
+              "chapter": 15,
+              "verseCount": 23
+            },
+            {
+              "chapter": 16,
+              "verseCount": 22
+            },
+            {
+              "chapter": 17,
+              "verseCount": 20
+            },
+            {
+              "chapter": 18,
+              "verseCount": 22
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 20
+            },
+            {
+              "chapter": 21,
+              "verseCount": 23
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 25
+            },
+            {
+              "chapter": 24,
+              "verseCount": 22
+            },
+            {
+              "chapter": 25,
+              "verseCount": 19
+            },
+            {
+              "chapter": 26,
+              "verseCount": 19
+            },
+            {
+              "chapter": 27,
+              "verseCount": 26
+            },
+            {
+              "chapter": 28,
+              "verseCount": 68
+            },
+            {
+              "chapter": 29,
+              "verseCount": 29
+            },
+            {
+              "chapter": 30,
+              "verseCount": 20
+            },
+            {
+              "chapter": 31,
+              "verseCount": 30
+            },
+            {
+              "chapter": 32,
+              "verseCount": 52
+            },
+            {
+              "chapter": 33,
+              "verseCount": 29
+            },
+            {
+              "chapter": 34,
+              "verseCount": 12
+            }
+          ],
+          "path": "data/bibles/books/asv/Deut.json"
+        },
+        {
+          "book": "Josh",
+          "bookId": 6,
+          "englishName": "Joshua",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 24
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 27
+            },
+            {
+              "chapter": 7,
+              "verseCount": 26
+            },
+            {
+              "chapter": 8,
+              "verseCount": 35
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 43
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 24
+            },
+            {
+              "chapter": 13,
+              "verseCount": 33
+            },
+            {
+              "chapter": 14,
+              "verseCount": 15
+            },
+            {
+              "chapter": 15,
+              "verseCount": 63
+            },
+            {
+              "chapter": 16,
+              "verseCount": 10
+            },
+            {
+              "chapter": 17,
+              "verseCount": 18
+            },
+            {
+              "chapter": 18,
+              "verseCount": 28
+            },
+            {
+              "chapter": 19,
+              "verseCount": 51
+            },
+            {
+              "chapter": 20,
+              "verseCount": 9
+            },
+            {
+              "chapter": 21,
+              "verseCount": 45
+            },
+            {
+              "chapter": 22,
+              "verseCount": 34
+            },
+            {
+              "chapter": 23,
+              "verseCount": 16
+            },
+            {
+              "chapter": 24,
+              "verseCount": 33
+            }
+          ],
+          "path": "data/bibles/books/asv/Josh.json"
+        },
+        {
+          "book": "Judg",
+          "bookId": 7,
+          "englishName": "Judges",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 36
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 31
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 40
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 35
+            },
+            {
+              "chapter": 9,
+              "verseCount": 57
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 40
+            },
+            {
+              "chapter": 12,
+              "verseCount": 15
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 20
+            },
+            {
+              "chapter": 15,
+              "verseCount": 20
+            },
+            {
+              "chapter": 16,
+              "verseCount": 31
+            },
+            {
+              "chapter": 17,
+              "verseCount": 13
+            },
+            {
+              "chapter": 18,
+              "verseCount": 31
+            },
+            {
+              "chapter": 19,
+              "verseCount": 30
+            },
+            {
+              "chapter": 20,
+              "verseCount": 48
+            },
+            {
+              "chapter": 21,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/asv/Judg.json"
+        },
+        {
+          "book": "Ruth",
+          "bookId": 8,
+          "englishName": "Ruth",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/asv/Ruth.json"
+        },
+        {
+          "book": "1Sam",
+          "bookId": 9,
+          "englishName": "1 Samuel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 28
+            },
+            {
+              "chapter": 2,
+              "verseCount": 36
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 12
+            },
+            {
+              "chapter": 6,
+              "verseCount": 21
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 27
+            },
+            {
+              "chapter": 11,
+              "verseCount": 15
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 23
+            },
+            {
+              "chapter": 14,
+              "verseCount": 52
+            },
+            {
+              "chapter": 15,
+              "verseCount": 35
+            },
+            {
+              "chapter": 16,
+              "verseCount": 23
+            },
+            {
+              "chapter": 17,
+              "verseCount": 58
+            },
+            {
+              "chapter": 18,
+              "verseCount": 30
+            },
+            {
+              "chapter": 19,
+              "verseCount": 24
+            },
+            {
+              "chapter": 20,
+              "verseCount": 42
+            },
+            {
+              "chapter": 21,
+              "verseCount": 15
+            },
+            {
+              "chapter": 22,
+              "verseCount": 23
+            },
+            {
+              "chapter": 23,
+              "verseCount": 29
+            },
+            {
+              "chapter": 24,
+              "verseCount": 22
+            },
+            {
+              "chapter": 25,
+              "verseCount": 44
+            },
+            {
+              "chapter": 26,
+              "verseCount": 25
+            },
+            {
+              "chapter": 27,
+              "verseCount": 12
+            },
+            {
+              "chapter": 28,
+              "verseCount": 25
+            },
+            {
+              "chapter": 29,
+              "verseCount": 11
+            },
+            {
+              "chapter": 30,
+              "verseCount": 31
+            },
+            {
+              "chapter": 31,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/asv/1Sam.json"
+        },
+        {
+          "book": "2Sam",
+          "bookId": 10,
+          "englishName": "2 Samuel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 27
+            },
+            {
+              "chapter": 2,
+              "verseCount": 32
+            },
+            {
+              "chapter": 3,
+              "verseCount": 39
+            },
+            {
+              "chapter": 4,
+              "verseCount": 12
+            },
+            {
+              "chapter": 5,
+              "verseCount": 25
+            },
+            {
+              "chapter": 6,
+              "verseCount": 23
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 13
+            },
+            {
+              "chapter": 10,
+              "verseCount": 19
+            },
+            {
+              "chapter": 11,
+              "verseCount": 27
+            },
+            {
+              "chapter": 12,
+              "verseCount": 31
+            },
+            {
+              "chapter": 13,
+              "verseCount": 39
+            },
+            {
+              "chapter": 14,
+              "verseCount": 33
+            },
+            {
+              "chapter": 15,
+              "verseCount": 37
+            },
+            {
+              "chapter": 16,
+              "verseCount": 23
+            },
+            {
+              "chapter": 17,
+              "verseCount": 29
+            },
+            {
+              "chapter": 18,
+              "verseCount": 33
+            },
+            {
+              "chapter": 19,
+              "verseCount": 43
+            },
+            {
+              "chapter": 20,
+              "verseCount": 26
+            },
+            {
+              "chapter": 21,
+              "verseCount": 22
+            },
+            {
+              "chapter": 22,
+              "verseCount": 51
+            },
+            {
+              "chapter": 23,
+              "verseCount": 39
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/asv/2Sam.json"
+        },
+        {
+          "book": "1Kgs",
+          "bookId": 11,
+          "englishName": "1 Kings",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 53
+            },
+            {
+              "chapter": 2,
+              "verseCount": 46
+            },
+            {
+              "chapter": 3,
+              "verseCount": 28
+            },
+            {
+              "chapter": 4,
+              "verseCount": 34
+            },
+            {
+              "chapter": 5,
+              "verseCount": 18
+            },
+            {
+              "chapter": 6,
+              "verseCount": 38
+            },
+            {
+              "chapter": 7,
+              "verseCount": 51
+            },
+            {
+              "chapter": 8,
+              "verseCount": 66
+            },
+            {
+              "chapter": 9,
+              "verseCount": 28
+            },
+            {
+              "chapter": 10,
+              "verseCount": 29
+            },
+            {
+              "chapter": 11,
+              "verseCount": 43
+            },
+            {
+              "chapter": 12,
+              "verseCount": 33
+            },
+            {
+              "chapter": 13,
+              "verseCount": 34
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 34
+            },
+            {
+              "chapter": 16,
+              "verseCount": 34
+            },
+            {
+              "chapter": 17,
+              "verseCount": 24
+            },
+            {
+              "chapter": 18,
+              "verseCount": 46
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 43
+            },
+            {
+              "chapter": 21,
+              "verseCount": 29
+            },
+            {
+              "chapter": 22,
+              "verseCount": 53
+            }
+          ],
+          "path": "data/bibles/books/asv/1Kgs.json"
+        },
+        {
+          "book": "2Kgs",
+          "bookId": 12,
+          "englishName": "2 Kings",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 27
+            },
+            {
+              "chapter": 4,
+              "verseCount": 44
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 33
+            },
+            {
+              "chapter": 7,
+              "verseCount": 20
+            },
+            {
+              "chapter": 8,
+              "verseCount": 29
+            },
+            {
+              "chapter": 9,
+              "verseCount": 37
+            },
+            {
+              "chapter": 10,
+              "verseCount": 36
+            },
+            {
+              "chapter": 11,
+              "verseCount": 21
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 29
+            },
+            {
+              "chapter": 15,
+              "verseCount": 38
+            },
+            {
+              "chapter": 16,
+              "verseCount": 20
+            },
+            {
+              "chapter": 17,
+              "verseCount": 41
+            },
+            {
+              "chapter": 18,
+              "verseCount": 37
+            },
+            {
+              "chapter": 19,
+              "verseCount": 37
+            },
+            {
+              "chapter": 20,
+              "verseCount": 21
+            },
+            {
+              "chapter": 21,
+              "verseCount": 26
+            },
+            {
+              "chapter": 22,
+              "verseCount": 20
+            },
+            {
+              "chapter": 23,
+              "verseCount": 37
+            },
+            {
+              "chapter": 24,
+              "verseCount": 20
+            },
+            {
+              "chapter": 25,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/asv/2Kgs.json"
+        },
+        {
+          "book": "1Chr",
+          "bookId": 13,
+          "englishName": "1 Chronicles",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 54
+            },
+            {
+              "chapter": 2,
+              "verseCount": 55
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 43
+            },
+            {
+              "chapter": 5,
+              "verseCount": 26
+            },
+            {
+              "chapter": 6,
+              "verseCount": 81
+            },
+            {
+              "chapter": 7,
+              "verseCount": 40
+            },
+            {
+              "chapter": 8,
+              "verseCount": 40
+            },
+            {
+              "chapter": 9,
+              "verseCount": 44
+            },
+            {
+              "chapter": 10,
+              "verseCount": 14
+            },
+            {
+              "chapter": 11,
+              "verseCount": 47
+            },
+            {
+              "chapter": 12,
+              "verseCount": 40
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            },
+            {
+              "chapter": 14,
+              "verseCount": 17
+            },
+            {
+              "chapter": 15,
+              "verseCount": 29
+            },
+            {
+              "chapter": 16,
+              "verseCount": 43
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 17
+            },
+            {
+              "chapter": 19,
+              "verseCount": 19
+            },
+            {
+              "chapter": 20,
+              "verseCount": 8
+            },
+            {
+              "chapter": 21,
+              "verseCount": 30
+            },
+            {
+              "chapter": 22,
+              "verseCount": 19
+            },
+            {
+              "chapter": 23,
+              "verseCount": 32
+            },
+            {
+              "chapter": 24,
+              "verseCount": 31
+            },
+            {
+              "chapter": 25,
+              "verseCount": 31
+            },
+            {
+              "chapter": 26,
+              "verseCount": 32
+            },
+            {
+              "chapter": 27,
+              "verseCount": 34
+            },
+            {
+              "chapter": 28,
+              "verseCount": 21
+            },
+            {
+              "chapter": 29,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/asv/1Chr.json"
+        },
+        {
+          "book": "2Chr",
+          "bookId": 14,
+          "englishName": "2 Chronicles",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 18
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 42
+            },
+            {
+              "chapter": 7,
+              "verseCount": 22
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 31
+            },
+            {
+              "chapter": 10,
+              "verseCount": 19
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 16
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 15
+            },
+            {
+              "chapter": 15,
+              "verseCount": 19
+            },
+            {
+              "chapter": 16,
+              "verseCount": 14
+            },
+            {
+              "chapter": 17,
+              "verseCount": 19
+            },
+            {
+              "chapter": 18,
+              "verseCount": 34
+            },
+            {
+              "chapter": 19,
+              "verseCount": 11
+            },
+            {
+              "chapter": 20,
+              "verseCount": 37
+            },
+            {
+              "chapter": 21,
+              "verseCount": 20
+            },
+            {
+              "chapter": 22,
+              "verseCount": 12
+            },
+            {
+              "chapter": 23,
+              "verseCount": 21
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 28
+            },
+            {
+              "chapter": 26,
+              "verseCount": 23
+            },
+            {
+              "chapter": 27,
+              "verseCount": 9
+            },
+            {
+              "chapter": 28,
+              "verseCount": 27
+            },
+            {
+              "chapter": 29,
+              "verseCount": 36
+            },
+            {
+              "chapter": 30,
+              "verseCount": 27
+            },
+            {
+              "chapter": 31,
+              "verseCount": 21
+            },
+            {
+              "chapter": 32,
+              "verseCount": 33
+            },
+            {
+              "chapter": 33,
+              "verseCount": 25
+            },
+            {
+              "chapter": 34,
+              "verseCount": 33
+            },
+            {
+              "chapter": 35,
+              "verseCount": 27
+            },
+            {
+              "chapter": 36,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/asv/2Chr.json"
+        },
+        {
+          "book": "Ezra",
+          "bookId": 15,
+          "englishName": "Ezra",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 70
+            },
+            {
+              "chapter": 3,
+              "verseCount": 13
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 17
+            },
+            {
+              "chapter": 6,
+              "verseCount": 22
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            },
+            {
+              "chapter": 10,
+              "verseCount": 44
+            }
+          ],
+          "path": "data/bibles/books/asv/Ezra.json"
+        },
+        {
+          "book": "Neh",
+          "bookId": 16,
+          "englishName": "Nehemiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 32
+            },
+            {
+              "chapter": 4,
+              "verseCount": 23
+            },
+            {
+              "chapter": 5,
+              "verseCount": 19
+            },
+            {
+              "chapter": 6,
+              "verseCount": 19
+            },
+            {
+              "chapter": 7,
+              "verseCount": 73
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 38
+            },
+            {
+              "chapter": 10,
+              "verseCount": 39
+            },
+            {
+              "chapter": 11,
+              "verseCount": 36
+            },
+            {
+              "chapter": 12,
+              "verseCount": 47
+            },
+            {
+              "chapter": 13,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/asv/Neh.json"
+        },
+        {
+          "book": "Esth",
+          "bookId": 17,
+          "englishName": "Esther",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 10
+            },
+            {
+              "chapter": 8,
+              "verseCount": 17
+            },
+            {
+              "chapter": 9,
+              "verseCount": 32
+            },
+            {
+              "chapter": 10,
+              "verseCount": 3
+            }
+          ],
+          "path": "data/bibles/books/asv/Esth.json"
+        },
+        {
+          "book": "Job",
+          "bookId": 18,
+          "englishName": "Job",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 21
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 35
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 20
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 28
+            },
+            {
+              "chapter": 14,
+              "verseCount": 22
+            },
+            {
+              "chapter": 15,
+              "verseCount": 35
+            },
+            {
+              "chapter": 16,
+              "verseCount": 22
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 21
+            },
+            {
+              "chapter": 19,
+              "verseCount": 29
+            },
+            {
+              "chapter": 20,
+              "verseCount": 29
+            },
+            {
+              "chapter": 21,
+              "verseCount": 34
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 17
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            },
+            {
+              "chapter": 25,
+              "verseCount": 6
+            },
+            {
+              "chapter": 26,
+              "verseCount": 14
+            },
+            {
+              "chapter": 27,
+              "verseCount": 23
+            },
+            {
+              "chapter": 28,
+              "verseCount": 28
+            },
+            {
+              "chapter": 29,
+              "verseCount": 25
+            },
+            {
+              "chapter": 30,
+              "verseCount": 31
+            },
+            {
+              "chapter": 31,
+              "verseCount": 40
+            },
+            {
+              "chapter": 32,
+              "verseCount": 22
+            },
+            {
+              "chapter": 33,
+              "verseCount": 33
+            },
+            {
+              "chapter": 34,
+              "verseCount": 37
+            },
+            {
+              "chapter": 35,
+              "verseCount": 16
+            },
+            {
+              "chapter": 36,
+              "verseCount": 33
+            },
+            {
+              "chapter": 37,
+              "verseCount": 24
+            },
+            {
+              "chapter": 38,
+              "verseCount": 41
+            },
+            {
+              "chapter": 39,
+              "verseCount": 30
+            },
+            {
+              "chapter": 40,
+              "verseCount": 24
+            },
+            {
+              "chapter": 41,
+              "verseCount": 34
+            },
+            {
+              "chapter": 42,
+              "verseCount": 17
+            }
+          ],
+          "path": "data/bibles/books/asv/Job.json"
+        },
+        {
+          "book": "Ps",
+          "bookId": 19,
+          "englishName": "Psalms",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 6
+            },
+            {
+              "chapter": 2,
+              "verseCount": 12
+            },
+            {
+              "chapter": 3,
+              "verseCount": 8
+            },
+            {
+              "chapter": 4,
+              "verseCount": 8
+            },
+            {
+              "chapter": 5,
+              "verseCount": 12
+            },
+            {
+              "chapter": 6,
+              "verseCount": 10
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 9
+            },
+            {
+              "chapter": 9,
+              "verseCount": 20
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 7
+            },
+            {
+              "chapter": 12,
+              "verseCount": 8
+            },
+            {
+              "chapter": 13,
+              "verseCount": 6
+            },
+            {
+              "chapter": 14,
+              "verseCount": 7
+            },
+            {
+              "chapter": 15,
+              "verseCount": 5
+            },
+            {
+              "chapter": 16,
+              "verseCount": 11
+            },
+            {
+              "chapter": 17,
+              "verseCount": 15
+            },
+            {
+              "chapter": 18,
+              "verseCount": 50
+            },
+            {
+              "chapter": 19,
+              "verseCount": 14
+            },
+            {
+              "chapter": 20,
+              "verseCount": 9
+            },
+            {
+              "chapter": 21,
+              "verseCount": 13
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 6
+            },
+            {
+              "chapter": 24,
+              "verseCount": 10
+            },
+            {
+              "chapter": 25,
+              "verseCount": 22
+            },
+            {
+              "chapter": 26,
+              "verseCount": 12
+            },
+            {
+              "chapter": 27,
+              "verseCount": 14
+            },
+            {
+              "chapter": 28,
+              "verseCount": 9
+            },
+            {
+              "chapter": 29,
+              "verseCount": 11
+            },
+            {
+              "chapter": 30,
+              "verseCount": 12
+            },
+            {
+              "chapter": 31,
+              "verseCount": 24
+            },
+            {
+              "chapter": 32,
+              "verseCount": 11
+            },
+            {
+              "chapter": 33,
+              "verseCount": 22
+            },
+            {
+              "chapter": 34,
+              "verseCount": 22
+            },
+            {
+              "chapter": 35,
+              "verseCount": 28
+            },
+            {
+              "chapter": 36,
+              "verseCount": 12
+            },
+            {
+              "chapter": 37,
+              "verseCount": 40
+            },
+            {
+              "chapter": 38,
+              "verseCount": 22
+            },
+            {
+              "chapter": 39,
+              "verseCount": 13
+            },
+            {
+              "chapter": 40,
+              "verseCount": 17
+            },
+            {
+              "chapter": 41,
+              "verseCount": 13
+            },
+            {
+              "chapter": 42,
+              "verseCount": 11
+            },
+            {
+              "chapter": 43,
+              "verseCount": 5
+            },
+            {
+              "chapter": 44,
+              "verseCount": 26
+            },
+            {
+              "chapter": 45,
+              "verseCount": 17
+            },
+            {
+              "chapter": 46,
+              "verseCount": 11
+            },
+            {
+              "chapter": 47,
+              "verseCount": 9
+            },
+            {
+              "chapter": 48,
+              "verseCount": 14
+            },
+            {
+              "chapter": 49,
+              "verseCount": 20
+            },
+            {
+              "chapter": 50,
+              "verseCount": 23
+            },
+            {
+              "chapter": 51,
+              "verseCount": 19
+            },
+            {
+              "chapter": 52,
+              "verseCount": 9
+            },
+            {
+              "chapter": 53,
+              "verseCount": 6
+            },
+            {
+              "chapter": 54,
+              "verseCount": 7
+            },
+            {
+              "chapter": 55,
+              "verseCount": 23
+            },
+            {
+              "chapter": 56,
+              "verseCount": 13
+            },
+            {
+              "chapter": 57,
+              "verseCount": 11
+            },
+            {
+              "chapter": 58,
+              "verseCount": 11
+            },
+            {
+              "chapter": 59,
+              "verseCount": 17
+            },
+            {
+              "chapter": 60,
+              "verseCount": 12
+            },
+            {
+              "chapter": 61,
+              "verseCount": 8
+            },
+            {
+              "chapter": 62,
+              "verseCount": 12
+            },
+            {
+              "chapter": 63,
+              "verseCount": 11
+            },
+            {
+              "chapter": 64,
+              "verseCount": 10
+            },
+            {
+              "chapter": 65,
+              "verseCount": 13
+            },
+            {
+              "chapter": 66,
+              "verseCount": 20
+            },
+            {
+              "chapter": 67,
+              "verseCount": 7
+            },
+            {
+              "chapter": 68,
+              "verseCount": 35
+            },
+            {
+              "chapter": 69,
+              "verseCount": 36
+            },
+            {
+              "chapter": 70,
+              "verseCount": 5
+            },
+            {
+              "chapter": 71,
+              "verseCount": 24
+            },
+            {
+              "chapter": 72,
+              "verseCount": 20
+            },
+            {
+              "chapter": 73,
+              "verseCount": 28
+            },
+            {
+              "chapter": 74,
+              "verseCount": 23
+            },
+            {
+              "chapter": 75,
+              "verseCount": 10
+            },
+            {
+              "chapter": 76,
+              "verseCount": 12
+            },
+            {
+              "chapter": 77,
+              "verseCount": 20
+            },
+            {
+              "chapter": 78,
+              "verseCount": 72
+            },
+            {
+              "chapter": 79,
+              "verseCount": 13
+            },
+            {
+              "chapter": 80,
+              "verseCount": 19
+            },
+            {
+              "chapter": 81,
+              "verseCount": 16
+            },
+            {
+              "chapter": 82,
+              "verseCount": 8
+            },
+            {
+              "chapter": 83,
+              "verseCount": 18
+            },
+            {
+              "chapter": 84,
+              "verseCount": 12
+            },
+            {
+              "chapter": 85,
+              "verseCount": 13
+            },
+            {
+              "chapter": 86,
+              "verseCount": 17
+            },
+            {
+              "chapter": 87,
+              "verseCount": 7
+            },
+            {
+              "chapter": 88,
+              "verseCount": 18
+            },
+            {
+              "chapter": 89,
+              "verseCount": 52
+            },
+            {
+              "chapter": 90,
+              "verseCount": 17
+            },
+            {
+              "chapter": 91,
+              "verseCount": 16
+            },
+            {
+              "chapter": 92,
+              "verseCount": 15
+            },
+            {
+              "chapter": 93,
+              "verseCount": 5
+            },
+            {
+              "chapter": 94,
+              "verseCount": 23
+            },
+            {
+              "chapter": 95,
+              "verseCount": 11
+            },
+            {
+              "chapter": 96,
+              "verseCount": 13
+            },
+            {
+              "chapter": 97,
+              "verseCount": 12
+            },
+            {
+              "chapter": 98,
+              "verseCount": 9
+            },
+            {
+              "chapter": 99,
+              "verseCount": 9
+            },
+            {
+              "chapter": 100,
+              "verseCount": 5
+            },
+            {
+              "chapter": 101,
+              "verseCount": 8
+            },
+            {
+              "chapter": 102,
+              "verseCount": 28
+            },
+            {
+              "chapter": 103,
+              "verseCount": 22
+            },
+            {
+              "chapter": 104,
+              "verseCount": 35
+            },
+            {
+              "chapter": 105,
+              "verseCount": 45
+            },
+            {
+              "chapter": 106,
+              "verseCount": 48
+            },
+            {
+              "chapter": 107,
+              "verseCount": 43
+            },
+            {
+              "chapter": 108,
+              "verseCount": 13
+            },
+            {
+              "chapter": 109,
+              "verseCount": 31
+            },
+            {
+              "chapter": 110,
+              "verseCount": 7
+            },
+            {
+              "chapter": 111,
+              "verseCount": 10
+            },
+            {
+              "chapter": 112,
+              "verseCount": 10
+            },
+            {
+              "chapter": 113,
+              "verseCount": 9
+            },
+            {
+              "chapter": 114,
+              "verseCount": 8
+            },
+            {
+              "chapter": 115,
+              "verseCount": 18
+            },
+            {
+              "chapter": 116,
+              "verseCount": 19
+            },
+            {
+              "chapter": 117,
+              "verseCount": 2
+            },
+            {
+              "chapter": 118,
+              "verseCount": 29
+            },
+            {
+              "chapter": 119,
+              "verseCount": 176
+            },
+            {
+              "chapter": 120,
+              "verseCount": 7
+            },
+            {
+              "chapter": 121,
+              "verseCount": 8
+            },
+            {
+              "chapter": 122,
+              "verseCount": 9
+            },
+            {
+              "chapter": 123,
+              "verseCount": 4
+            },
+            {
+              "chapter": 124,
+              "verseCount": 8
+            },
+            {
+              "chapter": 125,
+              "verseCount": 5
+            },
+            {
+              "chapter": 126,
+              "verseCount": 6
+            },
+            {
+              "chapter": 127,
+              "verseCount": 5
+            },
+            {
+              "chapter": 128,
+              "verseCount": 6
+            },
+            {
+              "chapter": 129,
+              "verseCount": 8
+            },
+            {
+              "chapter": 130,
+              "verseCount": 8
+            },
+            {
+              "chapter": 131,
+              "verseCount": 3
+            },
+            {
+              "chapter": 132,
+              "verseCount": 18
+            },
+            {
+              "chapter": 133,
+              "verseCount": 3
+            },
+            {
+              "chapter": 134,
+              "verseCount": 3
+            },
+            {
+              "chapter": 135,
+              "verseCount": 21
+            },
+            {
+              "chapter": 136,
+              "verseCount": 26
+            },
+            {
+              "chapter": 137,
+              "verseCount": 9
+            },
+            {
+              "chapter": 138,
+              "verseCount": 8
+            },
+            {
+              "chapter": 139,
+              "verseCount": 24
+            },
+            {
+              "chapter": 140,
+              "verseCount": 13
+            },
+            {
+              "chapter": 141,
+              "verseCount": 10
+            },
+            {
+              "chapter": 142,
+              "verseCount": 7
+            },
+            {
+              "chapter": 143,
+              "verseCount": 12
+            },
+            {
+              "chapter": 144,
+              "verseCount": 15
+            },
+            {
+              "chapter": 145,
+              "verseCount": 21
+            },
+            {
+              "chapter": 146,
+              "verseCount": 10
+            },
+            {
+              "chapter": 147,
+              "verseCount": 20
+            },
+            {
+              "chapter": 148,
+              "verseCount": 14
+            },
+            {
+              "chapter": 149,
+              "verseCount": 9
+            },
+            {
+              "chapter": 150,
+              "verseCount": 6
+            }
+          ],
+          "path": "data/bibles/books/asv/Ps.json"
+        },
+        {
+          "book": "Prov",
+          "bookId": 20,
+          "englishName": "Proverbs",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 33
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 35
+            },
+            {
+              "chapter": 4,
+              "verseCount": 27
+            },
+            {
+              "chapter": 5,
+              "verseCount": 23
+            },
+            {
+              "chapter": 6,
+              "verseCount": 35
+            },
+            {
+              "chapter": 7,
+              "verseCount": 27
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 18
+            },
+            {
+              "chapter": 10,
+              "verseCount": 32
+            },
+            {
+              "chapter": 11,
+              "verseCount": 31
+            },
+            {
+              "chapter": 12,
+              "verseCount": 28
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 35
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 33
+            },
+            {
+              "chapter": 17,
+              "verseCount": 28
+            },
+            {
+              "chapter": 18,
+              "verseCount": 24
+            },
+            {
+              "chapter": 19,
+              "verseCount": 29
+            },
+            {
+              "chapter": 20,
+              "verseCount": 30
+            },
+            {
+              "chapter": 21,
+              "verseCount": 31
+            },
+            {
+              "chapter": 22,
+              "verseCount": 29
+            },
+            {
+              "chapter": 23,
+              "verseCount": 35
+            },
+            {
+              "chapter": 24,
+              "verseCount": 34
+            },
+            {
+              "chapter": 25,
+              "verseCount": 28
+            },
+            {
+              "chapter": 26,
+              "verseCount": 28
+            },
+            {
+              "chapter": 27,
+              "verseCount": 27
+            },
+            {
+              "chapter": 28,
+              "verseCount": 28
+            },
+            {
+              "chapter": 29,
+              "verseCount": 27
+            },
+            {
+              "chapter": 30,
+              "verseCount": 33
+            },
+            {
+              "chapter": 31,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/asv/Prov.json"
+        },
+        {
+          "book": "Eccl",
+          "bookId": 21,
+          "englishName": "Ecclesiastes",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 20
+            },
+            {
+              "chapter": 6,
+              "verseCount": 12
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 17
+            },
+            {
+              "chapter": 9,
+              "verseCount": 18
+            },
+            {
+              "chapter": 10,
+              "verseCount": 20
+            },
+            {
+              "chapter": 11,
+              "verseCount": 10
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/asv/Eccl.json"
+        },
+        {
+          "book": "Song",
+          "bookId": 22,
+          "englishName": "Song of Solomon",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 11
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 16
+            },
+            {
+              "chapter": 6,
+              "verseCount": 13
+            },
+            {
+              "chapter": 7,
+              "verseCount": 13
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/asv/Song.json"
+        },
+        {
+          "book": "Isa",
+          "bookId": 23,
+          "englishName": "Isaiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 6
+            },
+            {
+              "chapter": 5,
+              "verseCount": 30
+            },
+            {
+              "chapter": 6,
+              "verseCount": 13
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 21
+            },
+            {
+              "chapter": 10,
+              "verseCount": 34
+            },
+            {
+              "chapter": 11,
+              "verseCount": 16
+            },
+            {
+              "chapter": 12,
+              "verseCount": 6
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 32
+            },
+            {
+              "chapter": 15,
+              "verseCount": 9
+            },
+            {
+              "chapter": 16,
+              "verseCount": 14
+            },
+            {
+              "chapter": 17,
+              "verseCount": 14
+            },
+            {
+              "chapter": 18,
+              "verseCount": 7
+            },
+            {
+              "chapter": 19,
+              "verseCount": 25
+            },
+            {
+              "chapter": 20,
+              "verseCount": 6
+            },
+            {
+              "chapter": 21,
+              "verseCount": 17
+            },
+            {
+              "chapter": 22,
+              "verseCount": 25
+            },
+            {
+              "chapter": 23,
+              "verseCount": 18
+            },
+            {
+              "chapter": 24,
+              "verseCount": 23
+            },
+            {
+              "chapter": 25,
+              "verseCount": 12
+            },
+            {
+              "chapter": 26,
+              "verseCount": 21
+            },
+            {
+              "chapter": 27,
+              "verseCount": 13
+            },
+            {
+              "chapter": 28,
+              "verseCount": 29
+            },
+            {
+              "chapter": 29,
+              "verseCount": 24
+            },
+            {
+              "chapter": 30,
+              "verseCount": 33
+            },
+            {
+              "chapter": 31,
+              "verseCount": 9
+            },
+            {
+              "chapter": 32,
+              "verseCount": 20
+            },
+            {
+              "chapter": 33,
+              "verseCount": 24
+            },
+            {
+              "chapter": 34,
+              "verseCount": 17
+            },
+            {
+              "chapter": 35,
+              "verseCount": 10
+            },
+            {
+              "chapter": 36,
+              "verseCount": 22
+            },
+            {
+              "chapter": 37,
+              "verseCount": 38
+            },
+            {
+              "chapter": 38,
+              "verseCount": 22
+            },
+            {
+              "chapter": 39,
+              "verseCount": 8
+            },
+            {
+              "chapter": 40,
+              "verseCount": 31
+            },
+            {
+              "chapter": 41,
+              "verseCount": 29
+            },
+            {
+              "chapter": 42,
+              "verseCount": 25
+            },
+            {
+              "chapter": 43,
+              "verseCount": 28
+            },
+            {
+              "chapter": 44,
+              "verseCount": 28
+            },
+            {
+              "chapter": 45,
+              "verseCount": 25
+            },
+            {
+              "chapter": 46,
+              "verseCount": 13
+            },
+            {
+              "chapter": 47,
+              "verseCount": 15
+            },
+            {
+              "chapter": 48,
+              "verseCount": 22
+            },
+            {
+              "chapter": 49,
+              "verseCount": 26
+            },
+            {
+              "chapter": 50,
+              "verseCount": 11
+            },
+            {
+              "chapter": 51,
+              "verseCount": 23
+            },
+            {
+              "chapter": 52,
+              "verseCount": 15
+            },
+            {
+              "chapter": 53,
+              "verseCount": 12
+            },
+            {
+              "chapter": 54,
+              "verseCount": 17
+            },
+            {
+              "chapter": 55,
+              "verseCount": 13
+            },
+            {
+              "chapter": 56,
+              "verseCount": 12
+            },
+            {
+              "chapter": 57,
+              "verseCount": 21
+            },
+            {
+              "chapter": 58,
+              "verseCount": 14
+            },
+            {
+              "chapter": 59,
+              "verseCount": 21
+            },
+            {
+              "chapter": 60,
+              "verseCount": 22
+            },
+            {
+              "chapter": 61,
+              "verseCount": 11
+            },
+            {
+              "chapter": 62,
+              "verseCount": 12
+            },
+            {
+              "chapter": 63,
+              "verseCount": 19
+            },
+            {
+              "chapter": 64,
+              "verseCount": 12
+            },
+            {
+              "chapter": 65,
+              "verseCount": 25
+            },
+            {
+              "chapter": 66,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/asv/Isa.json"
+        },
+        {
+          "book": "Jer",
+          "bookId": 24,
+          "englishName": "Jeremiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 19
+            },
+            {
+              "chapter": 2,
+              "verseCount": 37
+            },
+            {
+              "chapter": 3,
+              "verseCount": 25
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 34
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 26
+            },
+            {
+              "chapter": 10,
+              "verseCount": 25
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 17
+            },
+            {
+              "chapter": 13,
+              "verseCount": 27
+            },
+            {
+              "chapter": 14,
+              "verseCount": 22
+            },
+            {
+              "chapter": 15,
+              "verseCount": 21
+            },
+            {
+              "chapter": 16,
+              "verseCount": 21
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 23
+            },
+            {
+              "chapter": 19,
+              "verseCount": 15
+            },
+            {
+              "chapter": 20,
+              "verseCount": 18
+            },
+            {
+              "chapter": 21,
+              "verseCount": 14
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 40
+            },
+            {
+              "chapter": 24,
+              "verseCount": 10
+            },
+            {
+              "chapter": 25,
+              "verseCount": 38
+            },
+            {
+              "chapter": 26,
+              "verseCount": 24
+            },
+            {
+              "chapter": 27,
+              "verseCount": 22
+            },
+            {
+              "chapter": 28,
+              "verseCount": 17
+            },
+            {
+              "chapter": 29,
+              "verseCount": 32
+            },
+            {
+              "chapter": 30,
+              "verseCount": 24
+            },
+            {
+              "chapter": 31,
+              "verseCount": 40
+            },
+            {
+              "chapter": 32,
+              "verseCount": 44
+            },
+            {
+              "chapter": 33,
+              "verseCount": 26
+            },
+            {
+              "chapter": 34,
+              "verseCount": 22
+            },
+            {
+              "chapter": 35,
+              "verseCount": 19
+            },
+            {
+              "chapter": 36,
+              "verseCount": 32
+            },
+            {
+              "chapter": 37,
+              "verseCount": 21
+            },
+            {
+              "chapter": 38,
+              "verseCount": 28
+            },
+            {
+              "chapter": 39,
+              "verseCount": 18
+            },
+            {
+              "chapter": 40,
+              "verseCount": 16
+            },
+            {
+              "chapter": 41,
+              "verseCount": 18
+            },
+            {
+              "chapter": 42,
+              "verseCount": 22
+            },
+            {
+              "chapter": 43,
+              "verseCount": 13
+            },
+            {
+              "chapter": 44,
+              "verseCount": 30
+            },
+            {
+              "chapter": 45,
+              "verseCount": 5
+            },
+            {
+              "chapter": 46,
+              "verseCount": 28
+            },
+            {
+              "chapter": 47,
+              "verseCount": 7
+            },
+            {
+              "chapter": 48,
+              "verseCount": 47
+            },
+            {
+              "chapter": 49,
+              "verseCount": 39
+            },
+            {
+              "chapter": 50,
+              "verseCount": 46
+            },
+            {
+              "chapter": 51,
+              "verseCount": 64
+            },
+            {
+              "chapter": 52,
+              "verseCount": 34
+            }
+          ],
+          "path": "data/bibles/books/asv/Jer.json"
+        },
+        {
+          "book": "Lam",
+          "bookId": 25,
+          "englishName": "Lamentations",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 66
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/asv/Lam.json"
+        },
+        {
+          "book": "Ezek",
+          "bookId": 26,
+          "englishName": "Ezekiel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 28
+            },
+            {
+              "chapter": 2,
+              "verseCount": 10
+            },
+            {
+              "chapter": 3,
+              "verseCount": 27
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 17
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 27
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 11
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 25
+            },
+            {
+              "chapter": 12,
+              "verseCount": 28
+            },
+            {
+              "chapter": 13,
+              "verseCount": 23
+            },
+            {
+              "chapter": 14,
+              "verseCount": 23
+            },
+            {
+              "chapter": 15,
+              "verseCount": 8
+            },
+            {
+              "chapter": 16,
+              "verseCount": 63
+            },
+            {
+              "chapter": 17,
+              "verseCount": 24
+            },
+            {
+              "chapter": 18,
+              "verseCount": 32
+            },
+            {
+              "chapter": 19,
+              "verseCount": 14
+            },
+            {
+              "chapter": 20,
+              "verseCount": 49
+            },
+            {
+              "chapter": 21,
+              "verseCount": 32
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 49
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 17
+            },
+            {
+              "chapter": 26,
+              "verseCount": 21
+            },
+            {
+              "chapter": 27,
+              "verseCount": 36
+            },
+            {
+              "chapter": 28,
+              "verseCount": 26
+            },
+            {
+              "chapter": 29,
+              "verseCount": 21
+            },
+            {
+              "chapter": 30,
+              "verseCount": 26
+            },
+            {
+              "chapter": 31,
+              "verseCount": 18
+            },
+            {
+              "chapter": 32,
+              "verseCount": 32
+            },
+            {
+              "chapter": 33,
+              "verseCount": 33
+            },
+            {
+              "chapter": 34,
+              "verseCount": 31
+            },
+            {
+              "chapter": 35,
+              "verseCount": 15
+            },
+            {
+              "chapter": 36,
+              "verseCount": 38
+            },
+            {
+              "chapter": 37,
+              "verseCount": 28
+            },
+            {
+              "chapter": 38,
+              "verseCount": 23
+            },
+            {
+              "chapter": 39,
+              "verseCount": 29
+            },
+            {
+              "chapter": 40,
+              "verseCount": 49
+            },
+            {
+              "chapter": 41,
+              "verseCount": 26
+            },
+            {
+              "chapter": 42,
+              "verseCount": 20
+            },
+            {
+              "chapter": 43,
+              "verseCount": 27
+            },
+            {
+              "chapter": 44,
+              "verseCount": 31
+            },
+            {
+              "chapter": 45,
+              "verseCount": 25
+            },
+            {
+              "chapter": 46,
+              "verseCount": 24
+            },
+            {
+              "chapter": 47,
+              "verseCount": 23
+            },
+            {
+              "chapter": 48,
+              "verseCount": 35
+            }
+          ],
+          "path": "data/bibles/books/asv/Ezek.json"
+        },
+        {
+          "book": "Dan",
+          "bookId": 27,
+          "englishName": "Daniel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 49
+            },
+            {
+              "chapter": 3,
+              "verseCount": 30
+            },
+            {
+              "chapter": 4,
+              "verseCount": 37
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 28
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 27
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 21
+            },
+            {
+              "chapter": 11,
+              "verseCount": 45
+            },
+            {
+              "chapter": 12,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/asv/Dan.json"
+        },
+        {
+          "book": "Hos",
+          "bookId": 28,
+          "englishName": "Hosea",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 5
+            },
+            {
+              "chapter": 4,
+              "verseCount": 19
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 11
+            },
+            {
+              "chapter": 7,
+              "verseCount": 16
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            },
+            {
+              "chapter": 9,
+              "verseCount": 17
+            },
+            {
+              "chapter": 10,
+              "verseCount": 15
+            },
+            {
+              "chapter": 11,
+              "verseCount": 12
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            },
+            {
+              "chapter": 13,
+              "verseCount": 16
+            },
+            {
+              "chapter": 14,
+              "verseCount": 9
+            }
+          ],
+          "path": "data/bibles/books/asv/Hos.json"
+        },
+        {
+          "book": "Joel",
+          "bookId": 29,
+          "englishName": "Joel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 32
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/asv/Joel.json"
+        },
+        {
+          "book": "Amos",
+          "bookId": 30,
+          "englishName": "Amos",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            },
+            {
+              "chapter": 4,
+              "verseCount": 13
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            }
+          ],
+          "path": "data/bibles/books/asv/Amos.json"
+        },
+        {
+          "book": "Obad",
+          "bookId": 31,
+          "englishName": "Obadiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/asv/Obad.json"
+        },
+        {
+          "book": "Jonah",
+          "bookId": 32,
+          "englishName": "Jonah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 10
+            },
+            {
+              "chapter": 3,
+              "verseCount": 10
+            },
+            {
+              "chapter": 4,
+              "verseCount": 11
+            }
+          ],
+          "path": "data/bibles/books/asv/Jonah.json"
+        },
+        {
+          "book": "Mic",
+          "bookId": 33,
+          "englishName": "Micah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 16
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 12
+            },
+            {
+              "chapter": 4,
+              "verseCount": 13
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 16
+            },
+            {
+              "chapter": 7,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/asv/Mic.json"
+        },
+        {
+          "book": "Nah",
+          "bookId": 34,
+          "englishName": "Nahum",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            }
+          ],
+          "path": "data/bibles/books/asv/Nah.json"
+        },
+        {
+          "book": "Hab",
+          "bookId": 35,
+          "englishName": "Habakkuk",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            }
+          ],
+          "path": "data/bibles/books/asv/Hab.json"
+        },
+        {
+          "book": "Zeph",
+          "bookId": 36,
+          "englishName": "Zephaniah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/asv/Zeph.json"
+        },
+        {
+          "book": "Hag",
+          "bookId": 37,
+          "englishName": "Haggai",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/asv/Hag.json"
+        },
+        {
+          "book": "Zech",
+          "bookId": 38,
+          "englishName": "Zechariah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 10
+            },
+            {
+              "chapter": 4,
+              "verseCount": 14
+            },
+            {
+              "chapter": 5,
+              "verseCount": 11
+            },
+            {
+              "chapter": 6,
+              "verseCount": 15
+            },
+            {
+              "chapter": 7,
+              "verseCount": 14
+            },
+            {
+              "chapter": 8,
+              "verseCount": 23
+            },
+            {
+              "chapter": 9,
+              "verseCount": 17
+            },
+            {
+              "chapter": 10,
+              "verseCount": 12
+            },
+            {
+              "chapter": 11,
+              "verseCount": 17
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            },
+            {
+              "chapter": 13,
+              "verseCount": 9
+            },
+            {
+              "chapter": 14,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/asv/Zech.json"
+        },
+        {
+          "book": "Mal",
+          "bookId": 39,
+          "englishName": "Malachi",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 6
+            }
+          ],
+          "path": "data/bibles/books/asv/Mal.json"
+        },
+        {
+          "book": "Matt",
+          "bookId": 40,
+          "englishName": "Matthew",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 25
+            },
+            {
+              "chapter": 5,
+              "verseCount": 48
+            },
+            {
+              "chapter": 6,
+              "verseCount": 34
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 34
+            },
+            {
+              "chapter": 9,
+              "verseCount": 38
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 30
+            },
+            {
+              "chapter": 12,
+              "verseCount": 50
+            },
+            {
+              "chapter": 13,
+              "verseCount": 58
+            },
+            {
+              "chapter": 14,
+              "verseCount": 36
+            },
+            {
+              "chapter": 15,
+              "verseCount": 39
+            },
+            {
+              "chapter": 16,
+              "verseCount": 28
+            },
+            {
+              "chapter": 17,
+              "verseCount": 26
+            },
+            {
+              "chapter": 18,
+              "verseCount": 34
+            },
+            {
+              "chapter": 19,
+              "verseCount": 30
+            },
+            {
+              "chapter": 20,
+              "verseCount": 34
+            },
+            {
+              "chapter": 21,
+              "verseCount": 46
+            },
+            {
+              "chapter": 22,
+              "verseCount": 46
+            },
+            {
+              "chapter": 23,
+              "verseCount": 38
+            },
+            {
+              "chapter": 24,
+              "verseCount": 51
+            },
+            {
+              "chapter": 25,
+              "verseCount": 46
+            },
+            {
+              "chapter": 26,
+              "verseCount": 75
+            },
+            {
+              "chapter": 27,
+              "verseCount": 66
+            },
+            {
+              "chapter": 28,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/asv/Matt.json"
+        },
+        {
+          "book": "Mark",
+          "bookId": 41,
+          "englishName": "Mark",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 45
+            },
+            {
+              "chapter": 2,
+              "verseCount": 28
+            },
+            {
+              "chapter": 3,
+              "verseCount": 35
+            },
+            {
+              "chapter": 4,
+              "verseCount": 41
+            },
+            {
+              "chapter": 5,
+              "verseCount": 43
+            },
+            {
+              "chapter": 6,
+              "verseCount": 56
+            },
+            {
+              "chapter": 7,
+              "verseCount": 36
+            },
+            {
+              "chapter": 8,
+              "verseCount": 38
+            },
+            {
+              "chapter": 9,
+              "verseCount": 48
+            },
+            {
+              "chapter": 10,
+              "verseCount": 52
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 44
+            },
+            {
+              "chapter": 13,
+              "verseCount": 37
+            },
+            {
+              "chapter": 14,
+              "verseCount": 72
+            },
+            {
+              "chapter": 15,
+              "verseCount": 46
+            },
+            {
+              "chapter": 16,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/asv/Mark.json"
+        },
+        {
+          "book": "Luke",
+          "bookId": 42,
+          "englishName": "Luke",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 80
+            },
+            {
+              "chapter": 2,
+              "verseCount": 52
+            },
+            {
+              "chapter": 3,
+              "verseCount": 38
+            },
+            {
+              "chapter": 4,
+              "verseCount": 44
+            },
+            {
+              "chapter": 5,
+              "verseCount": 39
+            },
+            {
+              "chapter": 6,
+              "verseCount": 49
+            },
+            {
+              "chapter": 7,
+              "verseCount": 50
+            },
+            {
+              "chapter": 8,
+              "verseCount": 56
+            },
+            {
+              "chapter": 9,
+              "verseCount": 62
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 54
+            },
+            {
+              "chapter": 12,
+              "verseCount": 59
+            },
+            {
+              "chapter": 13,
+              "verseCount": 35
+            },
+            {
+              "chapter": 14,
+              "verseCount": 35
+            },
+            {
+              "chapter": 15,
+              "verseCount": 32
+            },
+            {
+              "chapter": 16,
+              "verseCount": 31
+            },
+            {
+              "chapter": 17,
+              "verseCount": 36
+            },
+            {
+              "chapter": 18,
+              "verseCount": 43
+            },
+            {
+              "chapter": 19,
+              "verseCount": 48
+            },
+            {
+              "chapter": 20,
+              "verseCount": 47
+            },
+            {
+              "chapter": 21,
+              "verseCount": 38
+            },
+            {
+              "chapter": 22,
+              "verseCount": 71
+            },
+            {
+              "chapter": 23,
+              "verseCount": 55
+            },
+            {
+              "chapter": 24,
+              "verseCount": 53
+            }
+          ],
+          "path": "data/bibles/books/asv/Luke.json"
+        },
+        {
+          "book": "John",
+          "bookId": 43,
+          "englishName": "John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 51
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 36
+            },
+            {
+              "chapter": 4,
+              "verseCount": 54
+            },
+            {
+              "chapter": 5,
+              "verseCount": 46
+            },
+            {
+              "chapter": 6,
+              "verseCount": 71
+            },
+            {
+              "chapter": 7,
+              "verseCount": 53
+            },
+            {
+              "chapter": 8,
+              "verseCount": 59
+            },
+            {
+              "chapter": 9,
+              "verseCount": 41
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 57
+            },
+            {
+              "chapter": 12,
+              "verseCount": 50
+            },
+            {
+              "chapter": 13,
+              "verseCount": 38
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 27
+            },
+            {
+              "chapter": 16,
+              "verseCount": 33
+            },
+            {
+              "chapter": 17,
+              "verseCount": 26
+            },
+            {
+              "chapter": 18,
+              "verseCount": 40
+            },
+            {
+              "chapter": 19,
+              "verseCount": 42
+            },
+            {
+              "chapter": 20,
+              "verseCount": 31
+            },
+            {
+              "chapter": 21,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/asv/John.json"
+        },
+        {
+          "book": "Acts",
+          "bookId": 44,
+          "englishName": "Acts",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 26
+            },
+            {
+              "chapter": 2,
+              "verseCount": 47
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 37
+            },
+            {
+              "chapter": 5,
+              "verseCount": 42
+            },
+            {
+              "chapter": 6,
+              "verseCount": 15
+            },
+            {
+              "chapter": 7,
+              "verseCount": 60
+            },
+            {
+              "chapter": 8,
+              "verseCount": 39
+            },
+            {
+              "chapter": 9,
+              "verseCount": 43
+            },
+            {
+              "chapter": 10,
+              "verseCount": 48
+            },
+            {
+              "chapter": 11,
+              "verseCount": 30
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 52
+            },
+            {
+              "chapter": 14,
+              "verseCount": 28
+            },
+            {
+              "chapter": 15,
+              "verseCount": 40
+            },
+            {
+              "chapter": 16,
+              "verseCount": 40
+            },
+            {
+              "chapter": 17,
+              "verseCount": 34
+            },
+            {
+              "chapter": 18,
+              "verseCount": 28
+            },
+            {
+              "chapter": 19,
+              "verseCount": 41
+            },
+            {
+              "chapter": 20,
+              "verseCount": 38
+            },
+            {
+              "chapter": 21,
+              "verseCount": 40
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 35
+            },
+            {
+              "chapter": 24,
+              "verseCount": 26
+            },
+            {
+              "chapter": 25,
+              "verseCount": 27
+            },
+            {
+              "chapter": 26,
+              "verseCount": 32
+            },
+            {
+              "chapter": 27,
+              "verseCount": 44
+            },
+            {
+              "chapter": 28,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/asv/Acts.json"
+        },
+        {
+          "book": "Rom",
+          "bookId": 45,
+          "englishName": "Romans",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 32
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 31
+            },
+            {
+              "chapter": 4,
+              "verseCount": 25
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            },
+            {
+              "chapter": 6,
+              "verseCount": 23
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 39
+            },
+            {
+              "chapter": 9,
+              "verseCount": 33
+            },
+            {
+              "chapter": 10,
+              "verseCount": 21
+            },
+            {
+              "chapter": 11,
+              "verseCount": 36
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            },
+            {
+              "chapter": 14,
+              "verseCount": 23
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 26
+            }
+          ],
+          "path": "data/bibles/books/asv/Rom.json"
+        },
+        {
+          "book": "1Cor",
+          "bookId": 46,
+          "englishName": "1 Corinthians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 23
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 13
+            },
+            {
+              "chapter": 6,
+              "verseCount": 20
+            },
+            {
+              "chapter": 7,
+              "verseCount": 40
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 33
+            },
+            {
+              "chapter": 11,
+              "verseCount": 34
+            },
+            {
+              "chapter": 12,
+              "verseCount": 31
+            },
+            {
+              "chapter": 13,
+              "verseCount": 13
+            },
+            {
+              "chapter": 14,
+              "verseCount": 40
+            },
+            {
+              "chapter": 15,
+              "verseCount": 58
+            },
+            {
+              "chapter": 16,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/asv/1Cor.json"
+        },
+        {
+          "book": "2Cor",
+          "bookId": 47,
+          "englishName": "2 Corinthians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 24
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            },
+            {
+              "chapter": 6,
+              "verseCount": 18
+            },
+            {
+              "chapter": 7,
+              "verseCount": 16
+            },
+            {
+              "chapter": 8,
+              "verseCount": 24
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 33
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/asv/2Cor.json"
+        },
+        {
+          "book": "Gal",
+          "bookId": 48,
+          "englishName": "Galatians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 24
+            },
+            {
+              "chapter": 2,
+              "verseCount": 21
+            },
+            {
+              "chapter": 3,
+              "verseCount": 29
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 26
+            },
+            {
+              "chapter": 6,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/asv/Gal.json"
+        },
+        {
+          "book": "Eph",
+          "bookId": 49,
+          "englishName": "Ephesians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 23
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 32
+            },
+            {
+              "chapter": 5,
+              "verseCount": 33
+            },
+            {
+              "chapter": 6,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/asv/Eph.json"
+        },
+        {
+          "book": "Phil",
+          "bookId": 50,
+          "englishName": "Philippians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 30
+            },
+            {
+              "chapter": 2,
+              "verseCount": 30
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/asv/Phil.json"
+        },
+        {
+          "book": "Col",
+          "bookId": 51,
+          "englishName": "Colossians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 29
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 25
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/asv/Col.json"
+        },
+        {
+          "book": "1Thess",
+          "bookId": 52,
+          "englishName": "1 Thessalonians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 10
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 13
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            },
+            {
+              "chapter": 5,
+              "verseCount": 28
+            }
+          ],
+          "path": "data/bibles/books/asv/1Thess.json"
+        },
+        {
+          "book": "2Thess",
+          "bookId": 53,
+          "englishName": "2 Thessalonians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 12
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/asv/2Thess.json"
+        },
+        {
+          "book": "1Tim",
+          "bookId": 54,
+          "englishName": "1 Timothy",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 16
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 25
+            },
+            {
+              "chapter": 6,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/asv/1Tim.json"
+        },
+        {
+          "book": "2Tim",
+          "bookId": 55,
+          "englishName": "2 Timothy",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/asv/2Tim.json"
+        },
+        {
+          "book": "Titus",
+          "bookId": 56,
+          "englishName": "Titus",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 16
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            }
+          ],
+          "path": "data/bibles/books/asv/Titus.json"
+        },
+        {
+          "book": "Phlm",
+          "bookId": 57,
+          "englishName": "Philemon",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/asv/Phlm.json"
+        },
+        {
+          "book": "Heb",
+          "bookId": 58,
+          "englishName": "Hebrews",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            },
+            {
+              "chapter": 2,
+              "verseCount": 18
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 20
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 28
+            },
+            {
+              "chapter": 10,
+              "verseCount": 39
+            },
+            {
+              "chapter": 11,
+              "verseCount": 40
+            },
+            {
+              "chapter": 12,
+              "verseCount": 29
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/asv/Heb.json"
+        },
+        {
+          "book": "Jas",
+          "bookId": 59,
+          "englishName": "James",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 27
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/asv/Jas.json"
+        },
+        {
+          "book": "1Pet",
+          "bookId": 60,
+          "englishName": "1 Peter",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 19
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/asv/1Pet.json"
+        },
+        {
+          "book": "2Pet",
+          "bookId": 61,
+          "englishName": "2 Peter",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/asv/2Pet.json"
+        },
+        {
+          "book": "1John",
+          "bookId": 62,
+          "englishName": "1 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 10
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/asv/1John.json"
+        },
+        {
+          "book": "2John",
+          "bookId": 63,
+          "englishName": "2 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/asv/2John.json"
+        },
+        {
+          "book": "3John",
+          "bookId": 64,
+          "englishName": "3 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/asv/3John.json"
+        },
+        {
+          "book": "Jude",
+          "bookId": 65,
+          "englishName": "Jude",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/asv/Jude.json"
+        },
+        {
+          "book": "Rev",
+          "bookId": 66,
+          "englishName": "Revelation",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 11
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 17
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 21
+            },
+            {
+              "chapter": 10,
+              "verseCount": 11
+            },
+            {
+              "chapter": 11,
+              "verseCount": 19
+            },
+            {
+              "chapter": 12,
+              "verseCount": 17
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 20
+            },
+            {
+              "chapter": 15,
+              "verseCount": 8
+            },
+            {
+              "chapter": 16,
+              "verseCount": 21
+            },
+            {
+              "chapter": 17,
+              "verseCount": 18
+            },
+            {
+              "chapter": 18,
+              "verseCount": 24
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 15
+            },
+            {
+              "chapter": 21,
+              "verseCount": 27
+            },
+            {
+              "chapter": 22,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/asv/Rev.json"
+        }
+      ]
+    },
+    "web": {
+      "slug": "web",
+      "name": "World English Bible",
+      "language": "en",
+      "license": "public-domain",
+      "year": 2000,
+      "books": [
+        {
+          "book": "Gen",
+          "bookId": 1,
+          "englishName": "Genesis",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 26
+            },
+            {
+              "chapter": 5,
+              "verseCount": 32
+            },
+            {
+              "chapter": 6,
+              "verseCount": 22
+            },
+            {
+              "chapter": 7,
+              "verseCount": 24
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 29
+            },
+            {
+              "chapter": 10,
+              "verseCount": 32
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 20
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 24
+            },
+            {
+              "chapter": 15,
+              "verseCount": 21
+            },
+            {
+              "chapter": 16,
+              "verseCount": 16
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 33
+            },
+            {
+              "chapter": 19,
+              "verseCount": 38
+            },
+            {
+              "chapter": 20,
+              "verseCount": 18
+            },
+            {
+              "chapter": 21,
+              "verseCount": 34
+            },
+            {
+              "chapter": 22,
+              "verseCount": 24
+            },
+            {
+              "chapter": 23,
+              "verseCount": 20
+            },
+            {
+              "chapter": 24,
+              "verseCount": 67
+            },
+            {
+              "chapter": 25,
+              "verseCount": 34
+            },
+            {
+              "chapter": 26,
+              "verseCount": 35
+            },
+            {
+              "chapter": 27,
+              "verseCount": 46
+            },
+            {
+              "chapter": 28,
+              "verseCount": 22
+            },
+            {
+              "chapter": 29,
+              "verseCount": 35
+            },
+            {
+              "chapter": 30,
+              "verseCount": 43
+            },
+            {
+              "chapter": 31,
+              "verseCount": 55
+            },
+            {
+              "chapter": 32,
+              "verseCount": 32
+            },
+            {
+              "chapter": 33,
+              "verseCount": 20
+            },
+            {
+              "chapter": 34,
+              "verseCount": 31
+            },
+            {
+              "chapter": 35,
+              "verseCount": 29
+            },
+            {
+              "chapter": 36,
+              "verseCount": 43
+            },
+            {
+              "chapter": 37,
+              "verseCount": 36
+            },
+            {
+              "chapter": 38,
+              "verseCount": 30
+            },
+            {
+              "chapter": 39,
+              "verseCount": 23
+            },
+            {
+              "chapter": 40,
+              "verseCount": 23
+            },
+            {
+              "chapter": 41,
+              "verseCount": 57
+            },
+            {
+              "chapter": 42,
+              "verseCount": 38
+            },
+            {
+              "chapter": 43,
+              "verseCount": 34
+            },
+            {
+              "chapter": 44,
+              "verseCount": 34
+            },
+            {
+              "chapter": 45,
+              "verseCount": 28
+            },
+            {
+              "chapter": 46,
+              "verseCount": 34
+            },
+            {
+              "chapter": 47,
+              "verseCount": 31
+            },
+            {
+              "chapter": 48,
+              "verseCount": 22
+            },
+            {
+              "chapter": 49,
+              "verseCount": 33
+            },
+            {
+              "chapter": 50,
+              "verseCount": 26
+            }
+          ],
+          "path": "data/bibles/books/web/Gen.json"
+        },
+        {
+          "book": "Exod",
+          "bookId": 2,
+          "englishName": "Exodus",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 23
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 32
+            },
+            {
+              "chapter": 9,
+              "verseCount": 35
+            },
+            {
+              "chapter": 10,
+              "verseCount": 29
+            },
+            {
+              "chapter": 11,
+              "verseCount": 10
+            },
+            {
+              "chapter": 12,
+              "verseCount": 51
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 27
+            },
+            {
+              "chapter": 16,
+              "verseCount": 36
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 27
+            },
+            {
+              "chapter": 19,
+              "verseCount": 25
+            },
+            {
+              "chapter": 20,
+              "verseCount": 26
+            },
+            {
+              "chapter": 21,
+              "verseCount": 36
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 33
+            },
+            {
+              "chapter": 24,
+              "verseCount": 18
+            },
+            {
+              "chapter": 25,
+              "verseCount": 40
+            },
+            {
+              "chapter": 26,
+              "verseCount": 37
+            },
+            {
+              "chapter": 27,
+              "verseCount": 21
+            },
+            {
+              "chapter": 28,
+              "verseCount": 43
+            },
+            {
+              "chapter": 29,
+              "verseCount": 46
+            },
+            {
+              "chapter": 30,
+              "verseCount": 38
+            },
+            {
+              "chapter": 31,
+              "verseCount": 18
+            },
+            {
+              "chapter": 32,
+              "verseCount": 35
+            },
+            {
+              "chapter": 33,
+              "verseCount": 23
+            },
+            {
+              "chapter": 34,
+              "verseCount": 35
+            },
+            {
+              "chapter": 35,
+              "verseCount": 35
+            },
+            {
+              "chapter": 36,
+              "verseCount": 38
+            },
+            {
+              "chapter": 37,
+              "verseCount": 29
+            },
+            {
+              "chapter": 38,
+              "verseCount": 31
+            },
+            {
+              "chapter": 39,
+              "verseCount": 43
+            },
+            {
+              "chapter": 40,
+              "verseCount": 38
+            }
+          ],
+          "path": "data/bibles/books/web/Exod.json"
+        },
+        {
+          "book": "Lev",
+          "bookId": 3,
+          "englishName": "Leviticus",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 35
+            },
+            {
+              "chapter": 5,
+              "verseCount": 19
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 38
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 24
+            },
+            {
+              "chapter": 10,
+              "verseCount": 20
+            },
+            {
+              "chapter": 11,
+              "verseCount": 47
+            },
+            {
+              "chapter": 12,
+              "verseCount": 8
+            },
+            {
+              "chapter": 13,
+              "verseCount": 59
+            },
+            {
+              "chapter": 14,
+              "verseCount": 57
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 34
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 30
+            },
+            {
+              "chapter": 19,
+              "verseCount": 37
+            },
+            {
+              "chapter": 20,
+              "verseCount": 27
+            },
+            {
+              "chapter": 21,
+              "verseCount": 24
+            },
+            {
+              "chapter": 22,
+              "verseCount": 33
+            },
+            {
+              "chapter": 23,
+              "verseCount": 44
+            },
+            {
+              "chapter": 24,
+              "verseCount": 23
+            },
+            {
+              "chapter": 25,
+              "verseCount": 55
+            },
+            {
+              "chapter": 26,
+              "verseCount": 46
+            },
+            {
+              "chapter": 27,
+              "verseCount": 34
+            }
+          ],
+          "path": "data/bibles/books/web/Lev.json"
+        },
+        {
+          "book": "Num",
+          "bookId": 4,
+          "englishName": "Numbers",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 54
+            },
+            {
+              "chapter": 2,
+              "verseCount": 34
+            },
+            {
+              "chapter": 3,
+              "verseCount": 51
+            },
+            {
+              "chapter": 4,
+              "verseCount": 49
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 27
+            },
+            {
+              "chapter": 7,
+              "verseCount": 89
+            },
+            {
+              "chapter": 8,
+              "verseCount": 26
+            },
+            {
+              "chapter": 9,
+              "verseCount": 23
+            },
+            {
+              "chapter": 10,
+              "verseCount": 36
+            },
+            {
+              "chapter": 11,
+              "verseCount": 35
+            },
+            {
+              "chapter": 12,
+              "verseCount": 16
+            },
+            {
+              "chapter": 13,
+              "verseCount": 33
+            },
+            {
+              "chapter": 14,
+              "verseCount": 45
+            },
+            {
+              "chapter": 15,
+              "verseCount": 41
+            },
+            {
+              "chapter": 16,
+              "verseCount": 50
+            },
+            {
+              "chapter": 17,
+              "verseCount": 13
+            },
+            {
+              "chapter": 18,
+              "verseCount": 32
+            },
+            {
+              "chapter": 19,
+              "verseCount": 22
+            },
+            {
+              "chapter": 20,
+              "verseCount": 29
+            },
+            {
+              "chapter": 21,
+              "verseCount": 35
+            },
+            {
+              "chapter": 22,
+              "verseCount": 41
+            },
+            {
+              "chapter": 23,
+              "verseCount": 30
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            },
+            {
+              "chapter": 25,
+              "verseCount": 18
+            },
+            {
+              "chapter": 26,
+              "verseCount": 65
+            },
+            {
+              "chapter": 27,
+              "verseCount": 23
+            },
+            {
+              "chapter": 28,
+              "verseCount": 31
+            },
+            {
+              "chapter": 29,
+              "verseCount": 40
+            },
+            {
+              "chapter": 30,
+              "verseCount": 16
+            },
+            {
+              "chapter": 31,
+              "verseCount": 54
+            },
+            {
+              "chapter": 32,
+              "verseCount": 42
+            },
+            {
+              "chapter": 33,
+              "verseCount": 56
+            },
+            {
+              "chapter": 34,
+              "verseCount": 29
+            },
+            {
+              "chapter": 35,
+              "verseCount": 34
+            },
+            {
+              "chapter": 36,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/web/Num.json"
+        },
+        {
+          "book": "Deut",
+          "bookId": 5,
+          "englishName": "Deuteronomy",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 46
+            },
+            {
+              "chapter": 2,
+              "verseCount": 37
+            },
+            {
+              "chapter": 3,
+              "verseCount": 29
+            },
+            {
+              "chapter": 4,
+              "verseCount": 49
+            },
+            {
+              "chapter": 5,
+              "verseCount": 33
+            },
+            {
+              "chapter": 6,
+              "verseCount": 25
+            },
+            {
+              "chapter": 7,
+              "verseCount": 26
+            },
+            {
+              "chapter": 8,
+              "verseCount": 20
+            },
+            {
+              "chapter": 9,
+              "verseCount": 29
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 32
+            },
+            {
+              "chapter": 12,
+              "verseCount": 32
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 29
+            },
+            {
+              "chapter": 15,
+              "verseCount": 23
+            },
+            {
+              "chapter": 16,
+              "verseCount": 22
+            },
+            {
+              "chapter": 17,
+              "verseCount": 20
+            },
+            {
+              "chapter": 18,
+              "verseCount": 22
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 20
+            },
+            {
+              "chapter": 21,
+              "verseCount": 23
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 25
+            },
+            {
+              "chapter": 24,
+              "verseCount": 22
+            },
+            {
+              "chapter": 25,
+              "verseCount": 19
+            },
+            {
+              "chapter": 26,
+              "verseCount": 19
+            },
+            {
+              "chapter": 27,
+              "verseCount": 26
+            },
+            {
+              "chapter": 28,
+              "verseCount": 68
+            },
+            {
+              "chapter": 29,
+              "verseCount": 29
+            },
+            {
+              "chapter": 30,
+              "verseCount": 20
+            },
+            {
+              "chapter": 31,
+              "verseCount": 30
+            },
+            {
+              "chapter": 32,
+              "verseCount": 52
+            },
+            {
+              "chapter": 33,
+              "verseCount": 29
+            },
+            {
+              "chapter": 34,
+              "verseCount": 12
+            }
+          ],
+          "path": "data/bibles/books/web/Deut.json"
+        },
+        {
+          "book": "Josh",
+          "bookId": 6,
+          "englishName": "Joshua",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 24
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 27
+            },
+            {
+              "chapter": 7,
+              "verseCount": 26
+            },
+            {
+              "chapter": 8,
+              "verseCount": 35
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 43
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 24
+            },
+            {
+              "chapter": 13,
+              "verseCount": 33
+            },
+            {
+              "chapter": 14,
+              "verseCount": 15
+            },
+            {
+              "chapter": 15,
+              "verseCount": 63
+            },
+            {
+              "chapter": 16,
+              "verseCount": 10
+            },
+            {
+              "chapter": 17,
+              "verseCount": 18
+            },
+            {
+              "chapter": 18,
+              "verseCount": 28
+            },
+            {
+              "chapter": 19,
+              "verseCount": 51
+            },
+            {
+              "chapter": 20,
+              "verseCount": 9
+            },
+            {
+              "chapter": 21,
+              "verseCount": 45
+            },
+            {
+              "chapter": 22,
+              "verseCount": 34
+            },
+            {
+              "chapter": 23,
+              "verseCount": 16
+            },
+            {
+              "chapter": 24,
+              "verseCount": 33
+            }
+          ],
+          "path": "data/bibles/books/web/Josh.json"
+        },
+        {
+          "book": "Judg",
+          "bookId": 7,
+          "englishName": "Judges",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 36
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 31
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 40
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 35
+            },
+            {
+              "chapter": 9,
+              "verseCount": 57
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 40
+            },
+            {
+              "chapter": 12,
+              "verseCount": 15
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 20
+            },
+            {
+              "chapter": 15,
+              "verseCount": 20
+            },
+            {
+              "chapter": 16,
+              "verseCount": 31
+            },
+            {
+              "chapter": 17,
+              "verseCount": 13
+            },
+            {
+              "chapter": 18,
+              "verseCount": 31
+            },
+            {
+              "chapter": 19,
+              "verseCount": 30
+            },
+            {
+              "chapter": 20,
+              "verseCount": 48
+            },
+            {
+              "chapter": 21,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/web/Judg.json"
+        },
+        {
+          "book": "Ruth",
+          "bookId": 8,
+          "englishName": "Ruth",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/web/Ruth.json"
+        },
+        {
+          "book": "1Sam",
+          "bookId": 9,
+          "englishName": "1 Samuel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 28
+            },
+            {
+              "chapter": 2,
+              "verseCount": 36
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 12
+            },
+            {
+              "chapter": 6,
+              "verseCount": 21
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 27
+            },
+            {
+              "chapter": 11,
+              "verseCount": 15
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 23
+            },
+            {
+              "chapter": 14,
+              "verseCount": 52
+            },
+            {
+              "chapter": 15,
+              "verseCount": 35
+            },
+            {
+              "chapter": 16,
+              "verseCount": 23
+            },
+            {
+              "chapter": 17,
+              "verseCount": 58
+            },
+            {
+              "chapter": 18,
+              "verseCount": 30
+            },
+            {
+              "chapter": 19,
+              "verseCount": 24
+            },
+            {
+              "chapter": 20,
+              "verseCount": 42
+            },
+            {
+              "chapter": 21,
+              "verseCount": 15
+            },
+            {
+              "chapter": 22,
+              "verseCount": 23
+            },
+            {
+              "chapter": 23,
+              "verseCount": 29
+            },
+            {
+              "chapter": 24,
+              "verseCount": 22
+            },
+            {
+              "chapter": 25,
+              "verseCount": 44
+            },
+            {
+              "chapter": 26,
+              "verseCount": 25
+            },
+            {
+              "chapter": 27,
+              "verseCount": 12
+            },
+            {
+              "chapter": 28,
+              "verseCount": 25
+            },
+            {
+              "chapter": 29,
+              "verseCount": 11
+            },
+            {
+              "chapter": 30,
+              "verseCount": 31
+            },
+            {
+              "chapter": 31,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/web/1Sam.json"
+        },
+        {
+          "book": "2Sam",
+          "bookId": 10,
+          "englishName": "2 Samuel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 27
+            },
+            {
+              "chapter": 2,
+              "verseCount": 32
+            },
+            {
+              "chapter": 3,
+              "verseCount": 39
+            },
+            {
+              "chapter": 4,
+              "verseCount": 12
+            },
+            {
+              "chapter": 5,
+              "verseCount": 25
+            },
+            {
+              "chapter": 6,
+              "verseCount": 23
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 13
+            },
+            {
+              "chapter": 10,
+              "verseCount": 19
+            },
+            {
+              "chapter": 11,
+              "verseCount": 27
+            },
+            {
+              "chapter": 12,
+              "verseCount": 31
+            },
+            {
+              "chapter": 13,
+              "verseCount": 39
+            },
+            {
+              "chapter": 14,
+              "verseCount": 33
+            },
+            {
+              "chapter": 15,
+              "verseCount": 37
+            },
+            {
+              "chapter": 16,
+              "verseCount": 23
+            },
+            {
+              "chapter": 17,
+              "verseCount": 29
+            },
+            {
+              "chapter": 18,
+              "verseCount": 33
+            },
+            {
+              "chapter": 19,
+              "verseCount": 43
+            },
+            {
+              "chapter": 20,
+              "verseCount": 26
+            },
+            {
+              "chapter": 21,
+              "verseCount": 22
+            },
+            {
+              "chapter": 22,
+              "verseCount": 51
+            },
+            {
+              "chapter": 23,
+              "verseCount": 39
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/web/2Sam.json"
+        },
+        {
+          "book": "1Kgs",
+          "bookId": 11,
+          "englishName": "1 Kings",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 53
+            },
+            {
+              "chapter": 2,
+              "verseCount": 46
+            },
+            {
+              "chapter": 3,
+              "verseCount": 28
+            },
+            {
+              "chapter": 4,
+              "verseCount": 34
+            },
+            {
+              "chapter": 5,
+              "verseCount": 18
+            },
+            {
+              "chapter": 6,
+              "verseCount": 38
+            },
+            {
+              "chapter": 7,
+              "verseCount": 51
+            },
+            {
+              "chapter": 8,
+              "verseCount": 66
+            },
+            {
+              "chapter": 9,
+              "verseCount": 28
+            },
+            {
+              "chapter": 10,
+              "verseCount": 29
+            },
+            {
+              "chapter": 11,
+              "verseCount": 43
+            },
+            {
+              "chapter": 12,
+              "verseCount": 33
+            },
+            {
+              "chapter": 13,
+              "verseCount": 34
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 34
+            },
+            {
+              "chapter": 16,
+              "verseCount": 34
+            },
+            {
+              "chapter": 17,
+              "verseCount": 24
+            },
+            {
+              "chapter": 18,
+              "verseCount": 46
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 43
+            },
+            {
+              "chapter": 21,
+              "verseCount": 29
+            },
+            {
+              "chapter": 22,
+              "verseCount": 53
+            }
+          ],
+          "path": "data/bibles/books/web/1Kgs.json"
+        },
+        {
+          "book": "2Kgs",
+          "bookId": 12,
+          "englishName": "2 Kings",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 27
+            },
+            {
+              "chapter": 4,
+              "verseCount": 44
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 33
+            },
+            {
+              "chapter": 7,
+              "verseCount": 20
+            },
+            {
+              "chapter": 8,
+              "verseCount": 29
+            },
+            {
+              "chapter": 9,
+              "verseCount": 37
+            },
+            {
+              "chapter": 10,
+              "verseCount": 36
+            },
+            {
+              "chapter": 11,
+              "verseCount": 21
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 29
+            },
+            {
+              "chapter": 15,
+              "verseCount": 38
+            },
+            {
+              "chapter": 16,
+              "verseCount": 20
+            },
+            {
+              "chapter": 17,
+              "verseCount": 41
+            },
+            {
+              "chapter": 18,
+              "verseCount": 37
+            },
+            {
+              "chapter": 19,
+              "verseCount": 37
+            },
+            {
+              "chapter": 20,
+              "verseCount": 21
+            },
+            {
+              "chapter": 21,
+              "verseCount": 26
+            },
+            {
+              "chapter": 22,
+              "verseCount": 20
+            },
+            {
+              "chapter": 23,
+              "verseCount": 37
+            },
+            {
+              "chapter": 24,
+              "verseCount": 20
+            },
+            {
+              "chapter": 25,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/web/2Kgs.json"
+        },
+        {
+          "book": "1Chr",
+          "bookId": 13,
+          "englishName": "1 Chronicles",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 54
+            },
+            {
+              "chapter": 2,
+              "verseCount": 55
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 43
+            },
+            {
+              "chapter": 5,
+              "verseCount": 26
+            },
+            {
+              "chapter": 6,
+              "verseCount": 81
+            },
+            {
+              "chapter": 7,
+              "verseCount": 40
+            },
+            {
+              "chapter": 8,
+              "verseCount": 40
+            },
+            {
+              "chapter": 9,
+              "verseCount": 44
+            },
+            {
+              "chapter": 10,
+              "verseCount": 14
+            },
+            {
+              "chapter": 11,
+              "verseCount": 47
+            },
+            {
+              "chapter": 12,
+              "verseCount": 40
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            },
+            {
+              "chapter": 14,
+              "verseCount": 17
+            },
+            {
+              "chapter": 15,
+              "verseCount": 29
+            },
+            {
+              "chapter": 16,
+              "verseCount": 43
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 17
+            },
+            {
+              "chapter": 19,
+              "verseCount": 19
+            },
+            {
+              "chapter": 20,
+              "verseCount": 8
+            },
+            {
+              "chapter": 21,
+              "verseCount": 30
+            },
+            {
+              "chapter": 22,
+              "verseCount": 19
+            },
+            {
+              "chapter": 23,
+              "verseCount": 32
+            },
+            {
+              "chapter": 24,
+              "verseCount": 31
+            },
+            {
+              "chapter": 25,
+              "verseCount": 31
+            },
+            {
+              "chapter": 26,
+              "verseCount": 32
+            },
+            {
+              "chapter": 27,
+              "verseCount": 34
+            },
+            {
+              "chapter": 28,
+              "verseCount": 21
+            },
+            {
+              "chapter": 29,
+              "verseCount": 30
+            }
+          ],
+          "path": "data/bibles/books/web/1Chr.json"
+        },
+        {
+          "book": "2Chr",
+          "bookId": 14,
+          "englishName": "2 Chronicles",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 18
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 42
+            },
+            {
+              "chapter": 7,
+              "verseCount": 22
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 31
+            },
+            {
+              "chapter": 10,
+              "verseCount": 19
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 16
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 15
+            },
+            {
+              "chapter": 15,
+              "verseCount": 19
+            },
+            {
+              "chapter": 16,
+              "verseCount": 14
+            },
+            {
+              "chapter": 17,
+              "verseCount": 19
+            },
+            {
+              "chapter": 18,
+              "verseCount": 34
+            },
+            {
+              "chapter": 19,
+              "verseCount": 11
+            },
+            {
+              "chapter": 20,
+              "verseCount": 37
+            },
+            {
+              "chapter": 21,
+              "verseCount": 20
+            },
+            {
+              "chapter": 22,
+              "verseCount": 12
+            },
+            {
+              "chapter": 23,
+              "verseCount": 21
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 28
+            },
+            {
+              "chapter": 26,
+              "verseCount": 23
+            },
+            {
+              "chapter": 27,
+              "verseCount": 9
+            },
+            {
+              "chapter": 28,
+              "verseCount": 27
+            },
+            {
+              "chapter": 29,
+              "verseCount": 36
+            },
+            {
+              "chapter": 30,
+              "verseCount": 27
+            },
+            {
+              "chapter": 31,
+              "verseCount": 21
+            },
+            {
+              "chapter": 32,
+              "verseCount": 33
+            },
+            {
+              "chapter": 33,
+              "verseCount": 25
+            },
+            {
+              "chapter": 34,
+              "verseCount": 33
+            },
+            {
+              "chapter": 35,
+              "verseCount": 27
+            },
+            {
+              "chapter": 36,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/web/2Chr.json"
+        },
+        {
+          "book": "Ezra",
+          "bookId": 15,
+          "englishName": "Ezra",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 70
+            },
+            {
+              "chapter": 3,
+              "verseCount": 13
+            },
+            {
+              "chapter": 4,
+              "verseCount": 24
+            },
+            {
+              "chapter": 5,
+              "verseCount": 17
+            },
+            {
+              "chapter": 6,
+              "verseCount": 22
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            },
+            {
+              "chapter": 10,
+              "verseCount": 44
+            }
+          ],
+          "path": "data/bibles/books/web/Ezra.json"
+        },
+        {
+          "book": "Neh",
+          "bookId": 16,
+          "englishName": "Nehemiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 32
+            },
+            {
+              "chapter": 4,
+              "verseCount": 23
+            },
+            {
+              "chapter": 5,
+              "verseCount": 19
+            },
+            {
+              "chapter": 6,
+              "verseCount": 19
+            },
+            {
+              "chapter": 7,
+              "verseCount": 73
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 38
+            },
+            {
+              "chapter": 10,
+              "verseCount": 39
+            },
+            {
+              "chapter": 11,
+              "verseCount": 36
+            },
+            {
+              "chapter": 12,
+              "verseCount": 47
+            },
+            {
+              "chapter": 13,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/web/Neh.json"
+        },
+        {
+          "book": "Esth",
+          "bookId": 17,
+          "englishName": "Esther",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 10
+            },
+            {
+              "chapter": 8,
+              "verseCount": 17
+            },
+            {
+              "chapter": 9,
+              "verseCount": 32
+            },
+            {
+              "chapter": 10,
+              "verseCount": 3
+            }
+          ],
+          "path": "data/bibles/books/web/Esth.json"
+        },
+        {
+          "book": "Job",
+          "bookId": 18,
+          "englishName": "Job",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 21
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 35
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 20
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 28
+            },
+            {
+              "chapter": 14,
+              "verseCount": 22
+            },
+            {
+              "chapter": 15,
+              "verseCount": 35
+            },
+            {
+              "chapter": 16,
+              "verseCount": 22
+            },
+            {
+              "chapter": 17,
+              "verseCount": 16
+            },
+            {
+              "chapter": 18,
+              "verseCount": 21
+            },
+            {
+              "chapter": 19,
+              "verseCount": 29
+            },
+            {
+              "chapter": 20,
+              "verseCount": 29
+            },
+            {
+              "chapter": 21,
+              "verseCount": 34
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 17
+            },
+            {
+              "chapter": 24,
+              "verseCount": 25
+            },
+            {
+              "chapter": 25,
+              "verseCount": 6
+            },
+            {
+              "chapter": 26,
+              "verseCount": 14
+            },
+            {
+              "chapter": 27,
+              "verseCount": 23
+            },
+            {
+              "chapter": 28,
+              "verseCount": 28
+            },
+            {
+              "chapter": 29,
+              "verseCount": 25
+            },
+            {
+              "chapter": 30,
+              "verseCount": 31
+            },
+            {
+              "chapter": 31,
+              "verseCount": 40
+            },
+            {
+              "chapter": 32,
+              "verseCount": 22
+            },
+            {
+              "chapter": 33,
+              "verseCount": 33
+            },
+            {
+              "chapter": 34,
+              "verseCount": 37
+            },
+            {
+              "chapter": 35,
+              "verseCount": 16
+            },
+            {
+              "chapter": 36,
+              "verseCount": 33
+            },
+            {
+              "chapter": 37,
+              "verseCount": 24
+            },
+            {
+              "chapter": 38,
+              "verseCount": 41
+            },
+            {
+              "chapter": 39,
+              "verseCount": 30
+            },
+            {
+              "chapter": 40,
+              "verseCount": 24
+            },
+            {
+              "chapter": 41,
+              "verseCount": 34
+            },
+            {
+              "chapter": 42,
+              "verseCount": 17
+            }
+          ],
+          "path": "data/bibles/books/web/Job.json"
+        },
+        {
+          "book": "Ps",
+          "bookId": 19,
+          "englishName": "Psalms",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 6
+            },
+            {
+              "chapter": 2,
+              "verseCount": 12
+            },
+            {
+              "chapter": 3,
+              "verseCount": 8
+            },
+            {
+              "chapter": 4,
+              "verseCount": 8
+            },
+            {
+              "chapter": 5,
+              "verseCount": 12
+            },
+            {
+              "chapter": 6,
+              "verseCount": 10
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 9
+            },
+            {
+              "chapter": 9,
+              "verseCount": 20
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 7
+            },
+            {
+              "chapter": 12,
+              "verseCount": 8
+            },
+            {
+              "chapter": 13,
+              "verseCount": 6
+            },
+            {
+              "chapter": 14,
+              "verseCount": 7
+            },
+            {
+              "chapter": 15,
+              "verseCount": 5
+            },
+            {
+              "chapter": 16,
+              "verseCount": 11
+            },
+            {
+              "chapter": 17,
+              "verseCount": 15
+            },
+            {
+              "chapter": 18,
+              "verseCount": 50
+            },
+            {
+              "chapter": 19,
+              "verseCount": 14
+            },
+            {
+              "chapter": 20,
+              "verseCount": 9
+            },
+            {
+              "chapter": 21,
+              "verseCount": 13
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 6
+            },
+            {
+              "chapter": 24,
+              "verseCount": 10
+            },
+            {
+              "chapter": 25,
+              "verseCount": 22
+            },
+            {
+              "chapter": 26,
+              "verseCount": 12
+            },
+            {
+              "chapter": 27,
+              "verseCount": 14
+            },
+            {
+              "chapter": 28,
+              "verseCount": 9
+            },
+            {
+              "chapter": 29,
+              "verseCount": 11
+            },
+            {
+              "chapter": 30,
+              "verseCount": 12
+            },
+            {
+              "chapter": 31,
+              "verseCount": 24
+            },
+            {
+              "chapter": 32,
+              "verseCount": 11
+            },
+            {
+              "chapter": 33,
+              "verseCount": 22
+            },
+            {
+              "chapter": 34,
+              "verseCount": 22
+            },
+            {
+              "chapter": 35,
+              "verseCount": 28
+            },
+            {
+              "chapter": 36,
+              "verseCount": 12
+            },
+            {
+              "chapter": 37,
+              "verseCount": 40
+            },
+            {
+              "chapter": 38,
+              "verseCount": 22
+            },
+            {
+              "chapter": 39,
+              "verseCount": 13
+            },
+            {
+              "chapter": 40,
+              "verseCount": 17
+            },
+            {
+              "chapter": 41,
+              "verseCount": 13
+            },
+            {
+              "chapter": 42,
+              "verseCount": 11
+            },
+            {
+              "chapter": 43,
+              "verseCount": 5
+            },
+            {
+              "chapter": 44,
+              "verseCount": 26
+            },
+            {
+              "chapter": 45,
+              "verseCount": 17
+            },
+            {
+              "chapter": 46,
+              "verseCount": 11
+            },
+            {
+              "chapter": 47,
+              "verseCount": 9
+            },
+            {
+              "chapter": 48,
+              "verseCount": 14
+            },
+            {
+              "chapter": 49,
+              "verseCount": 20
+            },
+            {
+              "chapter": 50,
+              "verseCount": 23
+            },
+            {
+              "chapter": 51,
+              "verseCount": 19
+            },
+            {
+              "chapter": 52,
+              "verseCount": 9
+            },
+            {
+              "chapter": 53,
+              "verseCount": 6
+            },
+            {
+              "chapter": 54,
+              "verseCount": 7
+            },
+            {
+              "chapter": 55,
+              "verseCount": 23
+            },
+            {
+              "chapter": 56,
+              "verseCount": 13
+            },
+            {
+              "chapter": 57,
+              "verseCount": 11
+            },
+            {
+              "chapter": 58,
+              "verseCount": 11
+            },
+            {
+              "chapter": 59,
+              "verseCount": 17
+            },
+            {
+              "chapter": 60,
+              "verseCount": 12
+            },
+            {
+              "chapter": 61,
+              "verseCount": 8
+            },
+            {
+              "chapter": 62,
+              "verseCount": 12
+            },
+            {
+              "chapter": 63,
+              "verseCount": 11
+            },
+            {
+              "chapter": 64,
+              "verseCount": 10
+            },
+            {
+              "chapter": 65,
+              "verseCount": 13
+            },
+            {
+              "chapter": 66,
+              "verseCount": 20
+            },
+            {
+              "chapter": 67,
+              "verseCount": 7
+            },
+            {
+              "chapter": 68,
+              "verseCount": 35
+            },
+            {
+              "chapter": 69,
+              "verseCount": 36
+            },
+            {
+              "chapter": 70,
+              "verseCount": 5
+            },
+            {
+              "chapter": 71,
+              "verseCount": 24
+            },
+            {
+              "chapter": 72,
+              "verseCount": 20
+            },
+            {
+              "chapter": 73,
+              "verseCount": 28
+            },
+            {
+              "chapter": 74,
+              "verseCount": 23
+            },
+            {
+              "chapter": 75,
+              "verseCount": 10
+            },
+            {
+              "chapter": 76,
+              "verseCount": 12
+            },
+            {
+              "chapter": 77,
+              "verseCount": 20
+            },
+            {
+              "chapter": 78,
+              "verseCount": 72
+            },
+            {
+              "chapter": 79,
+              "verseCount": 13
+            },
+            {
+              "chapter": 80,
+              "verseCount": 19
+            },
+            {
+              "chapter": 81,
+              "verseCount": 16
+            },
+            {
+              "chapter": 82,
+              "verseCount": 8
+            },
+            {
+              "chapter": 83,
+              "verseCount": 18
+            },
+            {
+              "chapter": 84,
+              "verseCount": 12
+            },
+            {
+              "chapter": 85,
+              "verseCount": 13
+            },
+            {
+              "chapter": 86,
+              "verseCount": 17
+            },
+            {
+              "chapter": 87,
+              "verseCount": 7
+            },
+            {
+              "chapter": 88,
+              "verseCount": 18
+            },
+            {
+              "chapter": 89,
+              "verseCount": 52
+            },
+            {
+              "chapter": 90,
+              "verseCount": 17
+            },
+            {
+              "chapter": 91,
+              "verseCount": 16
+            },
+            {
+              "chapter": 92,
+              "verseCount": 15
+            },
+            {
+              "chapter": 93,
+              "verseCount": 5
+            },
+            {
+              "chapter": 94,
+              "verseCount": 23
+            },
+            {
+              "chapter": 95,
+              "verseCount": 11
+            },
+            {
+              "chapter": 96,
+              "verseCount": 13
+            },
+            {
+              "chapter": 97,
+              "verseCount": 12
+            },
+            {
+              "chapter": 98,
+              "verseCount": 9
+            },
+            {
+              "chapter": 99,
+              "verseCount": 9
+            },
+            {
+              "chapter": 100,
+              "verseCount": 5
+            },
+            {
+              "chapter": 101,
+              "verseCount": 8
+            },
+            {
+              "chapter": 102,
+              "verseCount": 28
+            },
+            {
+              "chapter": 103,
+              "verseCount": 22
+            },
+            {
+              "chapter": 104,
+              "verseCount": 35
+            },
+            {
+              "chapter": 105,
+              "verseCount": 45
+            },
+            {
+              "chapter": 106,
+              "verseCount": 48
+            },
+            {
+              "chapter": 107,
+              "verseCount": 43
+            },
+            {
+              "chapter": 108,
+              "verseCount": 13
+            },
+            {
+              "chapter": 109,
+              "verseCount": 31
+            },
+            {
+              "chapter": 110,
+              "verseCount": 7
+            },
+            {
+              "chapter": 111,
+              "verseCount": 10
+            },
+            {
+              "chapter": 112,
+              "verseCount": 10
+            },
+            {
+              "chapter": 113,
+              "verseCount": 9
+            },
+            {
+              "chapter": 114,
+              "verseCount": 8
+            },
+            {
+              "chapter": 115,
+              "verseCount": 18
+            },
+            {
+              "chapter": 116,
+              "verseCount": 19
+            },
+            {
+              "chapter": 117,
+              "verseCount": 2
+            },
+            {
+              "chapter": 118,
+              "verseCount": 29
+            },
+            {
+              "chapter": 119,
+              "verseCount": 176
+            },
+            {
+              "chapter": 120,
+              "verseCount": 7
+            },
+            {
+              "chapter": 121,
+              "verseCount": 8
+            },
+            {
+              "chapter": 122,
+              "verseCount": 9
+            },
+            {
+              "chapter": 123,
+              "verseCount": 4
+            },
+            {
+              "chapter": 124,
+              "verseCount": 8
+            },
+            {
+              "chapter": 125,
+              "verseCount": 5
+            },
+            {
+              "chapter": 126,
+              "verseCount": 6
+            },
+            {
+              "chapter": 127,
+              "verseCount": 5
+            },
+            {
+              "chapter": 128,
+              "verseCount": 6
+            },
+            {
+              "chapter": 129,
+              "verseCount": 8
+            },
+            {
+              "chapter": 130,
+              "verseCount": 8
+            },
+            {
+              "chapter": 131,
+              "verseCount": 3
+            },
+            {
+              "chapter": 132,
+              "verseCount": 18
+            },
+            {
+              "chapter": 133,
+              "verseCount": 3
+            },
+            {
+              "chapter": 134,
+              "verseCount": 3
+            },
+            {
+              "chapter": 135,
+              "verseCount": 21
+            },
+            {
+              "chapter": 136,
+              "verseCount": 26
+            },
+            {
+              "chapter": 137,
+              "verseCount": 9
+            },
+            {
+              "chapter": 138,
+              "verseCount": 8
+            },
+            {
+              "chapter": 139,
+              "verseCount": 24
+            },
+            {
+              "chapter": 140,
+              "verseCount": 13
+            },
+            {
+              "chapter": 141,
+              "verseCount": 10
+            },
+            {
+              "chapter": 142,
+              "verseCount": 7
+            },
+            {
+              "chapter": 143,
+              "verseCount": 12
+            },
+            {
+              "chapter": 144,
+              "verseCount": 15
+            },
+            {
+              "chapter": 145,
+              "verseCount": 21
+            },
+            {
+              "chapter": 146,
+              "verseCount": 10
+            },
+            {
+              "chapter": 147,
+              "verseCount": 20
+            },
+            {
+              "chapter": 148,
+              "verseCount": 14
+            },
+            {
+              "chapter": 149,
+              "verseCount": 9
+            },
+            {
+              "chapter": 150,
+              "verseCount": 6
+            }
+          ],
+          "path": "data/bibles/books/web/Ps.json"
+        },
+        {
+          "book": "Prov",
+          "bookId": 20,
+          "englishName": "Proverbs",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 33
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 35
+            },
+            {
+              "chapter": 4,
+              "verseCount": 27
+            },
+            {
+              "chapter": 5,
+              "verseCount": 23
+            },
+            {
+              "chapter": 6,
+              "verseCount": 35
+            },
+            {
+              "chapter": 7,
+              "verseCount": 27
+            },
+            {
+              "chapter": 8,
+              "verseCount": 36
+            },
+            {
+              "chapter": 9,
+              "verseCount": 18
+            },
+            {
+              "chapter": 10,
+              "verseCount": 32
+            },
+            {
+              "chapter": 11,
+              "verseCount": 31
+            },
+            {
+              "chapter": 12,
+              "verseCount": 28
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            },
+            {
+              "chapter": 14,
+              "verseCount": 35
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 33
+            },
+            {
+              "chapter": 17,
+              "verseCount": 28
+            },
+            {
+              "chapter": 18,
+              "verseCount": 24
+            },
+            {
+              "chapter": 19,
+              "verseCount": 29
+            },
+            {
+              "chapter": 20,
+              "verseCount": 30
+            },
+            {
+              "chapter": 21,
+              "verseCount": 31
+            },
+            {
+              "chapter": 22,
+              "verseCount": 29
+            },
+            {
+              "chapter": 23,
+              "verseCount": 35
+            },
+            {
+              "chapter": 24,
+              "verseCount": 34
+            },
+            {
+              "chapter": 25,
+              "verseCount": 28
+            },
+            {
+              "chapter": 26,
+              "verseCount": 28
+            },
+            {
+              "chapter": 27,
+              "verseCount": 27
+            },
+            {
+              "chapter": 28,
+              "verseCount": 28
+            },
+            {
+              "chapter": 29,
+              "verseCount": 27
+            },
+            {
+              "chapter": 30,
+              "verseCount": 33
+            },
+            {
+              "chapter": 31,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/web/Prov.json"
+        },
+        {
+          "book": "Eccl",
+          "bookId": 21,
+          "englishName": "Ecclesiastes",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 20
+            },
+            {
+              "chapter": 6,
+              "verseCount": 12
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 17
+            },
+            {
+              "chapter": 9,
+              "verseCount": 18
+            },
+            {
+              "chapter": 10,
+              "verseCount": 20
+            },
+            {
+              "chapter": 11,
+              "verseCount": 10
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/web/Eccl.json"
+        },
+        {
+          "book": "Song",
+          "bookId": 22,
+          "englishName": "Song of Solomon",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 11
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 16
+            },
+            {
+              "chapter": 6,
+              "verseCount": 13
+            },
+            {
+              "chapter": 7,
+              "verseCount": 13
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/web/Song.json"
+        },
+        {
+          "book": "Isa",
+          "bookId": 23,
+          "englishName": "Isaiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 6
+            },
+            {
+              "chapter": 5,
+              "verseCount": 30
+            },
+            {
+              "chapter": 6,
+              "verseCount": 13
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 21
+            },
+            {
+              "chapter": 10,
+              "verseCount": 34
+            },
+            {
+              "chapter": 11,
+              "verseCount": 16
+            },
+            {
+              "chapter": 12,
+              "verseCount": 6
+            },
+            {
+              "chapter": 13,
+              "verseCount": 22
+            },
+            {
+              "chapter": 14,
+              "verseCount": 32
+            },
+            {
+              "chapter": 15,
+              "verseCount": 9
+            },
+            {
+              "chapter": 16,
+              "verseCount": 14
+            },
+            {
+              "chapter": 17,
+              "verseCount": 14
+            },
+            {
+              "chapter": 18,
+              "verseCount": 7
+            },
+            {
+              "chapter": 19,
+              "verseCount": 25
+            },
+            {
+              "chapter": 20,
+              "verseCount": 6
+            },
+            {
+              "chapter": 21,
+              "verseCount": 17
+            },
+            {
+              "chapter": 22,
+              "verseCount": 25
+            },
+            {
+              "chapter": 23,
+              "verseCount": 18
+            },
+            {
+              "chapter": 24,
+              "verseCount": 23
+            },
+            {
+              "chapter": 25,
+              "verseCount": 12
+            },
+            {
+              "chapter": 26,
+              "verseCount": 21
+            },
+            {
+              "chapter": 27,
+              "verseCount": 13
+            },
+            {
+              "chapter": 28,
+              "verseCount": 29
+            },
+            {
+              "chapter": 29,
+              "verseCount": 24
+            },
+            {
+              "chapter": 30,
+              "verseCount": 33
+            },
+            {
+              "chapter": 31,
+              "verseCount": 9
+            },
+            {
+              "chapter": 32,
+              "verseCount": 20
+            },
+            {
+              "chapter": 33,
+              "verseCount": 24
+            },
+            {
+              "chapter": 34,
+              "verseCount": 17
+            },
+            {
+              "chapter": 35,
+              "verseCount": 10
+            },
+            {
+              "chapter": 36,
+              "verseCount": 22
+            },
+            {
+              "chapter": 37,
+              "verseCount": 38
+            },
+            {
+              "chapter": 38,
+              "verseCount": 22
+            },
+            {
+              "chapter": 39,
+              "verseCount": 8
+            },
+            {
+              "chapter": 40,
+              "verseCount": 31
+            },
+            {
+              "chapter": 41,
+              "verseCount": 29
+            },
+            {
+              "chapter": 42,
+              "verseCount": 25
+            },
+            {
+              "chapter": 43,
+              "verseCount": 28
+            },
+            {
+              "chapter": 44,
+              "verseCount": 28
+            },
+            {
+              "chapter": 45,
+              "verseCount": 25
+            },
+            {
+              "chapter": 46,
+              "verseCount": 13
+            },
+            {
+              "chapter": 47,
+              "verseCount": 15
+            },
+            {
+              "chapter": 48,
+              "verseCount": 22
+            },
+            {
+              "chapter": 49,
+              "verseCount": 26
+            },
+            {
+              "chapter": 50,
+              "verseCount": 11
+            },
+            {
+              "chapter": 51,
+              "verseCount": 23
+            },
+            {
+              "chapter": 52,
+              "verseCount": 15
+            },
+            {
+              "chapter": 53,
+              "verseCount": 12
+            },
+            {
+              "chapter": 54,
+              "verseCount": 17
+            },
+            {
+              "chapter": 55,
+              "verseCount": 13
+            },
+            {
+              "chapter": 56,
+              "verseCount": 12
+            },
+            {
+              "chapter": 57,
+              "verseCount": 21
+            },
+            {
+              "chapter": 58,
+              "verseCount": 14
+            },
+            {
+              "chapter": 59,
+              "verseCount": 21
+            },
+            {
+              "chapter": 60,
+              "verseCount": 22
+            },
+            {
+              "chapter": 61,
+              "verseCount": 11
+            },
+            {
+              "chapter": 62,
+              "verseCount": 12
+            },
+            {
+              "chapter": 63,
+              "verseCount": 19
+            },
+            {
+              "chapter": 64,
+              "verseCount": 12
+            },
+            {
+              "chapter": 65,
+              "verseCount": 25
+            },
+            {
+              "chapter": 66,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/web/Isa.json"
+        },
+        {
+          "book": "Jer",
+          "bookId": 24,
+          "englishName": "Jeremiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 19
+            },
+            {
+              "chapter": 2,
+              "verseCount": 37
+            },
+            {
+              "chapter": 3,
+              "verseCount": 25
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 30
+            },
+            {
+              "chapter": 7,
+              "verseCount": 34
+            },
+            {
+              "chapter": 8,
+              "verseCount": 22
+            },
+            {
+              "chapter": 9,
+              "verseCount": 26
+            },
+            {
+              "chapter": 10,
+              "verseCount": 25
+            },
+            {
+              "chapter": 11,
+              "verseCount": 23
+            },
+            {
+              "chapter": 12,
+              "verseCount": 17
+            },
+            {
+              "chapter": 13,
+              "verseCount": 27
+            },
+            {
+              "chapter": 14,
+              "verseCount": 22
+            },
+            {
+              "chapter": 15,
+              "verseCount": 21
+            },
+            {
+              "chapter": 16,
+              "verseCount": 21
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 23
+            },
+            {
+              "chapter": 19,
+              "verseCount": 15
+            },
+            {
+              "chapter": 20,
+              "verseCount": 18
+            },
+            {
+              "chapter": 21,
+              "verseCount": 14
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 40
+            },
+            {
+              "chapter": 24,
+              "verseCount": 10
+            },
+            {
+              "chapter": 25,
+              "verseCount": 38
+            },
+            {
+              "chapter": 26,
+              "verseCount": 24
+            },
+            {
+              "chapter": 27,
+              "verseCount": 22
+            },
+            {
+              "chapter": 28,
+              "verseCount": 17
+            },
+            {
+              "chapter": 29,
+              "verseCount": 32
+            },
+            {
+              "chapter": 30,
+              "verseCount": 24
+            },
+            {
+              "chapter": 31,
+              "verseCount": 40
+            },
+            {
+              "chapter": 32,
+              "verseCount": 44
+            },
+            {
+              "chapter": 33,
+              "verseCount": 26
+            },
+            {
+              "chapter": 34,
+              "verseCount": 22
+            },
+            {
+              "chapter": 35,
+              "verseCount": 19
+            },
+            {
+              "chapter": 36,
+              "verseCount": 32
+            },
+            {
+              "chapter": 37,
+              "verseCount": 21
+            },
+            {
+              "chapter": 38,
+              "verseCount": 28
+            },
+            {
+              "chapter": 39,
+              "verseCount": 18
+            },
+            {
+              "chapter": 40,
+              "verseCount": 16
+            },
+            {
+              "chapter": 41,
+              "verseCount": 18
+            },
+            {
+              "chapter": 42,
+              "verseCount": 22
+            },
+            {
+              "chapter": 43,
+              "verseCount": 13
+            },
+            {
+              "chapter": 44,
+              "verseCount": 30
+            },
+            {
+              "chapter": 45,
+              "verseCount": 5
+            },
+            {
+              "chapter": 46,
+              "verseCount": 28
+            },
+            {
+              "chapter": 47,
+              "verseCount": 7
+            },
+            {
+              "chapter": 48,
+              "verseCount": 47
+            },
+            {
+              "chapter": 49,
+              "verseCount": 39
+            },
+            {
+              "chapter": 50,
+              "verseCount": 46
+            },
+            {
+              "chapter": 51,
+              "verseCount": 64
+            },
+            {
+              "chapter": 52,
+              "verseCount": 34
+            }
+          ],
+          "path": "data/bibles/books/web/Jer.json"
+        },
+        {
+          "book": "Lam",
+          "bookId": 25,
+          "englishName": "Lamentations",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 22
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 66
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            },
+            {
+              "chapter": 5,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/web/Lam.json"
+        },
+        {
+          "book": "Ezek",
+          "bookId": 26,
+          "englishName": "Ezekiel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 28
+            },
+            {
+              "chapter": 2,
+              "verseCount": 10
+            },
+            {
+              "chapter": 3,
+              "verseCount": 27
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 17
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 27
+            },
+            {
+              "chapter": 8,
+              "verseCount": 18
+            },
+            {
+              "chapter": 9,
+              "verseCount": 11
+            },
+            {
+              "chapter": 10,
+              "verseCount": 22
+            },
+            {
+              "chapter": 11,
+              "verseCount": 25
+            },
+            {
+              "chapter": 12,
+              "verseCount": 28
+            },
+            {
+              "chapter": 13,
+              "verseCount": 23
+            },
+            {
+              "chapter": 14,
+              "verseCount": 23
+            },
+            {
+              "chapter": 15,
+              "verseCount": 8
+            },
+            {
+              "chapter": 16,
+              "verseCount": 63
+            },
+            {
+              "chapter": 17,
+              "verseCount": 24
+            },
+            {
+              "chapter": 18,
+              "verseCount": 32
+            },
+            {
+              "chapter": 19,
+              "verseCount": 14
+            },
+            {
+              "chapter": 20,
+              "verseCount": 49
+            },
+            {
+              "chapter": 21,
+              "verseCount": 32
+            },
+            {
+              "chapter": 22,
+              "verseCount": 31
+            },
+            {
+              "chapter": 23,
+              "verseCount": 49
+            },
+            {
+              "chapter": 24,
+              "verseCount": 27
+            },
+            {
+              "chapter": 25,
+              "verseCount": 17
+            },
+            {
+              "chapter": 26,
+              "verseCount": 21
+            },
+            {
+              "chapter": 27,
+              "verseCount": 36
+            },
+            {
+              "chapter": 28,
+              "verseCount": 26
+            },
+            {
+              "chapter": 29,
+              "verseCount": 21
+            },
+            {
+              "chapter": 30,
+              "verseCount": 26
+            },
+            {
+              "chapter": 31,
+              "verseCount": 18
+            },
+            {
+              "chapter": 32,
+              "verseCount": 32
+            },
+            {
+              "chapter": 33,
+              "verseCount": 33
+            },
+            {
+              "chapter": 34,
+              "verseCount": 31
+            },
+            {
+              "chapter": 35,
+              "verseCount": 15
+            },
+            {
+              "chapter": 36,
+              "verseCount": 38
+            },
+            {
+              "chapter": 37,
+              "verseCount": 28
+            },
+            {
+              "chapter": 38,
+              "verseCount": 23
+            },
+            {
+              "chapter": 39,
+              "verseCount": 29
+            },
+            {
+              "chapter": 40,
+              "verseCount": 49
+            },
+            {
+              "chapter": 41,
+              "verseCount": 26
+            },
+            {
+              "chapter": 42,
+              "verseCount": 20
+            },
+            {
+              "chapter": 43,
+              "verseCount": 27
+            },
+            {
+              "chapter": 44,
+              "verseCount": 31
+            },
+            {
+              "chapter": 45,
+              "verseCount": 25
+            },
+            {
+              "chapter": 46,
+              "verseCount": 24
+            },
+            {
+              "chapter": 47,
+              "verseCount": 23
+            },
+            {
+              "chapter": 48,
+              "verseCount": 35
+            }
+          ],
+          "path": "data/bibles/books/web/Ezek.json"
+        },
+        {
+          "book": "Dan",
+          "bookId": 27,
+          "englishName": "Daniel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 49
+            },
+            {
+              "chapter": 3,
+              "verseCount": 30
+            },
+            {
+              "chapter": 4,
+              "verseCount": 37
+            },
+            {
+              "chapter": 5,
+              "verseCount": 31
+            },
+            {
+              "chapter": 6,
+              "verseCount": 28
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 27
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 21
+            },
+            {
+              "chapter": 11,
+              "verseCount": 45
+            },
+            {
+              "chapter": 12,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/web/Dan.json"
+        },
+        {
+          "book": "Hos",
+          "bookId": 28,
+          "englishName": "Hosea",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 11
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 5
+            },
+            {
+              "chapter": 4,
+              "verseCount": 19
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 11
+            },
+            {
+              "chapter": 7,
+              "verseCount": 16
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            },
+            {
+              "chapter": 9,
+              "verseCount": 17
+            },
+            {
+              "chapter": 10,
+              "verseCount": 15
+            },
+            {
+              "chapter": 11,
+              "verseCount": 12
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            },
+            {
+              "chapter": 13,
+              "verseCount": 16
+            },
+            {
+              "chapter": 14,
+              "verseCount": 9
+            }
+          ],
+          "path": "data/bibles/books/web/Hos.json"
+        },
+        {
+          "book": "Joel",
+          "bookId": 29,
+          "englishName": "Joel",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 32
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/web/Joel.json"
+        },
+        {
+          "book": "Amos",
+          "bookId": 30,
+          "englishName": "Amos",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            },
+            {
+              "chapter": 4,
+              "verseCount": 13
+            },
+            {
+              "chapter": 5,
+              "verseCount": 27
+            },
+            {
+              "chapter": 6,
+              "verseCount": 14
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 14
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            }
+          ],
+          "path": "data/bibles/books/web/Amos.json"
+        },
+        {
+          "book": "Obad",
+          "bookId": 31,
+          "englishName": "Obadiah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/web/Obad.json"
+        },
+        {
+          "book": "Jonah",
+          "bookId": 32,
+          "englishName": "Jonah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 10
+            },
+            {
+              "chapter": 3,
+              "verseCount": 10
+            },
+            {
+              "chapter": 4,
+              "verseCount": 11
+            }
+          ],
+          "path": "data/bibles/books/web/Jonah.json"
+        },
+        {
+          "book": "Mic",
+          "bookId": 33,
+          "englishName": "Micah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 16
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 12
+            },
+            {
+              "chapter": 4,
+              "verseCount": 13
+            },
+            {
+              "chapter": 5,
+              "verseCount": 15
+            },
+            {
+              "chapter": 6,
+              "verseCount": 16
+            },
+            {
+              "chapter": 7,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/web/Mic.json"
+        },
+        {
+          "book": "Nah",
+          "bookId": 34,
+          "englishName": "Nahum",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            }
+          ],
+          "path": "data/bibles/books/web/Nah.json"
+        },
+        {
+          "book": "Hab",
+          "bookId": 35,
+          "englishName": "Habakkuk",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 17
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            }
+          ],
+          "path": "data/bibles/books/web/Hab.json"
+        },
+        {
+          "book": "Zeph",
+          "bookId": 36,
+          "englishName": "Zephaniah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/web/Zeph.json"
+        },
+        {
+          "book": "Hag",
+          "bookId": 37,
+          "englishName": "Haggai",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 15
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/web/Hag.json"
+        },
+        {
+          "book": "Zech",
+          "bookId": 38,
+          "englishName": "Zechariah",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 13
+            },
+            {
+              "chapter": 3,
+              "verseCount": 10
+            },
+            {
+              "chapter": 4,
+              "verseCount": 14
+            },
+            {
+              "chapter": 5,
+              "verseCount": 11
+            },
+            {
+              "chapter": 6,
+              "verseCount": 15
+            },
+            {
+              "chapter": 7,
+              "verseCount": 14
+            },
+            {
+              "chapter": 8,
+              "verseCount": 23
+            },
+            {
+              "chapter": 9,
+              "verseCount": 17
+            },
+            {
+              "chapter": 10,
+              "verseCount": 12
+            },
+            {
+              "chapter": 11,
+              "verseCount": 17
+            },
+            {
+              "chapter": 12,
+              "verseCount": 14
+            },
+            {
+              "chapter": 13,
+              "verseCount": 9
+            },
+            {
+              "chapter": 14,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/web/Zech.json"
+        },
+        {
+          "book": "Mal",
+          "bookId": 39,
+          "englishName": "Malachi",
+          "testament": "OT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 6
+            }
+          ],
+          "path": "data/bibles/books/web/Mal.json"
+        },
+        {
+          "book": "Matt",
+          "bookId": 40,
+          "englishName": "Matthew",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 25
+            },
+            {
+              "chapter": 5,
+              "verseCount": 48
+            },
+            {
+              "chapter": 6,
+              "verseCount": 34
+            },
+            {
+              "chapter": 7,
+              "verseCount": 29
+            },
+            {
+              "chapter": 8,
+              "verseCount": 34
+            },
+            {
+              "chapter": 9,
+              "verseCount": 38
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 30
+            },
+            {
+              "chapter": 12,
+              "verseCount": 50
+            },
+            {
+              "chapter": 13,
+              "verseCount": 58
+            },
+            {
+              "chapter": 14,
+              "verseCount": 36
+            },
+            {
+              "chapter": 15,
+              "verseCount": 39
+            },
+            {
+              "chapter": 16,
+              "verseCount": 28
+            },
+            {
+              "chapter": 17,
+              "verseCount": 27
+            },
+            {
+              "chapter": 18,
+              "verseCount": 35
+            },
+            {
+              "chapter": 19,
+              "verseCount": 30
+            },
+            {
+              "chapter": 20,
+              "verseCount": 34
+            },
+            {
+              "chapter": 21,
+              "verseCount": 46
+            },
+            {
+              "chapter": 22,
+              "verseCount": 46
+            },
+            {
+              "chapter": 23,
+              "verseCount": 39
+            },
+            {
+              "chapter": 24,
+              "verseCount": 51
+            },
+            {
+              "chapter": 25,
+              "verseCount": 46
+            },
+            {
+              "chapter": 26,
+              "verseCount": 75
+            },
+            {
+              "chapter": 27,
+              "verseCount": 66
+            },
+            {
+              "chapter": 28,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/web/Matt.json"
+        },
+        {
+          "book": "Mark",
+          "bookId": 41,
+          "englishName": "Mark",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 45
+            },
+            {
+              "chapter": 2,
+              "verseCount": 28
+            },
+            {
+              "chapter": 3,
+              "verseCount": 35
+            },
+            {
+              "chapter": 4,
+              "verseCount": 41
+            },
+            {
+              "chapter": 5,
+              "verseCount": 43
+            },
+            {
+              "chapter": 6,
+              "verseCount": 56
+            },
+            {
+              "chapter": 7,
+              "verseCount": 37
+            },
+            {
+              "chapter": 8,
+              "verseCount": 38
+            },
+            {
+              "chapter": 9,
+              "verseCount": 50
+            },
+            {
+              "chapter": 10,
+              "verseCount": 52
+            },
+            {
+              "chapter": 11,
+              "verseCount": 33
+            },
+            {
+              "chapter": 12,
+              "verseCount": 44
+            },
+            {
+              "chapter": 13,
+              "verseCount": 37
+            },
+            {
+              "chapter": 14,
+              "verseCount": 72
+            },
+            {
+              "chapter": 15,
+              "verseCount": 47
+            },
+            {
+              "chapter": 16,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/web/Mark.json"
+        },
+        {
+          "book": "Luke",
+          "bookId": 42,
+          "englishName": "Luke",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 80
+            },
+            {
+              "chapter": 2,
+              "verseCount": 52
+            },
+            {
+              "chapter": 3,
+              "verseCount": 38
+            },
+            {
+              "chapter": 4,
+              "verseCount": 44
+            },
+            {
+              "chapter": 5,
+              "verseCount": 39
+            },
+            {
+              "chapter": 6,
+              "verseCount": 49
+            },
+            {
+              "chapter": 7,
+              "verseCount": 50
+            },
+            {
+              "chapter": 8,
+              "verseCount": 56
+            },
+            {
+              "chapter": 9,
+              "verseCount": 62
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 54
+            },
+            {
+              "chapter": 12,
+              "verseCount": 59
+            },
+            {
+              "chapter": 13,
+              "verseCount": 35
+            },
+            {
+              "chapter": 14,
+              "verseCount": 35
+            },
+            {
+              "chapter": 15,
+              "verseCount": 32
+            },
+            {
+              "chapter": 16,
+              "verseCount": 31
+            },
+            {
+              "chapter": 17,
+              "verseCount": 36
+            },
+            {
+              "chapter": 18,
+              "verseCount": 43
+            },
+            {
+              "chapter": 19,
+              "verseCount": 48
+            },
+            {
+              "chapter": 20,
+              "verseCount": 47
+            },
+            {
+              "chapter": 21,
+              "verseCount": 38
+            },
+            {
+              "chapter": 22,
+              "verseCount": 71
+            },
+            {
+              "chapter": 23,
+              "verseCount": 56
+            },
+            {
+              "chapter": 24,
+              "verseCount": 53
+            }
+          ],
+          "path": "data/bibles/books/web/Luke.json"
+        },
+        {
+          "book": "John",
+          "bookId": 43,
+          "englishName": "John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 51
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 36
+            },
+            {
+              "chapter": 4,
+              "verseCount": 54
+            },
+            {
+              "chapter": 5,
+              "verseCount": 47
+            },
+            {
+              "chapter": 6,
+              "verseCount": 71
+            },
+            {
+              "chapter": 7,
+              "verseCount": 53
+            },
+            {
+              "chapter": 8,
+              "verseCount": 59
+            },
+            {
+              "chapter": 9,
+              "verseCount": 41
+            },
+            {
+              "chapter": 10,
+              "verseCount": 42
+            },
+            {
+              "chapter": 11,
+              "verseCount": 57
+            },
+            {
+              "chapter": 12,
+              "verseCount": 50
+            },
+            {
+              "chapter": 13,
+              "verseCount": 38
+            },
+            {
+              "chapter": 14,
+              "verseCount": 31
+            },
+            {
+              "chapter": 15,
+              "verseCount": 27
+            },
+            {
+              "chapter": 16,
+              "verseCount": 33
+            },
+            {
+              "chapter": 17,
+              "verseCount": 26
+            },
+            {
+              "chapter": 18,
+              "verseCount": 40
+            },
+            {
+              "chapter": 19,
+              "verseCount": 42
+            },
+            {
+              "chapter": 20,
+              "verseCount": 31
+            },
+            {
+              "chapter": 21,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/web/John.json"
+        },
+        {
+          "book": "Acts",
+          "bookId": 44,
+          "englishName": "Acts",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 26
+            },
+            {
+              "chapter": 2,
+              "verseCount": 47
+            },
+            {
+              "chapter": 3,
+              "verseCount": 26
+            },
+            {
+              "chapter": 4,
+              "verseCount": 37
+            },
+            {
+              "chapter": 5,
+              "verseCount": 42
+            },
+            {
+              "chapter": 6,
+              "verseCount": 15
+            },
+            {
+              "chapter": 7,
+              "verseCount": 60
+            },
+            {
+              "chapter": 8,
+              "verseCount": 39
+            },
+            {
+              "chapter": 9,
+              "verseCount": 43
+            },
+            {
+              "chapter": 10,
+              "verseCount": 48
+            },
+            {
+              "chapter": 11,
+              "verseCount": 30
+            },
+            {
+              "chapter": 12,
+              "verseCount": 25
+            },
+            {
+              "chapter": 13,
+              "verseCount": 52
+            },
+            {
+              "chapter": 14,
+              "verseCount": 28
+            },
+            {
+              "chapter": 15,
+              "verseCount": 40
+            },
+            {
+              "chapter": 16,
+              "verseCount": 40
+            },
+            {
+              "chapter": 17,
+              "verseCount": 34
+            },
+            {
+              "chapter": 18,
+              "verseCount": 28
+            },
+            {
+              "chapter": 19,
+              "verseCount": 41
+            },
+            {
+              "chapter": 20,
+              "verseCount": 38
+            },
+            {
+              "chapter": 21,
+              "verseCount": 40
+            },
+            {
+              "chapter": 22,
+              "verseCount": 30
+            },
+            {
+              "chapter": 23,
+              "verseCount": 35
+            },
+            {
+              "chapter": 24,
+              "verseCount": 26
+            },
+            {
+              "chapter": 25,
+              "verseCount": 27
+            },
+            {
+              "chapter": 26,
+              "verseCount": 32
+            },
+            {
+              "chapter": 27,
+              "verseCount": 44
+            },
+            {
+              "chapter": 28,
+              "verseCount": 31
+            }
+          ],
+          "path": "data/bibles/books/web/Acts.json"
+        },
+        {
+          "book": "Rom",
+          "bookId": 45,
+          "englishName": "Romans",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 32
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 31
+            },
+            {
+              "chapter": 4,
+              "verseCount": 25
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            },
+            {
+              "chapter": 6,
+              "verseCount": 23
+            },
+            {
+              "chapter": 7,
+              "verseCount": 25
+            },
+            {
+              "chapter": 8,
+              "verseCount": 39
+            },
+            {
+              "chapter": 9,
+              "verseCount": 33
+            },
+            {
+              "chapter": 10,
+              "verseCount": 21
+            },
+            {
+              "chapter": 11,
+              "verseCount": 36
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            },
+            {
+              "chapter": 14,
+              "verseCount": 26
+            },
+            {
+              "chapter": 15,
+              "verseCount": 33
+            },
+            {
+              "chapter": 16,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/web/Rom.json"
+        },
+        {
+          "book": "1Cor",
+          "bookId": 46,
+          "englishName": "1 Corinthians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 31
+            },
+            {
+              "chapter": 2,
+              "verseCount": 16
+            },
+            {
+              "chapter": 3,
+              "verseCount": 23
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 13
+            },
+            {
+              "chapter": 6,
+              "verseCount": 20
+            },
+            {
+              "chapter": 7,
+              "verseCount": 40
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 27
+            },
+            {
+              "chapter": 10,
+              "verseCount": 33
+            },
+            {
+              "chapter": 11,
+              "verseCount": 34
+            },
+            {
+              "chapter": 12,
+              "verseCount": 31
+            },
+            {
+              "chapter": 13,
+              "verseCount": 13
+            },
+            {
+              "chapter": 14,
+              "verseCount": 40
+            },
+            {
+              "chapter": 15,
+              "verseCount": 58
+            },
+            {
+              "chapter": 16,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/web/1Cor.json"
+        },
+        {
+          "book": "2Cor",
+          "bookId": 47,
+          "englishName": "2 Corinthians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 24
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            },
+            {
+              "chapter": 6,
+              "verseCount": 18
+            },
+            {
+              "chapter": 7,
+              "verseCount": 16
+            },
+            {
+              "chapter": 8,
+              "verseCount": 24
+            },
+            {
+              "chapter": 9,
+              "verseCount": 15
+            },
+            {
+              "chapter": 10,
+              "verseCount": 18
+            },
+            {
+              "chapter": 11,
+              "verseCount": 33
+            },
+            {
+              "chapter": 12,
+              "verseCount": 21
+            },
+            {
+              "chapter": 13,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/web/2Cor.json"
+        },
+        {
+          "book": "Gal",
+          "bookId": 48,
+          "englishName": "Galatians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 24
+            },
+            {
+              "chapter": 2,
+              "verseCount": 21
+            },
+            {
+              "chapter": 3,
+              "verseCount": 29
+            },
+            {
+              "chapter": 4,
+              "verseCount": 31
+            },
+            {
+              "chapter": 5,
+              "verseCount": 26
+            },
+            {
+              "chapter": 6,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/web/Gal.json"
+        },
+        {
+          "book": "Eph",
+          "bookId": 49,
+          "englishName": "Ephesians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 23
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 32
+            },
+            {
+              "chapter": 5,
+              "verseCount": 33
+            },
+            {
+              "chapter": 6,
+              "verseCount": 24
+            }
+          ],
+          "path": "data/bibles/books/web/Eph.json"
+        },
+        {
+          "book": "Phil",
+          "bookId": 50,
+          "englishName": "Philippians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 30
+            },
+            {
+              "chapter": 2,
+              "verseCount": 30
+            },
+            {
+              "chapter": 3,
+              "verseCount": 21
+            },
+            {
+              "chapter": 4,
+              "verseCount": 23
+            }
+          ],
+          "path": "data/bibles/books/web/Phil.json"
+        },
+        {
+          "book": "Col",
+          "bookId": 51,
+          "englishName": "Colossians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 29
+            },
+            {
+              "chapter": 2,
+              "verseCount": 23
+            },
+            {
+              "chapter": 3,
+              "verseCount": 25
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/web/Col.json"
+        },
+        {
+          "book": "1Thess",
+          "bookId": 52,
+          "englishName": "1 Thessalonians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 10
+            },
+            {
+              "chapter": 2,
+              "verseCount": 20
+            },
+            {
+              "chapter": 3,
+              "verseCount": 13
+            },
+            {
+              "chapter": 4,
+              "verseCount": 18
+            },
+            {
+              "chapter": 5,
+              "verseCount": 28
+            }
+          ],
+          "path": "data/bibles/books/web/1Thess.json"
+        },
+        {
+          "book": "2Thess",
+          "bookId": 53,
+          "englishName": "2 Thessalonians",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 12
+            },
+            {
+              "chapter": 2,
+              "verseCount": 17
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/web/2Thess.json"
+        },
+        {
+          "book": "1Tim",
+          "bookId": 54,
+          "englishName": "1 Timothy",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 16
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 25
+            },
+            {
+              "chapter": 6,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/web/1Tim.json"
+        },
+        {
+          "book": "2Tim",
+          "bookId": 55,
+          "englishName": "2 Timothy",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 18
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 17
+            },
+            {
+              "chapter": 4,
+              "verseCount": 22
+            }
+          ],
+          "path": "data/bibles/books/web/2Tim.json"
+        },
+        {
+          "book": "Titus",
+          "bookId": 56,
+          "englishName": "Titus",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 16
+            },
+            {
+              "chapter": 2,
+              "verseCount": 15
+            },
+            {
+              "chapter": 3,
+              "verseCount": 15
+            }
+          ],
+          "path": "data/bibles/books/web/Titus.json"
+        },
+        {
+          "book": "Phlm",
+          "bookId": 57,
+          "englishName": "Philemon",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/web/Phlm.json"
+        },
+        {
+          "book": "Heb",
+          "bookId": 58,
+          "englishName": "Hebrews",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            },
+            {
+              "chapter": 2,
+              "verseCount": 18
+            },
+            {
+              "chapter": 3,
+              "verseCount": 19
+            },
+            {
+              "chapter": 4,
+              "verseCount": 16
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 20
+            },
+            {
+              "chapter": 7,
+              "verseCount": 28
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 28
+            },
+            {
+              "chapter": 10,
+              "verseCount": 39
+            },
+            {
+              "chapter": 11,
+              "verseCount": 40
+            },
+            {
+              "chapter": 12,
+              "verseCount": 29
+            },
+            {
+              "chapter": 13,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/web/Heb.json"
+        },
+        {
+          "book": "Jas",
+          "bookId": 59,
+          "englishName": "James",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 27
+            },
+            {
+              "chapter": 2,
+              "verseCount": 26
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            },
+            {
+              "chapter": 4,
+              "verseCount": 17
+            },
+            {
+              "chapter": 5,
+              "verseCount": 20
+            }
+          ],
+          "path": "data/bibles/books/web/Jas.json"
+        },
+        {
+          "book": "1Pet",
+          "bookId": 60,
+          "englishName": "1 Peter",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            },
+            {
+              "chapter": 2,
+              "verseCount": 25
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 19
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/web/1Pet.json"
+        },
+        {
+          "book": "2Pet",
+          "bookId": 61,
+          "englishName": "2 Peter",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 21
+            },
+            {
+              "chapter": 2,
+              "verseCount": 22
+            },
+            {
+              "chapter": 3,
+              "verseCount": 18
+            }
+          ],
+          "path": "data/bibles/books/web/2Pet.json"
+        },
+        {
+          "book": "1John",
+          "bookId": 62,
+          "englishName": "1 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 10
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 24
+            },
+            {
+              "chapter": 4,
+              "verseCount": 21
+            },
+            {
+              "chapter": 5,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/web/1John.json"
+        },
+        {
+          "book": "2John",
+          "bookId": 63,
+          "englishName": "2 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 13
+            }
+          ],
+          "path": "data/bibles/books/web/2John.json"
+        },
+        {
+          "book": "3John",
+          "bookId": 64,
+          "englishName": "3 John",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 14
+            }
+          ],
+          "path": "data/bibles/books/web/3John.json"
+        },
+        {
+          "book": "Jude",
+          "bookId": 65,
+          "englishName": "Jude",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 25
+            }
+          ],
+          "path": "data/bibles/books/web/Jude.json"
+        },
+        {
+          "book": "Rev",
+          "bookId": 66,
+          "englishName": "Revelation",
+          "testament": "NT",
+          "chapters": [
+            {
+              "chapter": 1,
+              "verseCount": 20
+            },
+            {
+              "chapter": 2,
+              "verseCount": 29
+            },
+            {
+              "chapter": 3,
+              "verseCount": 22
+            },
+            {
+              "chapter": 4,
+              "verseCount": 11
+            },
+            {
+              "chapter": 5,
+              "verseCount": 14
+            },
+            {
+              "chapter": 6,
+              "verseCount": 17
+            },
+            {
+              "chapter": 7,
+              "verseCount": 17
+            },
+            {
+              "chapter": 8,
+              "verseCount": 13
+            },
+            {
+              "chapter": 9,
+              "verseCount": 21
+            },
+            {
+              "chapter": 10,
+              "verseCount": 11
+            },
+            {
+              "chapter": 11,
+              "verseCount": 19
+            },
+            {
+              "chapter": 12,
+              "verseCount": 17
+            },
+            {
+              "chapter": 13,
+              "verseCount": 18
+            },
+            {
+              "chapter": 14,
+              "verseCount": 20
+            },
+            {
+              "chapter": 15,
+              "verseCount": 8
+            },
+            {
+              "chapter": 16,
+              "verseCount": 21
+            },
+            {
+              "chapter": 17,
+              "verseCount": 18
+            },
+            {
+              "chapter": 18,
+              "verseCount": 24
+            },
+            {
+              "chapter": 19,
+              "verseCount": 21
+            },
+            {
+              "chapter": 20,
+              "verseCount": 15
+            },
+            {
+              "chapter": 21,
+              "verseCount": 27
+            },
+            {
+              "chapter": 22,
+              "verseCount": 21
+            }
+          ],
+          "path": "data/bibles/books/web/Rev.json"
+        }
+      ]
+    }
+  }
+};
+
+export const bookLoaders = {
+  KJV: {
+    "Gen": () => require("../../data/bibles/books/kjv/Gen.json"),
+    "Exod": () => require("../../data/bibles/books/kjv/Exod.json"),
+    "Lev": () => require("../../data/bibles/books/kjv/Lev.json"),
+    "Num": () => require("../../data/bibles/books/kjv/Num.json"),
+    "Deut": () => require("../../data/bibles/books/kjv/Deut.json"),
+    "Josh": () => require("../../data/bibles/books/kjv/Josh.json"),
+    "Judg": () => require("../../data/bibles/books/kjv/Judg.json"),
+    "Ruth": () => require("../../data/bibles/books/kjv/Ruth.json"),
+    "1Sam": () => require("../../data/bibles/books/kjv/1Sam.json"),
+    "2Sam": () => require("../../data/bibles/books/kjv/2Sam.json"),
+    "1Kgs": () => require("../../data/bibles/books/kjv/1Kgs.json"),
+    "2Kgs": () => require("../../data/bibles/books/kjv/2Kgs.json"),
+    "1Chr": () => require("../../data/bibles/books/kjv/1Chr.json"),
+    "2Chr": () => require("../../data/bibles/books/kjv/2Chr.json"),
+    "Ezra": () => require("../../data/bibles/books/kjv/Ezra.json"),
+    "Neh": () => require("../../data/bibles/books/kjv/Neh.json"),
+    "Esth": () => require("../../data/bibles/books/kjv/Esth.json"),
+    "Job": () => require("../../data/bibles/books/kjv/Job.json"),
+    "Ps": () => require("../../data/bibles/books/kjv/Ps.json"),
+    "Prov": () => require("../../data/bibles/books/kjv/Prov.json"),
+    "Eccl": () => require("../../data/bibles/books/kjv/Eccl.json"),
+    "Song": () => require("../../data/bibles/books/kjv/Song.json"),
+    "Isa": () => require("../../data/bibles/books/kjv/Isa.json"),
+    "Jer": () => require("../../data/bibles/books/kjv/Jer.json"),
+    "Lam": () => require("../../data/bibles/books/kjv/Lam.json"),
+    "Ezek": () => require("../../data/bibles/books/kjv/Ezek.json"),
+    "Dan": () => require("../../data/bibles/books/kjv/Dan.json"),
+    "Hos": () => require("../../data/bibles/books/kjv/Hos.json"),
+    "Joel": () => require("../../data/bibles/books/kjv/Joel.json"),
+    "Amos": () => require("../../data/bibles/books/kjv/Amos.json"),
+    "Obad": () => require("../../data/bibles/books/kjv/Obad.json"),
+    "Jonah": () => require("../../data/bibles/books/kjv/Jonah.json"),
+    "Mic": () => require("../../data/bibles/books/kjv/Mic.json"),
+    "Nah": () => require("../../data/bibles/books/kjv/Nah.json"),
+    "Hab": () => require("../../data/bibles/books/kjv/Hab.json"),
+    "Zeph": () => require("../../data/bibles/books/kjv/Zeph.json"),
+    "Hag": () => require("../../data/bibles/books/kjv/Hag.json"),
+    "Zech": () => require("../../data/bibles/books/kjv/Zech.json"),
+    "Mal": () => require("../../data/bibles/books/kjv/Mal.json"),
+    "Matt": () => require("../../data/bibles/books/kjv/Matt.json"),
+    "Mark": () => require("../../data/bibles/books/kjv/Mark.json"),
+    "Luke": () => require("../../data/bibles/books/kjv/Luke.json"),
+    "John": () => require("../../data/bibles/books/kjv/John.json"),
+    "Acts": () => require("../../data/bibles/books/kjv/Acts.json"),
+    "Rom": () => require("../../data/bibles/books/kjv/Rom.json"),
+    "1Cor": () => require("../../data/bibles/books/kjv/1Cor.json"),
+    "2Cor": () => require("../../data/bibles/books/kjv/2Cor.json"),
+    "Gal": () => require("../../data/bibles/books/kjv/Gal.json"),
+    "Eph": () => require("../../data/bibles/books/kjv/Eph.json"),
+    "Phil": () => require("../../data/bibles/books/kjv/Phil.json"),
+    "Col": () => require("../../data/bibles/books/kjv/Col.json"),
+    "1Thess": () => require("../../data/bibles/books/kjv/1Thess.json"),
+    "2Thess": () => require("../../data/bibles/books/kjv/2Thess.json"),
+    "1Tim": () => require("../../data/bibles/books/kjv/1Tim.json"),
+    "2Tim": () => require("../../data/bibles/books/kjv/2Tim.json"),
+    "Titus": () => require("../../data/bibles/books/kjv/Titus.json"),
+    "Phlm": () => require("../../data/bibles/books/kjv/Phlm.json"),
+    "Heb": () => require("../../data/bibles/books/kjv/Heb.json"),
+    "Jas": () => require("../../data/bibles/books/kjv/Jas.json"),
+    "1Pet": () => require("../../data/bibles/books/kjv/1Pet.json"),
+    "2Pet": () => require("../../data/bibles/books/kjv/2Pet.json"),
+    "1John": () => require("../../data/bibles/books/kjv/1John.json"),
+    "2John": () => require("../../data/bibles/books/kjv/2John.json"),
+    "3John": () => require("../../data/bibles/books/kjv/3John.json"),
+    "Jude": () => require("../../data/bibles/books/kjv/Jude.json"),
+    "Rev": () => require("../../data/bibles/books/kjv/Rev.json"),
+  },
+  ASV: {
+    "Gen": () => require("../../data/bibles/books/asv/Gen.json"),
+    "Exod": () => require("../../data/bibles/books/asv/Exod.json"),
+    "Lev": () => require("../../data/bibles/books/asv/Lev.json"),
+    "Num": () => require("../../data/bibles/books/asv/Num.json"),
+    "Deut": () => require("../../data/bibles/books/asv/Deut.json"),
+    "Josh": () => require("../../data/bibles/books/asv/Josh.json"),
+    "Judg": () => require("../../data/bibles/books/asv/Judg.json"),
+    "Ruth": () => require("../../data/bibles/books/asv/Ruth.json"),
+    "1Sam": () => require("../../data/bibles/books/asv/1Sam.json"),
+    "2Sam": () => require("../../data/bibles/books/asv/2Sam.json"),
+    "1Kgs": () => require("../../data/bibles/books/asv/1Kgs.json"),
+    "2Kgs": () => require("../../data/bibles/books/asv/2Kgs.json"),
+    "1Chr": () => require("../../data/bibles/books/asv/1Chr.json"),
+    "2Chr": () => require("../../data/bibles/books/asv/2Chr.json"),
+    "Ezra": () => require("../../data/bibles/books/asv/Ezra.json"),
+    "Neh": () => require("../../data/bibles/books/asv/Neh.json"),
+    "Esth": () => require("../../data/bibles/books/asv/Esth.json"),
+    "Job": () => require("../../data/bibles/books/asv/Job.json"),
+    "Ps": () => require("../../data/bibles/books/asv/Ps.json"),
+    "Prov": () => require("../../data/bibles/books/asv/Prov.json"),
+    "Eccl": () => require("../../data/bibles/books/asv/Eccl.json"),
+    "Song": () => require("../../data/bibles/books/asv/Song.json"),
+    "Isa": () => require("../../data/bibles/books/asv/Isa.json"),
+    "Jer": () => require("../../data/bibles/books/asv/Jer.json"),
+    "Lam": () => require("../../data/bibles/books/asv/Lam.json"),
+    "Ezek": () => require("../../data/bibles/books/asv/Ezek.json"),
+    "Dan": () => require("../../data/bibles/books/asv/Dan.json"),
+    "Hos": () => require("../../data/bibles/books/asv/Hos.json"),
+    "Joel": () => require("../../data/bibles/books/asv/Joel.json"),
+    "Amos": () => require("../../data/bibles/books/asv/Amos.json"),
+    "Obad": () => require("../../data/bibles/books/asv/Obad.json"),
+    "Jonah": () => require("../../data/bibles/books/asv/Jonah.json"),
+    "Mic": () => require("../../data/bibles/books/asv/Mic.json"),
+    "Nah": () => require("../../data/bibles/books/asv/Nah.json"),
+    "Hab": () => require("../../data/bibles/books/asv/Hab.json"),
+    "Zeph": () => require("../../data/bibles/books/asv/Zeph.json"),
+    "Hag": () => require("../../data/bibles/books/asv/Hag.json"),
+    "Zech": () => require("../../data/bibles/books/asv/Zech.json"),
+    "Mal": () => require("../../data/bibles/books/asv/Mal.json"),
+    "Matt": () => require("../../data/bibles/books/asv/Matt.json"),
+    "Mark": () => require("../../data/bibles/books/asv/Mark.json"),
+    "Luke": () => require("../../data/bibles/books/asv/Luke.json"),
+    "John": () => require("../../data/bibles/books/asv/John.json"),
+    "Acts": () => require("../../data/bibles/books/asv/Acts.json"),
+    "Rom": () => require("../../data/bibles/books/asv/Rom.json"),
+    "1Cor": () => require("../../data/bibles/books/asv/1Cor.json"),
+    "2Cor": () => require("../../data/bibles/books/asv/2Cor.json"),
+    "Gal": () => require("../../data/bibles/books/asv/Gal.json"),
+    "Eph": () => require("../../data/bibles/books/asv/Eph.json"),
+    "Phil": () => require("../../data/bibles/books/asv/Phil.json"),
+    "Col": () => require("../../data/bibles/books/asv/Col.json"),
+    "1Thess": () => require("../../data/bibles/books/asv/1Thess.json"),
+    "2Thess": () => require("../../data/bibles/books/asv/2Thess.json"),
+    "1Tim": () => require("../../data/bibles/books/asv/1Tim.json"),
+    "2Tim": () => require("../../data/bibles/books/asv/2Tim.json"),
+    "Titus": () => require("../../data/bibles/books/asv/Titus.json"),
+    "Phlm": () => require("../../data/bibles/books/asv/Phlm.json"),
+    "Heb": () => require("../../data/bibles/books/asv/Heb.json"),
+    "Jas": () => require("../../data/bibles/books/asv/Jas.json"),
+    "1Pet": () => require("../../data/bibles/books/asv/1Pet.json"),
+    "2Pet": () => require("../../data/bibles/books/asv/2Pet.json"),
+    "1John": () => require("../../data/bibles/books/asv/1John.json"),
+    "2John": () => require("../../data/bibles/books/asv/2John.json"),
+    "3John": () => require("../../data/bibles/books/asv/3John.json"),
+    "Jude": () => require("../../data/bibles/books/asv/Jude.json"),
+    "Rev": () => require("../../data/bibles/books/asv/Rev.json"),
+  },
+  WEB: {
+    "Gen": () => require("../../data/bibles/books/web/Gen.json"),
+    "Exod": () => require("../../data/bibles/books/web/Exod.json"),
+    "Lev": () => require("../../data/bibles/books/web/Lev.json"),
+    "Num": () => require("../../data/bibles/books/web/Num.json"),
+    "Deut": () => require("../../data/bibles/books/web/Deut.json"),
+    "Josh": () => require("../../data/bibles/books/web/Josh.json"),
+    "Judg": () => require("../../data/bibles/books/web/Judg.json"),
+    "Ruth": () => require("../../data/bibles/books/web/Ruth.json"),
+    "1Sam": () => require("../../data/bibles/books/web/1Sam.json"),
+    "2Sam": () => require("../../data/bibles/books/web/2Sam.json"),
+    "1Kgs": () => require("../../data/bibles/books/web/1Kgs.json"),
+    "2Kgs": () => require("../../data/bibles/books/web/2Kgs.json"),
+    "1Chr": () => require("../../data/bibles/books/web/1Chr.json"),
+    "2Chr": () => require("../../data/bibles/books/web/2Chr.json"),
+    "Ezra": () => require("../../data/bibles/books/web/Ezra.json"),
+    "Neh": () => require("../../data/bibles/books/web/Neh.json"),
+    "Esth": () => require("../../data/bibles/books/web/Esth.json"),
+    "Job": () => require("../../data/bibles/books/web/Job.json"),
+    "Ps": () => require("../../data/bibles/books/web/Ps.json"),
+    "Prov": () => require("../../data/bibles/books/web/Prov.json"),
+    "Eccl": () => require("../../data/bibles/books/web/Eccl.json"),
+    "Song": () => require("../../data/bibles/books/web/Song.json"),
+    "Isa": () => require("../../data/bibles/books/web/Isa.json"),
+    "Jer": () => require("../../data/bibles/books/web/Jer.json"),
+    "Lam": () => require("../../data/bibles/books/web/Lam.json"),
+    "Ezek": () => require("../../data/bibles/books/web/Ezek.json"),
+    "Dan": () => require("../../data/bibles/books/web/Dan.json"),
+    "Hos": () => require("../../data/bibles/books/web/Hos.json"),
+    "Joel": () => require("../../data/bibles/books/web/Joel.json"),
+    "Amos": () => require("../../data/bibles/books/web/Amos.json"),
+    "Obad": () => require("../../data/bibles/books/web/Obad.json"),
+    "Jonah": () => require("../../data/bibles/books/web/Jonah.json"),
+    "Mic": () => require("../../data/bibles/books/web/Mic.json"),
+    "Nah": () => require("../../data/bibles/books/web/Nah.json"),
+    "Hab": () => require("../../data/bibles/books/web/Hab.json"),
+    "Zeph": () => require("../../data/bibles/books/web/Zeph.json"),
+    "Hag": () => require("../../data/bibles/books/web/Hag.json"),
+    "Zech": () => require("../../data/bibles/books/web/Zech.json"),
+    "Mal": () => require("../../data/bibles/books/web/Mal.json"),
+    "Matt": () => require("../../data/bibles/books/web/Matt.json"),
+    "Mark": () => require("../../data/bibles/books/web/Mark.json"),
+    "Luke": () => require("../../data/bibles/books/web/Luke.json"),
+    "John": () => require("../../data/bibles/books/web/John.json"),
+    "Acts": () => require("../../data/bibles/books/web/Acts.json"),
+    "Rom": () => require("../../data/bibles/books/web/Rom.json"),
+    "1Cor": () => require("../../data/bibles/books/web/1Cor.json"),
+    "2Cor": () => require("../../data/bibles/books/web/2Cor.json"),
+    "Gal": () => require("../../data/bibles/books/web/Gal.json"),
+    "Eph": () => require("../../data/bibles/books/web/Eph.json"),
+    "Phil": () => require("../../data/bibles/books/web/Phil.json"),
+    "Col": () => require("../../data/bibles/books/web/Col.json"),
+    "1Thess": () => require("../../data/bibles/books/web/1Thess.json"),
+    "2Thess": () => require("../../data/bibles/books/web/2Thess.json"),
+    "1Tim": () => require("../../data/bibles/books/web/1Tim.json"),
+    "2Tim": () => require("../../data/bibles/books/web/2Tim.json"),
+    "Titus": () => require("../../data/bibles/books/web/Titus.json"),
+    "Phlm": () => require("../../data/bibles/books/web/Phlm.json"),
+    "Heb": () => require("../../data/bibles/books/web/Heb.json"),
+    "Jas": () => require("../../data/bibles/books/web/Jas.json"),
+    "1Pet": () => require("../../data/bibles/books/web/1Pet.json"),
+    "2Pet": () => require("../../data/bibles/books/web/2Pet.json"),
+    "1John": () => require("../../data/bibles/books/web/1John.json"),
+    "2John": () => require("../../data/bibles/books/web/2John.json"),
+    "3John": () => require("../../data/bibles/books/web/3John.json"),
+    "Jude": () => require("../../data/bibles/books/web/Jude.json"),
+    "Rev": () => require("../../data/bibles/books/web/Rev.json"),
+  },
+};
