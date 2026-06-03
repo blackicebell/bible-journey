@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/server.mjs",
+    "data:fetch": "node scripts/fetch-bible-data.mjs",
     "check": "node --check src/app.js"
   }
 }

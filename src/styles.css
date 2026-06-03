@@ -376,6 +376,30 @@ select,
   background: var(--gold);
 }
 
+.inline-link {
+  margin-top: 16px;
+  border: 0;
+  border-bottom: 1px solid rgba(181, 140, 90, 0.45);
+  background: transparent;
+  color: var(--navy);
+  padding: 0 0 4px;
+  font-weight: 700;
+}
+
+.loading-state {
+  min-height: 72vh;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.loading-state p {
+  width: min(560px, 100%);
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .page-spread {
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -1,76 +1,14 @@
-const translations = {
-  KJV: {
-    label: "KJV",
-    verses: {
-      "Genesis 1:1": "In the beginning God created the heaven and the earth.",
-      "Genesis 1:2": "And the earth was without form, and void; and darkness was upon the face of the deep.",
-      "Genesis 12:1": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.",
-      "Genesis 12:2": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.",
-      "Genesis 12:3": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.",
-      "John 3:16": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
-      "Psalm 23:1": "The LORD is my shepherd; I shall not want.",
-      "Psalm 23:2": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
-      "Matthew 5:9": "Blessed are the peacemakers: for they shall be called the children of God.",
-      "Romans 8:28": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose."
-    }
-  },
-  ASV: {
-    label: "ASV",
-    verses: {
-      "Genesis 1:1": "In the beginning God created the heavens and the earth.",
-      "Genesis 1:2": "And the earth was waste and void; and darkness was upon the face of the deep.",
-      "Genesis 12:1": "Now Jehovah said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto the land that I will show thee.",
-      "Genesis 12:2": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and be thou a blessing.",
-      "Genesis 12:3": "And I will bless them that bless thee, and him that curseth thee will I curse: and in thee shall all the families of the earth be blessed.",
-      "John 3:16": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth on him should not perish, but have eternal life.",
-      "Psalm 23:1": "Jehovah is my shepherd; I shall not want.",
-      "Psalm 23:2": "He maketh me to lie down in green pastures; He leadeth me beside still waters.",
-      "Matthew 5:9": "Blessed are the peacemakers: for they shall be called sons of God.",
-      "Romans 8:28": "And we know that to them that love God all things work together for good, even to them that are called according to his purpose."
-    }
-  },
-  WEB: {
-    label: "WEB",
-    verses: {
-      "Genesis 1:1": "In the beginning, God created the heavens and the earth.",
-      "Genesis 1:2": "The earth was formless and empty. Darkness was on the surface of the deep.",
-      "Genesis 12:1": "Now Yahweh said to Abram, Leave your country, and your relatives, and your father's house, and go to the land that I will show you.",
-      "Genesis 12:2": "I will make of you a great nation. I will bless you and make your name great. You will be a blessing.",
-      "Genesis 12:3": "I will bless those who bless you, and I will curse him who treats you with contempt. All the families of the earth will be blessed through you.",
-      "John 3:16": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
-      "Psalm 23:1": "Yahweh is my shepherd: I shall lack nothing.",
-      "Psalm 23:2": "He makes me lie down in green pastures. He leads me beside still waters.",
-      "Matthew 5:9": "Blessed are the peacemakers, for they shall be called children of God.",
-      "Romans 8:28": "We know that all things work together for good for those who love God, to those who are called according to his purpose."
-    }
-  }
+const translationFiles = {
+  KJV: "data/bibles/kjv.json",
+  ASV: "data/bibles/asv.json",
+  WEB: "data/bibles/web.json"
 };
 
-const chapters = {
-  "Genesis 1": ["Genesis 1:1", "Genesis 1:2"],
-  "Genesis 12": ["Genesis 12:1", "Genesis 12:2", "Genesis 12:3"],
-  "John 3": ["John 3:16"],
-  "Psalm 23": ["Psalm 23:1", "Psalm 23:2"],
-  "Matthew 5": ["Matthew 5:9"],
-  "Romans 8": ["Romans 8:28"]
+const translationLabels = {
+  KJV: "King James Version",
+  ASV: "American Standard Version",
+  WEB: "World English Bible"
 };
-
-const journey = [
-  { era: "Creation", range: "Genesis 1", description: "The world opens with beauty, order, and breath.", time: "6 min read", progress: 32 },
-  { era: "Patriarchs", range: "Genesis 12", description: "A family is called into a promise that will widen to nations.", time: "14 min read", progress: 18 },
-  { era: "Exodus", range: "Exodus 1-15", description: "Deliverance begins in bondage and moves toward worship.", time: "42 min read", progress: 0 },
-  { era: "Kingdom", range: "1 Samuel - 2 Samuel", description: "Israel asks for a king and learns the weight of power.", time: "2 hr read", progress: 0 },
-  { era: "Messiah", range: "Matthew - John", description: "The story bends toward the life, death, and resurrection of Jesus.", time: "3 hr read", progress: 0 },
-  { era: "Early Church", range: "Acts - Romans", description: "The witness moves outward with courage and tension.", time: "2 hr read", progress: 0 }
-];
-
-const discoveries = [
-  { name: "Moses", meta: "Exodus • Numbers • Deuteronomy", target: "Exodus 1-15" },
-  { name: "Abraham", meta: "Genesis 12-25", target: "Genesis 12" },
-  { name: "David", meta: "1 Samuel • 2 Samuel • Psalms", target: "Psalm 23" },
-  { name: "Jerusalem", meta: "2 Samuel • Psalms • Matthew", target: "Matthew 5" },
-  { name: "Kingdom", meta: "Genesis • Samuel • Matthew", target: "Matthew 5" }
-];
 
 const sacredStyles = {
   traditional: {
@@ -83,17 +21,121 @@ const sacredStyles = {
   }
 };
 
+const journey = [
+  { era: "Creation", book: "Gen", chapter: 1, range: "Genesis 1-11", description: "The world opens with beauty, order, and breath.", time: "34 min read", progress: 32 },
+  { era: "Patriarchs", book: "Gen", chapter: 12, range: "Genesis 12-50", description: "A family is called into a promise that will widen to nations.", time: "2 hr read", progress: 18 },
+  { era: "Exodus", book: "Exod", chapter: 1, range: "Exodus 1-15", description: "Deliverance begins in bondage and moves toward worship.", time: "58 min read", progress: 0 },
+  { era: "Judges", book: "Judg", chapter: 1, range: "Judges", description: "A people learn what happens when memory grows thin.", time: "1 hr read", progress: 0 },
+  { era: "Kingdom", book: "1Sam", chapter: 1, range: "1 Samuel - 2 Samuel", description: "Israel asks for a king and learns the weight of power.", time: "3 hr read", progress: 0 },
+  { era: "Exile", book: "Dan", chapter: 1, range: "Daniel", description: "Faithfulness takes shape away from home.", time: "44 min read", progress: 0 },
+  { era: "Messiah", book: "Matt", chapter: 1, range: "Matthew - John", description: "The story bends toward the life, death, and resurrection of Jesus.", time: "4 hr read", progress: 0 },
+  { era: "Early Church", book: "Acts", chapter: 1, range: "Acts - Romans", description: "The witness moves outward with courage and tension.", time: "3 hr read", progress: 0 }
+];
+
+const discoveries = [
+  { name: "Moses", meta: "Exodus • Numbers • Deuteronomy", book: "Exod", chapter: 3 },
+  { name: "Abraham", meta: "Genesis 12-25", book: "Gen", chapter: 12 },
+  { name: "David", meta: "1 Samuel • 2 Samuel • Psalms", book: "1Sam", chapter: 16 },
+  { name: "Jerusalem", meta: "2 Samuel • Psalms • Matthew", book: "Ps", chapter: 122 },
+  { name: "Kingdom", meta: "Genesis • Samuel • Matthew", book: "Matt", chapter: 5 },
+  { name: "Faith", meta: "Habakkuk • Matthew • Romans", book: "Rom", chapter: 4 }
+];
+
 const state = {
   view: "home",
   translation: "KJV",
   sacredStyle: "traditional",
-  chapter: "Genesis 12",
+  book: "Gen",
+  chapter: 12,
   search: "",
   saved: new Set(["John 3:16", "Psalm 23:1"]),
-  selectedVerse: "John 3:16"
+  selectedVerse: "John 3:16",
+  loading: true,
+  error: ""
 };
 
 const app = document.querySelector("#app");
+const bibles = {};
+
+async function loadBibles() {
+  try {
+    const entries = await Promise.all(
+      Object.entries(translationFiles).map(async ([key, url]) => {
+        const response = await fetch(url);
+
+        if (!response.ok) {
+          throw new Error(`${key} failed to load`);
+        }
+
+        return [key, await response.json()];
+      })
+    );
+
+    for (const [key, data] of entries) {
+      bibles[key] = data;
+    }
+
+    state.loading = false;
+  } catch (error) {
+    state.loading = false;
+    state.error = "Bible data could not load. Run the local server with npm run dev, then open http://localhost:4173.";
+    console.error(error);
+  }
+
+  render();
+}
+
+function activeBible(translation = state.translation) {
+  return bibles[translation];
+}
+
+function books(translation = state.translation) {
+  return activeBible(translation)?.books || [];
+}
+
+function findBook(bookCode = state.book, translation = state.translation) {
+  return books(translation).find((book) => book.book === bookCode);
+}
+
+function currentBookName() {
+  return findBook()?.englishName || "Genesis";
+}
+
+function currentChapter(translation = state.translation) {
+  return findBook(state.book, translation)?.chapters.find((chapter) => chapter.chapter === Number(state.chapter));
+}
+
+function chapterTitle() {
+  return `${currentBookName()} ${state.chapter}`;
+}
+
+function parseReference(ref) {
+  const match = ref.match(/^(.+)\s+(\d+):(\d+)$/);
+  if (!match) return null;
+  return { bookName: match[1], chapter: Number(match[2]), verse: Number(match[3]) };
+}
+
+function findBookByName(name, translation = state.translation) {
+  const normalized = name.toLowerCase();
+  return books(translation).find((book) => {
+    return book.englishName.toLowerCase() === normalized || book.book.toLowerCase() === normalized;
+  });
+}
+
+function verseFromReference(ref, translation = state.translation) {
+  const parsed = parseReference(ref);
+  if (!parsed) return "";
+
+  const book = findBookByName(parsed.bookName, translation);
+  const chapter = book?.chapters.find((item) => item.chapter === parsed.chapter);
+  const verse = chapter?.verses.find((item) => item.number === parsed.verse);
+
+  return applySacredNames(verse?.text || "");
+}
+
+function verseReference(book, chapter, verse) {
+  return `${book.englishName} ${chapter.chapter}:${verse.number}`;
+}
 
 function applySacredNames(text) {
   const map = sacredStyles[state.sacredStyle].map;
@@ -104,11 +146,32 @@ function applySacredNames(text) {
     .replace(/\bJesus\b/g, map.Jesus);
 }
 
-function verseText(ref, translation = state.translation) {
-  return applySacredNames(translations[translation].verses[ref] || "");
-}
-
 function render() {
+  if (state.loading) {
+    app.innerHTML = `
+      <div class="shell">
+        <main class="loading-state">
+          <p class="kicker">Bible Journey</p>
+          <h1>Preparing the reading room.</h1>
+        </main>
+      </div>
+    `;
+    return;
+  }
+
+  if (state.error) {
+    app.innerHTML = `
+      <div class="shell">
+        <main class="loading-state">
+          <p class="kicker">Data Error</p>
+          <h1>Scripture data needs the local server.</h1>
+          <p>${state.error}</p>
+        </main>
+      </div>
+    `;
+    return;
+  }
+
   const routes = {
     home: renderHome,
     reader: renderReader,
@@ -152,15 +215,15 @@ function renderHome() {
     <section class="home-grid">
       <article class="continue-panel">
         <p class="kicker">Continue Reading</p>
-        <h1>${state.chapter}</h1>
+        <h1>${chapterTitle()}</h1>
         <p class="subtitle">Abraham's Call</p>
-        <p class="quiet">4 min read • ${translations[state.translation].label} • ${sacredStyles[state.sacredStyle].label}</p>
+        <p class="quiet">4 min read • ${state.translation} • ${sacredStyles[state.sacredStyle].label}</p>
         <button class="primary" data-view="reader">Resume Reading</button>
       </article>
 
       <article class="verse-panel">
         <p class="kicker">Verse of the Day</p>
-        <blockquote>${verseText("John 3:16")}</blockquote>
+        <blockquote>${verseFromReference("John 3:16")}</blockquote>
         <p class="reference">John 3:16</p>
       </article>
 
@@ -181,34 +244,45 @@ function renderHome() {
 }
 
 function renderReader() {
-  const verses = chapters[state.chapter] || chapters["Genesis 12"];
+  const chapter = currentChapter();
+  const book = findBook();
+
   return `
     <section class="reader-page">
       <div class="reader-controls">
         <label>
           Translation
           <select data-control="translation">
-            ${Object.keys(translations).map((key) => `<option ${state.translation === key ? "selected" : ""}>${key}</option>`).join("")}
+            ${Object.keys(translationFiles).map((key) => `<option value="${key}" ${state.translation === key ? "selected" : ""}>${key}</option>`).join("")}
+          </select>
+        </label>
+        <label>
+          Book
+          <select data-control="book">
+            ${books().map((item) => `<option value="${item.book}" ${state.book === item.book ? "selected" : ""}>${item.englishName}</option>`).join("")}
           </select>
         </label>
         <label>
           Chapter
           <select data-control="chapter">
-            ${Object.keys(chapters).map((key) => `<option ${state.chapter === key ? "selected" : ""}>${key}</option>`).join("")}
+            ${book.chapters.map((item) => `<option value="${item.chapter}" ${Number(state.chapter) === item.chapter ? "selected" : ""}>${item.chapter}</option>`).join("")}
           </select>
         </label>
         <button class="text-button" data-view="names">Sacred Names</button>
       </div>
       <article class="scripture">
-        <p class="chapter-label">${state.translation} • ${state.chapter}</p>
-        <h1>${state.chapter}</h1>
-        ${verses.map((ref, index) => `
-          <p class="${index === 0 ? "first-verse" : ""}">
-            <button class="verse-save ${state.saved.has(ref) ? "saved" : ""}" data-save="${ref}" aria-label="Save ${ref}">${state.saved.has(ref) ? "Saved" : "Save"}</button>
-            <span class="verse-number">${ref.split(":")[1]}</span>
-            ${verseText(ref)}
-          </p>
-        `).join("")}
+        <p class="chapter-label">${translationLabels[state.translation]} • ${chapterTitle()}</p>
+        <h1>${chapterTitle()}</h1>
+        ${chapter.verses.map((verse, index) => {
+          const ref = verseReference(book, chapter, verse);
+          return `
+            <p class="${index === 0 ? "first-verse" : ""}">
+              <button class="verse-save ${state.saved.has(ref) ? "saved" : ""}" data-save="${ref}" aria-label="Save ${ref}">${state.saved.has(ref) ? "Saved" : "Save"}</button>
+              <span class="verse-number">${verse.number}</span>
+              ${applySacredNames(verse.text)}
+            </p>
+          `;
+        }).join("")}
       </article>
     </section>
   `;
@@ -230,6 +304,7 @@ function renderJourney() {
               <h2>${item.era}</h2>
               <p>${item.description}</p>
               <div class="progress" aria-label="${item.progress}% complete"><span style="width:${item.progress}%"></span></div>
+              <button class="inline-link" data-open-book="${item.book}" data-open-chapter="${item.chapter}">Begin ${item.era}</button>
             </div>
           </article>
         `).join("")}
@@ -239,25 +314,41 @@ function renderJourney() {
 }
 
 function renderParallel() {
-  const refs = chapters[state.chapter] || chapters["Genesis 12"];
+  const book = findBook();
+  const refs = currentChapter()?.verses || [];
+
   return `
     <section class="parallel-page">
       <div class="reader-controls">
         <label>
+          Book
+          <select data-control="book">
+            ${books().map((item) => `<option value="${item.book}" ${state.book === item.book ? "selected" : ""}>${item.englishName}</option>`).join("")}
+          </select>
+        </label>
+        <label>
           Chapter
           <select data-control="chapter">
-            ${Object.keys(chapters).map((key) => `<option ${state.chapter === key ? "selected" : ""}>${key}</option>`).join("")}
+            ${book.chapters.map((item) => `<option value="${item.chapter}" ${Number(state.chapter) === item.chapter ? "selected" : ""}>${item.chapter}</option>`).join("")}
           </select>
         </label>
       </div>
       <div class="page-spread">
-        ${["KJV", "WEB"].map((translation) => `
-          <article class="parallel-column">
-            <p class="chapter-label">${translation}</p>
-            <h1>${state.chapter}</h1>
-            ${refs.map((ref) => `<p><span class="verse-number">${ref.split(":")[1]}</span>${verseText(ref, translation)}</p>`).join("")}
-          </article>
-        `).join("")}
+        ${["KJV", "WEB"].map((translation) => {
+          const parallelBook = findBook(state.book, translation);
+          const parallelChapter = currentChapter(translation);
+
+          return `
+            <article class="parallel-column">
+              <p class="chapter-label">${translationLabels[translation]}</p>
+              <h1>${parallelBook.englishName} ${parallelChapter.chapter}</h1>
+              ${refs.map((verse) => {
+                const parallelVerse = parallelChapter.verses.find((item) => item.number === verse.number);
+                return `<p><span class="verse-number">${verse.number}</span>${applySacredNames(parallelVerse?.text || "")}</p>`;
+              }).join("")}
+            </article>
+          `;
+        }).join("")}
       </div>
     </section>
   `;
@@ -265,6 +356,7 @@ function renderParallel() {
 
 function renderSearch() {
   const results = searchResults();
+
   return `
     <section class="search-page">
       <header class="section-heading">
@@ -274,12 +366,12 @@ function renderSearch() {
       <input class="search-input" data-control="search" value="${state.search}" placeholder="John 3:16, faith, Genesis, Abraham..." autofocus />
       <div class="results">
         ${results.map((result) => result.type === "verse" ? `
-          <button class="result-row" data-open-ref="${result.ref}">
+          <button class="result-row" data-open-book="${result.book}" data-open-chapter="${result.chapter}">
             <span>${result.ref}</span>
             <strong>${result.text}</strong>
           </button>
         ` : `
-          <button class="result-row" data-open-target="${result.target}">
+          <button class="result-row" data-open-book="${result.book}" data-open-chapter="${result.chapter}">
             <span>${result.meta}</span>
             <strong>${result.name}</strong>
           </button>
@@ -291,6 +383,7 @@ function renderSearch() {
 
 function renderSaved() {
   const savedRefs = [...state.saved];
+
   return `
     <section class="saved-page">
       <header class="section-heading">
@@ -306,7 +399,7 @@ function renderSaved() {
       <div class="saved-list">
         ${savedRefs.map((ref) => `
           <article class="saved-item">
-            <p>${verseText(ref)}</p>
+            <p>${verseFromReference(ref)}</p>
             <div>
               <span>${ref}</span>
               <button data-share="${ref}">Share Card</button>
@@ -319,7 +412,6 @@ function renderSaved() {
 }
 
 function renderShare() {
-  const text = verseText(state.selectedVerse);
   return `
     <section class="share-page">
       <header class="section-heading">
@@ -328,7 +420,7 @@ function renderShare() {
       </header>
       <div class="share-layout">
         <article class="share-card-preview">
-          <blockquote>${text}</blockquote>
+          <blockquote>${verseFromReference(state.selectedVerse)}</blockquote>
           <p>${state.selectedVerse}</p>
         </article>
         <div class="share-actions">
@@ -343,6 +435,7 @@ function renderShare() {
 
 function renderNames() {
   const sample = applySacredNames("The LORD is my shepherd, and God is near.");
+
   return `
     <section class="names-page">
       <header class="section-heading">
@@ -359,7 +452,7 @@ function renderNames() {
           ${Object.entries(sacredStyles).map(([key, style]) => `
             <button class="${state.sacredStyle === key ? "selected" : ""}" data-style="${key}">
               <strong>${style.label}</strong>
-              <span>LORD → ${style.map.LORD} • God → ${style.map.God} • Jesus → ${style.map.Jesus}</span>
+              <span>LORD -> ${style.map.LORD} • God -> ${style.map.God} • Jesus -> ${style.map.Jesus}</span>
             </button>
           `).join("")}
         </div>
@@ -370,18 +463,85 @@ function renderNames() {
 
 function searchResults() {
   const query = state.search.trim().toLowerCase();
-  const verseEntries = Object.entries(translations[state.translation].verses);
-  const verseResults = verseEntries
-    .filter(([ref, text]) => !query || ref.toLowerCase().includes(query) || text.toLowerCase().includes(query))
-    .slice(0, 6)
-    .map(([ref, text]) => ({ type: "verse", ref, text: applySacredNames(text) }));
+  const results = [];
+
+  const reference = parseReference(state.search.trim());
+  if (reference) {
+    const book = findBookByName(reference.bookName);
+    const chapter = book?.chapters.find((item) => item.chapter === reference.chapter);
+    const verse = chapter?.verses.find((item) => item.number === reference.verse);
+
+    if (book && chapter && verse) {
+      results.push({
+        type: "verse",
+        book: book.book,
+        chapter: chapter.chapter,
+        ref: verseReference(book, chapter, verse),
+        text: applySacredNames(verse.text)
+      });
+    }
+  }
 
   const discoveryResults = discoveries
-    .filter((item) => !query || item.name.toLowerCase().includes(query) || item.meta.toLowerCase().includes(query) || item.target.toLowerCase().includes(query))
+    .filter((item) => !query || item.name.toLowerCase().includes(query) || item.meta.toLowerCase().includes(query))
     .slice(0, 4)
     .map((item) => ({ type: "discovery", ...item }));
 
-  return [...verseResults, ...discoveryResults];
+  results.push(...discoveryResults);
+
+  if (!query) {
+    const featured = ["John 3:16", "Psalm 23:1", "Matthew 5:9", "Romans 8:28"];
+    results.push(...featured.map((ref) => referenceResult(ref)).filter(Boolean));
+    return results;
+  }
+
+  for (const book of books()) {
+    if (book.englishName.toLowerCase().includes(query)) {
+      const chapter = book.chapters[0];
+      const verse = chapter.verses[0];
+      results.push({
+        type: "verse",
+        book: book.book,
+        chapter: chapter.chapter,
+        ref: verseReference(book, chapter, verse),
+        text: applySacredNames(verse.text)
+      });
+    }
+
+    for (const chapter of book.chapters) {
+      for (const verse of chapter.verses) {
+        if (results.length >= 10) return results;
+        if (verse.text.toLowerCase().includes(query)) {
+          results.push({
+            type: "verse",
+            book: book.book,
+            chapter: chapter.chapter,
+            ref: verseReference(book, chapter, verse),
+            text: applySacredNames(verse.text)
+          });
+        }
+      }
+    }
+  }
+
+  return results;
+}
+
+function referenceResult(ref) {
+  const parsed = parseReference(ref);
+  const book = findBookByName(parsed.bookName);
+  const chapter = book?.chapters.find((item) => item.chapter === parsed.chapter);
+  const verse = chapter?.verses.find((item) => item.number === parsed.verse);
+
+  if (!book || !chapter || !verse) return null;
+
+  return {
+    type: "verse",
+    book: book.book,
+    chapter: chapter.chapter,
+    ref,
+    text: applySacredNames(verse.text)
+  };
 }
 
 function bindEvents() {
@@ -394,7 +554,15 @@ function bindEvents() {
 
   document.querySelectorAll("[data-control]").forEach((control) => {
     control.addEventListener("input", () => {
-      state[control.dataset.control] = control.value;
+      if (control.dataset.control === "book") {
+        state.book = control.value;
+        state.chapter = 1;
+      } else if (control.dataset.control === "chapter") {
+        state.chapter = Number(control.value);
+      } else {
+        state[control.dataset.control] = control.value;
+      }
+
       render();
     });
   });
@@ -422,22 +590,15 @@ function bindEvents() {
     });
   });
 
-  document.querySelectorAll("[data-open-ref]").forEach((button) => {
+  document.querySelectorAll("[data-open-book]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.chapter = button.dataset.openRef.split(":")[0];
+      state.book = button.dataset.openBook;
+      state.chapter = Number(button.dataset.openChapter);
       state.view = "reader";
-      render();
-    });
-  });
-
-  document.querySelectorAll("[data-open-target]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const target = button.dataset.openTarget;
-      state.chapter = chapters[target] ? target : state.chapter;
-      state.view = chapters[target] ? "reader" : "journey";
       render();
     });
   });
 }
 
 render();
+loadBibles();

@@ -2,7 +2,7 @@
 
 Bible Journey is a premium Bible reading experience focused on calm typography, generous whitespace, and simple scripture-first flows.
 
-This first version is a dependency-free web app prototype. It uses local sample scripture data so the core product direction can be shaped quickly before adding a full Bible data pipeline.
+This first version is a dependency-free web app prototype. It uses full local KJV, ASV, and WEB Bible JSON data so the core reading experience can be shaped without relying on an external Bible API.
 
 ## Run locally
 
@@ -16,7 +16,7 @@ Then open:
 http://localhost:4173
 ```
 
-You can also open `index.html` directly in a browser.
+Use the local server instead of opening `index.html` directly. The app loads local JSON Bible files, and browsers usually block those file reads when opened from the filesystem.
 
 ## Current screens
 
@@ -27,6 +27,19 @@ You can also open `index.html` directly in a browser.
 - Universal Search for references, words, people, places, and events
 - Saved Scripture collections
 - Share Card preview
+- Full local KJV, ASV, and WEB Bible data
+
+## Bible data
+
+The Bible data lives in `data/bibles`.
+
+To refresh it:
+
+```bash
+npm run data:fetch
+```
+
+Source: https://github.com/midvash/bible-data
 
 ## Product guardrails
 
