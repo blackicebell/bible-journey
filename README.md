@@ -29,6 +29,7 @@ npm run android
 - Full local KJV, ASV, and WEB Bible data
 - Per-book lazy loading for a mobile-friendly data foundation
 - Premium phone and tablet layout direction
+- Light and dark reading themes
 
 ## Bible data
 

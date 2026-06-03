@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "backgroundColor": "#F6F2EA"
+      "backgroundColor": "#FAFAFA"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,7 +21,7 @@
       "package": "com.blackicebell.biblejourney",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#F6F2EA"
+        "backgroundColor": "#FAFAFA"
       }
     },
     "web": {

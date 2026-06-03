@@ -55,6 +55,10 @@ export default function App() {
   const [chapterNumber, setChapterNumber] = useState(12);
   const [search, setSearch] = useState("");
   const [saved, setSaved] = useState(initialSaved);
+  const [themeName, setThemeName] = useState("light");
+
+  colors = themes[themeName];
+  styles = makeStyles(colors);
 
   const context = useMemo(() => {
     return {
@@ -73,13 +77,15 @@ export default function App() {
       search,
       setSearch,
       saved,
-      setSaved
+      setSaved,
+      themeName,
+      setThemeName
     };
-  }, [width, isTablet, screen, translation, sacredStyle, bookCode, chapterNumber, search, saved]);
+  }, [width, isTablet, screen, translation, sacredStyle, bookCode, chapterNumber, search, saved, themeName]);
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar barStyle="dark-content" backgroundColor={colors.paper} />
+      <StatusBar barStyle={themeName === "light" ? "dark-content" : "light-content"} backgroundColor={colors.paper} />
       <View style={[styles.appShell, isTablet && styles.tabletShell]}>
         <Header context={context} />
         <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>
@@ -120,6 +126,15 @@ function Header({ context }) {
           </Pressable>
         ))}
       </ScrollView>
+      <Pressable
+        onPress={() => context.setThemeName(context.themeName === "light" ? "dark" : "light")}
+        style={styles.themeToggle}
+        accessibilityRole="button"
+        accessibilityLabel="Toggle light and dark mode"
+      >
+        <Ionicons name={context.themeName === "light" ? "moon-outline" : "sunny-outline"} size={17} color={colors.ink} />
+        <Text style={styles.themeToggleText}>{context.themeName === "light" ? "Dark" : "Light"}</Text>
+      </Pressable>
     </View>
   );
 }
@@ -538,18 +553,42 @@ function referenceResult(ref, translation, sacredStyle) {
   };
 }
 
-const colors = {
-  paper: "#F6F2EA",
-  paperDeep: "#ECE4D6",
-  ink: "#262626",
-  muted: "#6A6A6A",
-  gold: "#B58C5A",
-  navy: "#0A1A2F",
-  line: "rgba(38, 38, 38, 0.14)",
-  whiteWash: "rgba(255, 255, 255, 0.38)"
+const themes = {
+  light: {
+    paper: "#FAFAFA",
+    page: "#FFFFFF",
+    raised: "#F3F3F1",
+    ink: "#333333",
+    muted: "#73706B",
+    gold: "#B58C5A",
+    navy: "#333333",
+    line: "rgba(51, 51, 51, 0.12)",
+    whiteWash: "rgba(255, 255, 255, 0.78)",
+    chipActive: "rgba(181, 140, 90, 0.12)",
+    progressTrack: "rgba(51, 51, 51, 0.1)",
+    shadow: "#333333"
+  },
+  dark: {
+    paper: "#111111",
+    page: "#181716",
+    raised: "#1F1E1C",
+    ink: "#EFEDEA",
+    muted: "#A8A39C",
+    gold: "#C7A16D",
+    navy: "#F4F1EC",
+    line: "rgba(244, 241, 236, 0.14)",
+    whiteWash: "rgba(255, 255, 255, 0.06)",
+    chipActive: "rgba(199, 161, 109, 0.16)",
+    progressTrack: "rgba(244, 241, 236, 0.12)",
+    shadow: "#000000"
+  }
 };
 
-const styles = StyleSheet.create({
+let colors = themes.light;
+let styles = makeStyles(colors);
+
+function makeStyles(colors) {
+  return StyleSheet.create({
   safeArea: {
     flex: 1,
     backgroundColor: colors.paper
@@ -615,6 +654,23 @@ const styles = StyleSheet.create({
   },
   navTextActive: {
     color: colors.ink
+  },
+  themeToggle: {
+    alignSelf: "flex-start",
+    minHeight: 38,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 7,
+    borderRadius: 999,
+    borderWidth: 1,
+    borderColor: colors.line,
+    backgroundColor: colors.whiteWash,
+    paddingHorizontal: 13
+  },
+  themeToggleText: {
+    color: colors.ink,
+    fontSize: 13,
+    fontWeight: "700"
   },
   homeGrid: {
     gap: 36,
@@ -746,7 +802,7 @@ const styles = StyleSheet.create({
   },
   bookChipActive: {
     borderColor: colors.gold,
-    backgroundColor: "rgba(181, 140, 90, 0.12)"
+    backgroundColor: colors.chipActive
   },
   bookChipText: {
     color: colors.muted,
@@ -778,11 +834,11 @@ const styles = StyleSheet.create({
     color: colors.paper
   },
   scripturePage: {
-    backgroundColor: "rgba(255, 255, 255, 0.26)",
-    padding: 24,
-    shadowColor: colors.ink,
-    shadowOpacity: 0.1,
-    shadowRadius: 28,
+    backgroundColor: colors.page,
+    padding: 28,
+    shadowColor: colors.shadow,
+    shadowOpacity: 0.09,
+    shadowRadius: 34,
     elevation: 2
   },
   readerTitle: {
@@ -809,7 +865,7 @@ const styles = StyleSheet.create({
   },
   savePillActive: {
     borderColor: colors.gold,
-    backgroundColor: "rgba(181, 140, 90, 0.14)"
+    backgroundColor: colors.chipActive
   },
   scriptureText: {
     flex: 1,
@@ -874,7 +930,7 @@ const styles = StyleSheet.create({
   progressTrack: {
     height: 5,
     borderRadius: 999,
-    backgroundColor: "rgba(38, 38, 38, 0.1)",
+    backgroundColor: colors.progressTrack,
     overflow: "hidden"
   },
   progressFill: {
@@ -891,7 +947,7 @@ const styles = StyleSheet.create({
   },
   parallelPage: {
     flex: 1,
-    backgroundColor: "rgba(255, 255, 255, 0.28)",
+    backgroundColor: colors.page,
     padding: 22
   },
   parallelTitle: {
@@ -981,7 +1037,7 @@ const styles = StyleSheet.create({
     flex: 1.2,
     minHeight: 360,
     justifyContent: "center",
-    backgroundColor: colors.whiteWash,
+    backgroundColor: colors.raised,
     padding: 28
   },
   nameOptions: {
@@ -1002,4 +1058,5 @@ const styles = StyleSheet.create({
     fontSize: 28,
     marginBottom: 8
   }
-});
+  });
+}
