@@ -181,31 +181,55 @@ function Reader({ context }) {
   const book = getBook(context.translation, context.bookCode);
   const chapter = getChapter(context.translation, context.bookCode, context.chapterNumber);
   const chapters = bookMeta(context.bookCode).chapters;
+  const firstVerse = chapter.verses[0];
+  const remainingVerses = chapter.verses.slice(1);
+  const firstRef = `${book.englishName} ${chapter.chapter}:${firstVerse.number}`;
+  const firstSaved = context.saved.includes(firstRef);
 
   return (
     <View>
       <ControlRail context={context} chapters={chapters} showTranslation />
-      <View style={styles.scripturePage}>
+      <View style={[styles.readerCanvas, context.isTablet && styles.readerCanvasTablet]}>
+      <View style={[styles.scripturePage, context.isTablet && styles.scripturePageTablet]}>
         <Kicker>{translationName(context.translation)} - {book.englishName} {chapter.chapter}</Kicker>
         <Text style={styles.readerTitle}>{book.englishName} {chapter.chapter}</Text>
-        {chapter.verses.map((verse, index) => {
+        <View style={styles.chapterRule} />
+        <View style={styles.chapterOpening}>
+          <Text style={styles.dropCap}>{firstVerse.text.charAt(0)}</Text>
+          <Text style={styles.openingText}>
+            <Text style={styles.verseNumber}>{firstVerse.number} </Text>
+            {applySacredNames(firstVerse.text.slice(1), context.sacredStyle)}
+          </Text>
+          <Pressable
+            onPress={() => toggleSaved(firstRef, context)}
+            style={[styles.savePill, styles.openingSave, firstSaved && styles.savePillActive]}
+            accessibilityRole="button"
+            accessibilityLabel={`Save ${firstRef}`}
+          >
+            <Ionicons name={firstSaved ? "bookmark" : "bookmark-outline"} size={13} color={firstSaved ? colors.navy : colors.muted} />
+          </Pressable>
+        </View>
+        {remainingVerses.map((verse) => {
           const ref = `${book.englishName} ${chapter.chapter}:${verse.number}`;
           const isSaved = context.saved.includes(ref);
           return (
             <View key={verse.number} style={styles.verseLine}>
-              <Pressable
-                onPress={() => toggleSaved(ref, context)}
-                style={[styles.savePill, isSaved && styles.savePillActive]}
-              >
-                <Ionicons name={isSaved ? "bookmark" : "bookmark-outline"} size={13} color={isSaved ? colors.navy : colors.muted} />
-              </Pressable>
-              <Text style={[styles.scriptureText, index === 0 && styles.firstVerse]}>
+              <Text style={styles.scriptureText}>
                 <Text style={styles.verseNumber}>{verse.number} </Text>
                 {applySacredNames(verse.text, context.sacredStyle)}
               </Text>
+              <Pressable
+                onPress={() => toggleSaved(ref, context)}
+                style={[styles.savePill, isSaved && styles.savePillActive]}
+                accessibilityRole="button"
+                accessibilityLabel={`Save ${ref}`}
+              >
+                <Ionicons name={isSaved ? "bookmark" : "bookmark-outline"} size={13} color={isSaved ? colors.navy : colors.muted} />
+              </Pressable>
             </View>
           );
         })}
+      </View>
       </View>
     </View>
   );
@@ -833,35 +857,83 @@ function makeStyles(colors) {
   chapterChipTextActive: {
     color: colors.paper
   },
+  readerCanvas: {
+    alignItems: "center",
+    paddingTop: 10
+  },
+  readerCanvasTablet: {
+    paddingTop: 24
+  },
   scripturePage: {
+    width: "100%",
     backgroundColor: colors.page,
-    padding: 28,
+    paddingHorizontal: 26,
+    paddingTop: 32,
+    paddingBottom: 42,
     shadowColor: colors.shadow,
     shadowOpacity: 0.09,
     shadowRadius: 34,
     elevation: 2
   },
+  scripturePageTablet: {
+    maxWidth: 760,
+    paddingHorizontal: 64,
+    paddingTop: 58,
+    paddingBottom: 72
+  },
   readerTitle: {
     color: colors.navy,
     fontFamily: "Georgia",
-    fontSize: 54,
-    lineHeight: 58,
-    marginBottom: 24
+    fontSize: 50,
+    lineHeight: 54,
+    marginBottom: 18
+  },
+  chapterRule: {
+    width: 68,
+    height: 1,
+    backgroundColor: colors.gold,
+    marginBottom: 30
+  },
+  chapterOpening: {
+    position: "relative",
+    flexDirection: "row",
+    alignItems: "flex-start",
+    marginBottom: 18,
+    paddingBottom: 18
+  },
+  dropCap: {
+    color: colors.navy,
+    fontFamily: "Georgia",
+    fontSize: 82,
+    lineHeight: 76,
+    marginRight: 12,
+    marginTop: 3
+  },
+  openingText: {
+    flex: 1,
+    color: colors.ink,
+    fontFamily: "Georgia",
+    fontSize: 31,
+    lineHeight: 48
   },
   verseLine: {
     flexDirection: "row",
     alignItems: "flex-start",
-    gap: 10
+    gap: 12,
+    paddingVertical: 3
   },
   savePill: {
-    marginTop: 11,
-    width: 30,
-    height: 30,
+    marginTop: 12,
+    width: 28,
+    height: 28,
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 999,
     borderWidth: 1,
     borderColor: colors.line
+  },
+  openingSave: {
+    marginLeft: 12
   },
   savePillActive: {
     borderColor: colors.gold,
@@ -871,17 +943,14 @@ function makeStyles(colors) {
     flex: 1,
     color: colors.ink,
     fontFamily: "Georgia",
-    fontSize: 29,
-    lineHeight: 45,
-    marginBottom: 8
-  },
-  firstVerse: {
-    fontSize: 31
+    fontSize: 27,
+    lineHeight: 43,
+    marginBottom: 2
   },
   verseNumber: {
     color: colors.gold,
     fontFamily: "System",
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: "900"
   },
   sectionHeading: {
@@ -940,7 +1009,11 @@ function makeStyles(colors) {
   parallelSpread: {
     flexDirection: "row",
     gap: 1,
-    backgroundColor: colors.line
+    backgroundColor: colors.line,
+    shadowColor: colors.shadow,
+    shadowOpacity: 0.08,
+    shadowRadius: 26,
+    elevation: 2
   },
   parallelStack: {
     flexDirection: "column"
@@ -948,20 +1021,23 @@ function makeStyles(colors) {
   parallelPage: {
     flex: 1,
     backgroundColor: colors.page,
-    padding: 22
+    paddingHorizontal: 28,
+    paddingTop: 34,
+    paddingBottom: 42
   },
   parallelTitle: {
     color: colors.navy,
     fontFamily: "Georgia",
-    fontSize: 40,
-    marginBottom: 18
+    fontSize: 38,
+    lineHeight: 42,
+    marginBottom: 22
   },
   parallelText: {
     color: colors.ink,
     fontFamily: "Georgia",
-    fontSize: 24,
-    lineHeight: 36,
-    marginBottom: 8
+    fontSize: 23,
+    lineHeight: 37,
+    marginBottom: 10
   },
   searchInput: {
     minHeight: 58,
